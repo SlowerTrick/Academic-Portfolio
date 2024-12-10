@@ -1,0 +1,55 @@
+==63093== Memcheck, a memory error detector
+==63093== Copyright (C) 2002-2024, and GNU GPL'd, by Julian Seward et al.
+==63093== Using Valgrind-3.24.0 and LibVEX; rerun with -h for copyright info
+==63093== Command: Resultados/ArturVitor/completo/prog Resultados/ArturVitor/completo/Casos/11
+==63093== Parent PID: 63092
+==63093== 
+==63093== Conditional jump or move depends on uninitialised value(s)
+==63093==    at 0x401E5E: devolverFilmesLocadora (in /home/SlowerTrick/Desktop/gdb/TAD_03/Resultados/ArturVitor/completo/prog)
+==63093==    by 0x40220D: lerDevolucaoLocadora (in /home/SlowerTrick/Desktop/gdb/TAD_03/Resultados/ArturVitor/completo/prog)
+==63093==    by 0x4027EE: main (in /home/SlowerTrick/Desktop/gdb/TAD_03/Resultados/ArturVitor/completo/prog)
+==63093== 
+==63093== Conditional jump or move depends on uninitialised value(s)
+==63093==    at 0x40262B: consultarLucroLocadora (in /home/SlowerTrick/Desktop/gdb/TAD_03/Resultados/ArturVitor/completo/prog)
+==63093==    by 0x40285E: main (in /home/SlowerTrick/Desktop/gdb/TAD_03/Resultados/ArturVitor/completo/prog)
+==63093== 
+==63093== Use of uninitialised value of size 8
+==63093==    at 0x499171B: _itoa_word (_itoa.c:183)
+==63093==    by 0x499C641: __printf_buffer (vfprintf-process-arg.c:155)
+==63093==    by 0x499E8D2: __vfprintf_internal (vfprintf-internal.c:1544)
+==63093==    by 0x49926F2: printf (printf.c:33)
+==63093==    by 0x402643: consultarLucroLocadora (in /home/SlowerTrick/Desktop/gdb/TAD_03/Resultados/ArturVitor/completo/prog)
+==63093==    by 0x40285E: main (in /home/SlowerTrick/Desktop/gdb/TAD_03/Resultados/ArturVitor/completo/prog)
+==63093== 
+==63093== Conditional jump or move depends on uninitialised value(s)
+==63093==    at 0x499172C: _itoa_word (_itoa.c:183)
+==63093==    by 0x499C641: __printf_buffer (vfprintf-process-arg.c:155)
+==63093==    by 0x499E8D2: __vfprintf_internal (vfprintf-internal.c:1544)
+==63093==    by 0x49926F2: printf (printf.c:33)
+==63093==    by 0x402643: consultarLucroLocadora (in /home/SlowerTrick/Desktop/gdb/TAD_03/Resultados/ArturVitor/completo/prog)
+==63093==    by 0x40285E: main (in /home/SlowerTrick/Desktop/gdb/TAD_03/Resultados/ArturVitor/completo/prog)
+==63093== 
+==63093== Conditional jump or move depends on uninitialised value(s)
+==63093==    at 0x499D2ED: __printf_buffer (vfprintf-process-arg.c:186)
+==63093==    by 0x499E8D2: __vfprintf_internal (vfprintf-internal.c:1544)
+==63093==    by 0x49926F2: printf (printf.c:33)
+==63093==    by 0x402643: consultarLucroLocadora (in /home/SlowerTrick/Desktop/gdb/TAD_03/Resultados/ArturVitor/completo/prog)
+==63093==    by 0x40285E: main (in /home/SlowerTrick/Desktop/gdb/TAD_03/Resultados/ArturVitor/completo/prog)
+==63093== 
+==63093== Conditional jump or move depends on uninitialised value(s)
+==63093==    at 0x499D508: __printf_buffer (vfprintf-process-arg.c:208)
+==63093==    by 0x499E8D2: __vfprintf_internal (vfprintf-internal.c:1544)
+==63093==    by 0x49926F2: printf (printf.c:33)
+==63093==    by 0x402643: consultarLucroLocadora (in /home/SlowerTrick/Desktop/gdb/TAD_03/Resultados/ArturVitor/completo/prog)
+==63093==    by 0x40285E: main (in /home/SlowerTrick/Desktop/gdb/TAD_03/Resultados/ArturVitor/completo/prog)
+==63093== 
+==63093== 
+==63093== HEAP SUMMARY:
+==63093==     in use at exit: 0 bytes in 0 blocks
+==63093==   total heap usage: 2 allocs, 2 frees, 8,192 bytes allocated
+==63093== 
+==63093== All heap blocks were freed -- no leaks are possible
+==63093== 
+==63093== Use --track-origins=yes to see where uninitialised values come from
+==63093== For lists of detected and suppressed errors, rerun with: -s
+==63093== ERROR SUMMARY: 8 errors from 6 contexts (suppressed: 0 from 0)

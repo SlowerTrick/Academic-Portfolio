@@ -1,0 +1,19 @@
+livro.c: In function ‘lerLivro’:
+livro.c:10:20: warning: format ‘%d’ expects argument of type ‘int *’, but argument 4 has type ‘int’ [-Wformat=]
+   10 |     scanf(" %s %s %d", titulo, autor, ano);
+      |                   ~^                  ~~~
+      |                    |                  |
+      |                    int *              int
+livro.c:10:5: warning: ‘ano’ is used uninitialized [-Wuninitialized]
+   10 |     scanf(" %s %s %d", titulo, autor, ano);
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+livro.c:9:9: note: ‘ano’ was declared here
+    9 |     int ano;
+      |         ^~~
+livro.c:11:5: warning: ‘strncpy’ writing 100 bytes into a region of size 50 overflows the destination [-Wstringop-overflow=]
+   11 |     strncpy(livro.autor, autor, 100);
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from livro.c:1:
+livro.h:7:10: note: destination object ‘autor’ of size 50
+    7 |     char autor[50];   // Autor do livro
+      |          ^~~~~

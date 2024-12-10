@@ -1,0 +1,89 @@
+Menu:
+ C - Cadastrar Produto
+ E - Estocar Produto
+ V - Vender Produto
+ D - Atualizar desconto de Produto
+ I - Imprimir Produtos
+ R - Imprimir Relatorio de Vendas
+ F - Finalizar Programa
+Nome do Produto: ID: Preco: Desconto: Estoque: 
+Menu:
+ C - Cadastrar Produto
+ E - Estocar Produto
+ V - Vender Produto
+ D - Atualizar desconto de Produto
+ I - Imprimir Produtos
+ R - Imprimir Relatorio de Vendas
+ F - Finalizar Programa
+Digite o id do Produto: Digite o numero de unidades: 
+Menu:
+ C - Cadastrar Produto
+ E - Estocar Produto
+ V - Vender Produto
+ D - Atualizar desconto de Produto
+ I - Imprimir Produtos
+ R - Imprimir Relatorio de Vendas
+ F - Finalizar Programa
+Digite o id do Produto: Digite o numero de unidades: 
+Menu:
+ C - Cadastrar Produto
+ E - Estocar Produto
+ V - Vender Produto
+ D - Atualizar desconto de Produto
+ I - Imprimir Produtos
+ R - Imprimir Relatorio de Vendas
+ F - Finalizar Programa
+RELATORIO DE VENDAS ATUALIZADO:
+TOTAL DE VENDAS: 3
+FATURAMENTO: 6086.60
+PRODUTOS EM ESTOQUE: 57
+PRODUTO MAIS VENDIDO:
+Produto: Geladeira inox, Preco atual: 2028.87, Qtd no estoque: 57, Qtd vendida: 3
+
+Menu:
+ C - Cadastrar Produto
+ E - Estocar Produto
+ V - Vender Produto
+ D - Atualizar desconto de Produto
+ I - Imprimir Produtos
+ R - Imprimir Relatorio de Vendas
+ F - Finalizar Programa
+Digite o id do Produto: Digite o novo desconto: 
+Menu:
+ C - Cadastrar Produto
+ E - Estocar Produto
+ V - Vender Produto
+ D - Atualizar desconto de Produto
+ I - Imprimir Produtos
+ R - Imprimir Relatorio de Vendas
+ F - Finalizar Programa
+Digite o id do Produto: Digite o numero de unidades: Quantidade inválida.
+
+Menu:
+ C - Cadastrar Produto
+ E - Estocar Produto
+ V - Vender Produto
+ D - Atualizar desconto de Produto
+ I - Imprimir Produtos
+ R - Imprimir Relatorio de Vendas
+ F - Finalizar Programa
+Digite o id do Produto: Digite o novo desconto: Quantidade inválida.
+
+Menu:
+ C - Cadastrar Produto
+ E - Estocar Produto
+ V - Vender Produto
+ D - Atualizar desconto de Produto
+ I - Imprimir Produtos
+ R - Imprimir Relatorio de Vendas
+ F - Finalizar Programa
+Produto: Geladeira inox, Preco atual: 2608.54, Qtd no estoque: 57, Qtd vendida: 3
+
+Menu:
+ C - Cadastrar Produto
+ E - Estocar Produto
+ V - Vender Produto
+ D - Atualizar desconto de Produto
+ I - Imprimir Produtos
+ R - Imprimir Relatorio de Vendas
+ F - Finalizar Programa

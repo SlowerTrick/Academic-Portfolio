@@ -1,0 +1,24 @@
+
+
+1
+
+
+
+1
+
+
+
+2
+
+
+
+3
+
+Empresa 5:
+- Funcionario 2500: RS 2.00
+
+Empresa 3000:
+- Funcionario 1500: RS 4.00
+- Funcionario 2000: RS 2.00
+- Funcionario 2050: RS 2.00
+

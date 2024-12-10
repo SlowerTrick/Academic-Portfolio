@@ -1,0 +1,3 @@
+/usr/bin/ld: Resultados/Artur/biblioteca/main.o: in function `main':
+main.c:(.text+0x2c0): undefined reference to `removerLivroDaBiblioteca'
+collect2: error: ld returned 1 exit status

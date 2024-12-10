@@ -1,0 +1,19 @@
+==53728== Memcheck, a memory error detector
+==53728== Copyright (C) 2002-2024, and GNU GPL'd, by Julian Seward et al.
+==53728== Using Valgrind-3.24.0 and LibVEX; rerun with -h for copyright info
+==53728== Command: Resultados/Artur/main/prog Resultados/Artur/main/Casos/1
+==53728== Parent PID: 53727
+==53728== 
+==53728== Conditional jump or move depends on uninitialised value(s)
+==53728==    at 0x401DB8: main (in /home/SlowerTrick/Desktop/gdb/TAD_09/Resultados/Artur/main/prog)
+==53728== 
+==53728== 
+==53728== HEAP SUMMARY:
+==53728==     in use at exit: 0 bytes in 0 blocks
+==53728==   total heap usage: 2 allocs, 2 frees, 8,192 bytes allocated
+==53728== 
+==53728== All heap blocks were freed -- no leaks are possible
+==53728== 
+==53728== Use --track-origins=yes to see where uninitialised values come from
+==53728== For lists of detected and suppressed errors, rerun with: -s
+==53728== ERROR SUMMARY: 1 errors from 1 contexts (suppressed: 0 from 0)

@@ -1,0 +1,48 @@
+==97223== Memcheck, a memory error detector
+==97223== Copyright (C) 2002-2024, and GNU GPL'd, by Julian Seward et al.
+==97223== Using Valgrind-3.24.0 and LibVEX; rerun with -h for copyright info
+==97223== Command: Resultados/Artur/livro/prog Resultados/Artur/livro/Casos/6
+==97223== Parent PID: 97222
+==97223== 
+==97223== Use of uninitialised value of size 8
+==97223==    at 0x49A325F: __vfscanf_internal (vfscanf-internal.c:1976)
+==97223==    by 0x4992405: __isoc99_scanf (isoc99_scanf.c:30)
+==97223==    by 0x401820: lerLivro (in /home/SlowerTrick/Desktop/gdb/TAD_10/Resultados/Artur/livro/prog)
+==97223==    by 0x401A7A: main (in /home/SlowerTrick/Desktop/gdb/TAD_10/Resultados/Artur/livro/prog)
+==97223== 
+==97223== Invalid write of size 4
+==97223==    at 0x49A325F: __vfscanf_internal (vfscanf-internal.c:1976)
+==97223==    by 0x4992405: __isoc99_scanf (isoc99_scanf.c:30)
+==97223==    by 0x401820: lerLivro (in /home/SlowerTrick/Desktop/gdb/TAD_10/Resultados/Artur/livro/prog)
+==97223==    by 0x401A7A: main (in /home/SlowerTrick/Desktop/gdb/TAD_10/Resultados/Artur/livro/prog)
+==97223==  Address 0x0 is not stack'd, malloc'd or (recently) free'd
+==97223== 
+==97223== 
+==97223== Process terminating with default action of signal 11 (SIGSEGV): dumping core
+==97223==  Access not within mapped region at address 0x0
+==97223==    at 0x49A325F: __vfscanf_internal (vfscanf-internal.c:1976)
+==97223==    by 0x4992405: __isoc99_scanf (isoc99_scanf.c:30)
+==97223==    by 0x401820: lerLivro (in /home/SlowerTrick/Desktop/gdb/TAD_10/Resultados/Artur/livro/prog)
+==97223==    by 0x401A7A: main (in /home/SlowerTrick/Desktop/gdb/TAD_10/Resultados/Artur/livro/prog)
+==97223==  If you believe this happened as a result of a stack
+==97223==  overflow in your program's main thread (unlikely but
+==97223==  possible), you can try to increase the size of the
+==97223==  main thread stack using the --main-stacksize= flag.
+==97223==  The main thread stack size used in this run was 8388608.
+==97223== 
+==97223== HEAP SUMMARY:
+==97223==     in use at exit: 8,192 bytes in 2 blocks
+==97223==   total heap usage: 2 allocs, 0 frees, 8,192 bytes allocated
+==97223== 
+==97223== LEAK SUMMARY:
+==97223==    definitely lost: 0 bytes in 0 blocks
+==97223==    indirectly lost: 0 bytes in 0 blocks
+==97223==      possibly lost: 0 bytes in 0 blocks
+==97223==    still reachable: 8,192 bytes in 2 blocks
+==97223==         suppressed: 0 bytes in 0 blocks
+==97223== Reachable blocks (those to which a pointer was found) are not shown.
+==97223== To see them, rerun with: --leak-check=full --show-leak-kinds=all
+==97223== 
+==97223== Use --track-origins=yes to see where uninitialised values come from
+==97223== For lists of detected and suppressed errors, rerun with: -s
+==97223== ERROR SUMMARY: 2 errors from 2 contexts (suppressed: 0 from 0)

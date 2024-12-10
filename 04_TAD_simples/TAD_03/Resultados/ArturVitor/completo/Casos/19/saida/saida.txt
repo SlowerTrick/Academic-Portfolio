@@ -1,0 +1,90 @@
+Filme cadastrado 2 - 
+Filme cadastrado -4 - he Last Castle
+Filme ja cadastrado no estoque
+Filme ja cadastrado no estoque
+Filme ja cadastrado no estoque
+Filme ja cadastrado no estoque
+Filme ja cadastrado no estoque
+Filme ja cadastrado no estoque
+Filme ja cadastrado no estoque
+Filme ja cadastrado no estoque
+
+~ESTOQUE~
+2 -  Fitas em estoque: 0
+-4 - he Last Castle Fitas em estoque: 5
+
+Filme 2  -   nao  disponivel  no  estoque.  Volte  mais tarde.Filme  1  nao  cadastrado
+Filme 2  -   nao  disponivel  no  estoque.  Volte  mais tarde.Filme 2  -   nao  disponivel  no  estoque.  Volte  mais tarde.Filme 2  -   nao  disponivel  no  estoque.  Volte  mais tarde.Filme  3  nao  cadastrado
+Total de filmes alugados: 0 com custo de R$0
+
+Filme 2  -   nao  disponivel  no  estoque.  Volte  mais tarde.Filme  6  nao  cadastrado
+Total de filmes alugados: 0 com custo de R$0
+
+Filme 2  -   nao  disponivel  no  estoque.  Volte  mais tarde.Filme  4  nao  cadastrado
+Filme 2  -   nao  disponivel  no  estoque.  Volte  mais tarde.Filme  5  nao  cadastrado
+Filme 2  -   nao  disponivel  no  estoque.  Volte  mais tarde.Filme 2  -   nao  disponivel  no  estoque.  Volte  mais tarde.Total de filmes alugados: 0 com custo de R$0
+
+Filme 2  -   nao  disponivel  no  estoque.  Volte  mais tarde.Filme  3  nao  cadastrado
+Filme 2  -   nao  disponivel  no  estoque.  Volte  mais tarde.Filme  4  nao  cadastrado
+Filme 2  -   nao  disponivel  no  estoque.  Volte  mais tarde.Filme  5  nao  cadastrado
+Total de filmes alugados: 0 com custo de R$0
+
+~ESTOQUE~
+2 -  Fitas em estoque: 0
+-4 - he Last Castle Fitas em estoque: 5
+Filme ja cadastrado no estoque
+Filme ja cadastrado no estoque
+Filme ja cadastrado no estoque
+Filme ja cadastrado no estoque
+Filme ja cadastrado no estoque
+Filme ja cadastrado no estoque
+Filme ja cadastrado no estoque
+Filme ja cadastrado no estoque
+Filme cadastrado 3 - 
+Filme ja cadastrado no estoque
+
+~ESTOQUE~
+2 -  Fitas em estoque: 0
+3 -  Fitas em estoque: 0
+-4 - he Last Castle Fitas em estoque: 5
+
+Filme 2  -   nao  disponivel  no  estoque.  Volte  mais tarde.Filme  6  nao  cadastrado
+Total de filmes alugados: 0 com custo de R$0
+
+Nao e possivel devolver o filme 2 - Filme  4  nao  cadastrado
+Nao e possivel devolver o filme 2 - Filme  5  nao  cadastrado
+
+Filme 2  -   nao  disponivel  no  estoque.  Volte  mais tarde.Filme  4  nao  cadastrado
+Filme 2  -   nao  disponivel  no  estoque.  Volte  mais tarde.Filme  9  nao  cadastrado
+Filme 3  -   nao  disponivel  no  estoque.  Volte  mais tarde.Filme  0  nao  cadastrado
+Total de filmes alugados: 0 com custo de R$0
+
+Nao e possivel devolver o filme 2 - Filme  4  nao  cadastrado
+Nao e possivel devolver o filme 2 - Filme  9  nao  cadastrado
+
+Nao e possivel devolver o filme 2 - Filme  4  nao  cadastrado
+Nao e possivel devolver o filme 2 - Filme  5  nao  cadastrado
+Nao e possivel devolver o filme 2 - Nao e possivel devolver o filme 2 - 
+Nao e possivel devolver o filme 2 - Filme  1  nao  cadastrado
+Nao e possivel devolver o filme 2 - Nao e possivel devolver o filme 2 - Nao e possivel devolver o filme 2 - Filme 3 -  Devolvido!
+
+Filme  0  nao  cadastrado
+Total de filmes alugados: 1 com custo de R$0
+
+Filme 2  -   nao  disponivel  no  estoque.  Volte  mais tarde.Filme  9  nao  cadastrado
+Filme 3  -   nao  disponivel  no  estoque.  Volte  mais tarde.Filme  0  nao  cadastrado
+Total de filmes alugados: 0 com custo de R$0
+
+Filme 3  -   nao  disponivel  no  estoque.  Volte  mais tarde.Filme  0  nao  cadastrado
+Total de filmes alugados: 0 com custo de R$0
+
+Filme 3 -  Devolvido!
+Filme  0  nao  cadastrado
+Nao e possivel devolver o filme 2 - Filme  9  nao  cadastrado
+
+~ESTOQUE~
+2 -  Fitas em estoque: 0
+3 -  Fitas em estoque: 1
+-4 - he Last Castle Fitas em estoque: 5
+
+Lucro total R$31

@@ -1,0 +1,50 @@
+==66902== Memcheck, a memory error detector
+==66902== Copyright (C) 2002-2024, and GNU GPL'd, by Julian Seward et al.
+==66902== Using Valgrind-3.24.0 and LibVEX; rerun with -h for copyright info
+==66902== Command: Resultados/ArturVitor/completo/prog Resultados/ArturVitor/completo/Casos/6
+==66902== Parent PID: 66901
+==66902== 
+==66902== Conditional jump or move depends on uninitialised value(s)
+==66902==    at 0x40262B: consultarLucroLocadora (in /home/SlowerTrick/Desktop/gdb/TAD_03/Resultados/ArturVitor/completo/prog)
+==66902==    by 0x40285E: main (in /home/SlowerTrick/Desktop/gdb/TAD_03/Resultados/ArturVitor/completo/prog)
+==66902== 
+==66902== Use of uninitialised value of size 8
+==66902==    at 0x499171B: _itoa_word (_itoa.c:183)
+==66902==    by 0x499C641: __printf_buffer (vfprintf-process-arg.c:155)
+==66902==    by 0x499E8D2: __vfprintf_internal (vfprintf-internal.c:1544)
+==66902==    by 0x49926F2: printf (printf.c:33)
+==66902==    by 0x402643: consultarLucroLocadora (in /home/SlowerTrick/Desktop/gdb/TAD_03/Resultados/ArturVitor/completo/prog)
+==66902==    by 0x40285E: main (in /home/SlowerTrick/Desktop/gdb/TAD_03/Resultados/ArturVitor/completo/prog)
+==66902== 
+==66902== Conditional jump or move depends on uninitialised value(s)
+==66902==    at 0x499172C: _itoa_word (_itoa.c:183)
+==66902==    by 0x499C641: __printf_buffer (vfprintf-process-arg.c:155)
+==66902==    by 0x499E8D2: __vfprintf_internal (vfprintf-internal.c:1544)
+==66902==    by 0x49926F2: printf (printf.c:33)
+==66902==    by 0x402643: consultarLucroLocadora (in /home/SlowerTrick/Desktop/gdb/TAD_03/Resultados/ArturVitor/completo/prog)
+==66902==    by 0x40285E: main (in /home/SlowerTrick/Desktop/gdb/TAD_03/Resultados/ArturVitor/completo/prog)
+==66902== 
+==66902== Conditional jump or move depends on uninitialised value(s)
+==66902==    at 0x499D2ED: __printf_buffer (vfprintf-process-arg.c:186)
+==66902==    by 0x499E8D2: __vfprintf_internal (vfprintf-internal.c:1544)
+==66902==    by 0x49926F2: printf (printf.c:33)
+==66902==    by 0x402643: consultarLucroLocadora (in /home/SlowerTrick/Desktop/gdb/TAD_03/Resultados/ArturVitor/completo/prog)
+==66902==    by 0x40285E: main (in /home/SlowerTrick/Desktop/gdb/TAD_03/Resultados/ArturVitor/completo/prog)
+==66902== 
+==66902== Conditional jump or move depends on uninitialised value(s)
+==66902==    at 0x499D508: __printf_buffer (vfprintf-process-arg.c:208)
+==66902==    by 0x499E8D2: __vfprintf_internal (vfprintf-internal.c:1544)
+==66902==    by 0x49926F2: printf (printf.c:33)
+==66902==    by 0x402643: consultarLucroLocadora (in /home/SlowerTrick/Desktop/gdb/TAD_03/Resultados/ArturVitor/completo/prog)
+==66902==    by 0x40285E: main (in /home/SlowerTrick/Desktop/gdb/TAD_03/Resultados/ArturVitor/completo/prog)
+==66902== 
+==66902== 
+==66902== HEAP SUMMARY:
+==66902==     in use at exit: 0 bytes in 0 blocks
+==66902==   total heap usage: 2 allocs, 2 frees, 8,192 bytes allocated
+==66902== 
+==66902== All heap blocks were freed -- no leaks are possible
+==66902== 
+==66902== Use --track-origins=yes to see where uninitialised values come from
+==66902== For lists of detected and suppressed errors, rerun with: -s
+==66902== ERROR SUMMARY: 7 errors from 5 contexts (suppressed: 0 from 0)

@@ -1,0 +1,136 @@
+Menu:
+ C - Cadastrar Produto
+ E - Estocar Produto
+ V - Vender Produto
+ D - Atualizar desconto de Produto
+ I - Imprimir Produtos
+ R - Imprimir Relatorio de Vendas
+ F - Finalizar Programa
+Nome do Produto: ID: Preco: Desconto: Estoque: 
+Menu:
+ C - Cadastrar Produto
+ E - Estocar Produto
+ V - Vender Produto
+ D - Atualizar desconto de Produto
+ I - Imprimir Produtos
+ R - Imprimir Relatorio de Vendas
+ F - Finalizar Programa
+Nome do Produto: ID: Preco: Desconto: Estoque: 
+Menu:
+ C - Cadastrar Produto
+ E - Estocar Produto
+ V - Vender Produto
+ D - Atualizar desconto de Produto
+ I - Imprimir Produtos
+ R - Imprimir Relatorio de Vendas
+ F - Finalizar Programa
+Nome do Produto: ID: Preco: Desconto: Estoque: 
+Menu:
+ C - Cadastrar Produto
+ E - Estocar Produto
+ V - Vender Produto
+ D - Atualizar desconto de Produto
+ I - Imprimir Produtos
+ R - Imprimir Relatorio de Vendas
+ F - Finalizar Programa
+Nome do Produto: ID: Preco: Desconto: Estoque: 
+Menu:
+ C - Cadastrar Produto
+ E - Estocar Produto
+ V - Vender Produto
+ D - Atualizar desconto de Produto
+ I - Imprimir Produtos
+ R - Imprimir Relatorio de Vendas
+ F - Finalizar Programa
+Nome do Produto: ID: Preco: Desconto: Estoque: 
+Menu:
+ C - Cadastrar Produto
+ E - Estocar Produto
+ V - Vender Produto
+ D - Atualizar desconto de Produto
+ I - Imprimir Produtos
+ R - Imprimir Relatorio de Vendas
+ F - Finalizar Programa
+Digite o id do Produto: Digite o numero de unidades: 
+Menu:
+ C - Cadastrar Produto
+ E - Estocar Produto
+ V - Vender Produto
+ D - Atualizar desconto de Produto
+ I - Imprimir Produtos
+ R - Imprimir Relatorio de Vendas
+ F - Finalizar Programa
+Digite o id do Produto: Digite o numero de unidades: 
+Menu:
+ C - Cadastrar Produto
+ E - Estocar Produto
+ V - Vender Produto
+ D - Atualizar desconto de Produto
+ I - Imprimir Produtos
+ R - Imprimir Relatorio de Vendas
+ F - Finalizar Programa
+Digite o id do Produto: Digite o numero de unidades: 
+Menu:
+ C - Cadastrar Produto
+ E - Estocar Produto
+ V - Vender Produto
+ D - Atualizar desconto de Produto
+ I - Imprimir Produtos
+ R - Imprimir Relatorio de Vendas
+ F - Finalizar Programa
+Digite o id do Produto: Digite o numero de unidades: 
+Menu:
+ C - Cadastrar Produto
+ E - Estocar Produto
+ V - Vender Produto
+ D - Atualizar desconto de Produto
+ I - Imprimir Produtos
+ R - Imprimir Relatorio de Vendas
+ F - Finalizar Programa
+Digite o id do Produto: Digite o novo desconto: 
+Menu:
+ C - Cadastrar Produto
+ E - Estocar Produto
+ V - Vender Produto
+ D - Atualizar desconto de Produto
+ I - Imprimir Produtos
+ R - Imprimir Relatorio de Vendas
+ F - Finalizar Programa
+Digite o id do Produto: Digite o novo desconto: 
+Menu:
+ C - Cadastrar Produto
+ E - Estocar Produto
+ V - Vender Produto
+ D - Atualizar desconto de Produto
+ I - Imprimir Produtos
+ R - Imprimir Relatorio de Vendas
+ F - Finalizar Programa
+Produto: Bola de futebol, Preco atual: 79.92, Qtd no estoque: 13, Qtd vendida: 0
+Produto: Notebook, Preco atual: 2474.10, Qtd no estoque: 9, Qtd vendida: 0
+Produto: Armario duas portas, Preco atual: 148.18, Qtd no estoque: 0, Qtd vendida: 3
+Produto: Fogao seis bocas, Preco atual: 990.50, Qtd no estoque: 10, Qtd vendida: 0
+Produto: Mochila escolar, Preco atual: 89.90, Qtd no estoque: 20, Qtd vendida: 0
+
+Menu:
+ C - Cadastrar Produto
+ E - Estocar Produto
+ V - Vender Produto
+ D - Atualizar desconto de Produto
+ I - Imprimir Produtos
+ R - Imprimir Relatorio de Vendas
+ F - Finalizar Programa
+RELATORIO DE VENDAS ATUALIZADO:
+TOTAL DE VENDAS: 3
+FATURAMENTO: 444.54
+PRODUTOS EM ESTOQUE: 52
+PRODUTO MAIS VENDIDO:
+Produto: Armario duas portas, Preco atual: 148.18, Qtd no estoque: 0, Qtd vendida: 3
+
+Menu:
+ C - Cadastrar Produto
+ E - Estocar Produto
+ V - Vender Produto
+ D - Atualizar desconto de Produto
+ I - Imprimir Produtos
+ R - Imprimir Relatorio de Vendas
+ F - Finalizar Programa

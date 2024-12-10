@@ -1,0 +1,26 @@
+Filme cadastrado 1 - A Sociedade Do Anel
+
+Total de filmes alugados: 1 com custo de R$5
+
+~ESTOQUE~
+1 - A Sociedade Do Anel Fitas em estoque: 0
+Filme ja cadastrado no estoque
+Filme cadastrado -4 - hrek
+
+~ESTOQUE~
+1 - A Sociedade Do Anel Fitas em estoque: 0
+-4 - hrek Fitas em estoque: 1
+
+Filme 1 - A Sociedade Do Anel Devolvido!
+
+Filme  5  nao  cadastrado
+Total de filmes alugados: 1 com custo de R$5
+
+Filme 1 - A Sociedade Do Anel Devolvido!
+Filme  5  nao  cadastrado
+
+~ESTOQUE~
+1 - A Sociedade Do Anel Fitas em estoque: 1
+-4 - hrek Fitas em estoque: 1
+
+Lucro total R$41

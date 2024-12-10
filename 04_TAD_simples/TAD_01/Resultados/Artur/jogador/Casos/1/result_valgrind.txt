@@ -1,0 +1,60 @@
+==43922== Memcheck, a memory error detector
+==43922== Copyright (C) 2002-2024, and GNU GPL'd, by Julian Seward et al.
+==43922== Using Valgrind-3.24.0 and LibVEX; rerun with -h for copyright info
+==43922== Command: Resultados/Artur/jogador/prog Resultados/Artur/jogador/Casos/1
+==43922== Parent PID: 43921
+==43922== 
+==43922== Conditional jump or move depends on uninitialised value(s)
+==43922==    at 0x401C35: EhPosicaoValidaTabuleiro (in /home/SlowerTrick/Desktop/gdb/TAD_01/Resultados/Artur/jogador/prog)
+==43922==    by 0x401298: JogaJogador (in /home/SlowerTrick/Desktop/gdb/TAD_01/Resultados/Artur/jogador/prog)
+==43922==    by 0x40173C: ComecaJogo (in /home/SlowerTrick/Desktop/gdb/TAD_01/Resultados/Artur/jogador/prog)
+==43922==    by 0x401936: main (in /home/SlowerTrick/Desktop/gdb/TAD_01/Resultados/Artur/jogador/prog)
+==43922== 
+==43922== Conditional jump or move depends on uninitialised value(s)
+==43922==    at 0x401C3B: EhPosicaoValidaTabuleiro (in /home/SlowerTrick/Desktop/gdb/TAD_01/Resultados/Artur/jogador/prog)
+==43922==    by 0x401298: JogaJogador (in /home/SlowerTrick/Desktop/gdb/TAD_01/Resultados/Artur/jogador/prog)
+==43922==    by 0x40173C: ComecaJogo (in /home/SlowerTrick/Desktop/gdb/TAD_01/Resultados/Artur/jogador/prog)
+==43922==    by 0x401936: main (in /home/SlowerTrick/Desktop/gdb/TAD_01/Resultados/Artur/jogador/prog)
+==43922== 
+==43922== Use of uninitialised value of size 8
+==43922==    at 0x499171B: _itoa_word (_itoa.c:183)
+==43922==    by 0x499C641: __printf_buffer (vfprintf-process-arg.c:155)
+==43922==    by 0x499E8D2: __vfprintf_internal (vfprintf-internal.c:1544)
+==43922==    by 0x49926F2: printf (printf.c:33)
+==43922==    by 0x4012DA: JogaJogador (in /home/SlowerTrick/Desktop/gdb/TAD_01/Resultados/Artur/jogador/prog)
+==43922==    by 0x40173C: ComecaJogo (in /home/SlowerTrick/Desktop/gdb/TAD_01/Resultados/Artur/jogador/prog)
+==43922==    by 0x401936: main (in /home/SlowerTrick/Desktop/gdb/TAD_01/Resultados/Artur/jogador/prog)
+==43922== 
+==43922== Conditional jump or move depends on uninitialised value(s)
+==43922==    at 0x499172C: _itoa_word (_itoa.c:183)
+==43922==    by 0x499C641: __printf_buffer (vfprintf-process-arg.c:155)
+==43922==    by 0x499E8D2: __vfprintf_internal (vfprintf-internal.c:1544)
+==43922==    by 0x49926F2: printf (printf.c:33)
+==43922==    by 0x4012DA: JogaJogador (in /home/SlowerTrick/Desktop/gdb/TAD_01/Resultados/Artur/jogador/prog)
+==43922==    by 0x40173C: ComecaJogo (in /home/SlowerTrick/Desktop/gdb/TAD_01/Resultados/Artur/jogador/prog)
+==43922==    by 0x401936: main (in /home/SlowerTrick/Desktop/gdb/TAD_01/Resultados/Artur/jogador/prog)
+==43922== 
+==43922== Conditional jump or move depends on uninitialised value(s)
+==43922==    at 0x499D2ED: __printf_buffer (vfprintf-process-arg.c:186)
+==43922==    by 0x499E8D2: __vfprintf_internal (vfprintf-internal.c:1544)
+==43922==    by 0x49926F2: printf (printf.c:33)
+==43922==    by 0x4012DA: JogaJogador (in /home/SlowerTrick/Desktop/gdb/TAD_01/Resultados/Artur/jogador/prog)
+==43922==    by 0x40173C: ComecaJogo (in /home/SlowerTrick/Desktop/gdb/TAD_01/Resultados/Artur/jogador/prog)
+==43922==    by 0x401936: main (in /home/SlowerTrick/Desktop/gdb/TAD_01/Resultados/Artur/jogador/prog)
+==43922== 
+==43922== Conditional jump or move depends on uninitialised value(s)
+==43922==    at 0x499D508: __printf_buffer (vfprintf-process-arg.c:208)
+==43922==    by 0x499E8D2: __vfprintf_internal (vfprintf-internal.c:1544)
+==43922==    by 0x49926F2: printf (printf.c:33)
+==43922==    by 0x4012DA: JogaJogador (in /home/SlowerTrick/Desktop/gdb/TAD_01/Resultados/Artur/jogador/prog)
+==43922==    by 0x40173C: ComecaJogo (in /home/SlowerTrick/Desktop/gdb/TAD_01/Resultados/Artur/jogador/prog)
+==43922==    by 0x401936: main (in /home/SlowerTrick/Desktop/gdb/TAD_01/Resultados/Artur/jogador/prog)
+==43922== 
+==43922== Conditional jump or move depends on uninitialised value(s)
+==43922==    at 0x499CD4B: __printf_buffer (vfprintf-process-arg.c:217)
+==43922==    by 0x499E8D2: __vfprintf_internal (vfprintf-internal.c:1544)
+==43922==    by 0x49926F2: printf (printf.c:33)
+==43922==    by 0x4012DA: JogaJogador (in /home/SlowerTrick/Desktop/gdb/TAD_01/Resultados/Artur/jogador/prog)
+==43922==    by 0x40173C: ComecaJogo (in /home/SlowerTrick/Desktop/gdb/TAD_01/Resultados/Artur/jogador/prog)
+==43922==    by 0x401936: main (in /home/SlowerTrick/Desktop/gdb/TAD_01/Resultados/Artur/jogador/prog)
+==43922== 
