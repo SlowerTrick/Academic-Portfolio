@@ -1,0 +1,17 @@
+--------- RESERVA -----------
+Morador: 
+Nome: Ezreal Costa
+CPF: 234.890.123-12
+Data de Nascimento: 11/6/1992
+Residencia: 107-B
+
+Area reservada: 
+Nome: Playground
+Id: A12
+Capacidade: 10 convidado(s)
+Data da reserva: 24/12/2024
+Turno da reserva: T
+
+Quantidade de convidados: 5
+Taxa de ocupacao: 50%
+------------------------------

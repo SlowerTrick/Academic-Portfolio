@@ -1,0 +1,13 @@
+pessoa.c: In function ‘ImprimePessoa’:
+pessoa.c:53:27: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘char *’ [-Wformat=]
+   53 |             printf("PAI: %d\n", pessoa->pai->nome);
+      |                          ~^     ~~~~~~~~~~~~~~~~~
+      |                           |                |
+      |                           int              char *
+      |                          %s
+pessoa.c:55:27: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘char *’ [-Wformat=]
+   55 |             printf("MAE: %d\n", pessoa->mae->nome);
+      |                          ~^     ~~~~~~~~~~~~~~~~~
+      |                           |                |
+      |                           int              char *
+      |                          %s

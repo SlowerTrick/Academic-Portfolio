@@ -1,0 +1,6 @@
+==45253== Memcheck, a memory error detector
+==45253== Copyright (C) 2002-2024, and GNU GPL'd, by Julian Seward et al.
+==45253== Using Valgrind-3.24.0 and LibVEX; rerun with -h for copyright info
+==45253== Command: Resultados/Artur/evento/prog Resultados/Artur/evento/Casos/5
+==45253== Parent PID: 45252
+==45253== 

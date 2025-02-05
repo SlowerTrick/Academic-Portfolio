@@ -23,4 +23,4 @@ Filme  5  nao  cadastrado
 1 - A Sociedade Do Anel Fitas em estoque: 1
 -4 - hrek Fitas em estoque: 1
 
-Lucro total R$41
+Lucro total R$10

@@ -1,0 +1,51 @@
+--------- RESERVA -----------
+Morador: 
+Nome: Tryndamere Brito
+CPF: 789.123.456-78
+Data de Nascimento: 25/1/1985
+Residencia: 206-D
+
+Area reservada: 
+Nome: Salao de festas
+Id: SF
+Capacidade: 50 convidado(s)
+Data da reserva: 20/12/2024
+Turno da reserva: T
+
+Quantidade de convidados: 40
+Taxa de ocupacao: 80%
+------------------------------
+--------- RESERVA -----------
+Morador: 
+Nome: Taliyah Borges
+CPF: 345.678.901-78
+Data de Nascimento: 9/1/1997
+Residencia: 103-D
+
+Area reservada: 
+Nome: Area de churrasco
+Id: AC
+Capacidade: 40 convidado(s)
+Data da reserva: 20/12/2024
+Turno da reserva: M
+
+Quantidade de convidados: 40
+Taxa de ocupacao: 100%
+------------------------------
+--------- RESERVA -----------
+Morador: 
+Nome: Pyke Souza
+CPF: 765.432.109-87
+Data de Nascimento: 5/7/1993
+Residencia: 408-B
+
+Area reservada: 
+Nome: Salao de jogos
+Id: SJ
+Capacidade: 8 convidado(s)
+Data da reserva: 12/12/2024
+Turno da reserva: N
+
+Quantidade de convidados: 5
+Taxa de ocupacao: 62%
+------------------------------

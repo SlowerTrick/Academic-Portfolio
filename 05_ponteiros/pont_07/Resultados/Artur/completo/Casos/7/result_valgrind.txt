@@ -1,0 +1,6 @@
+==44710== Memcheck, a memory error detector
+==44710== Copyright (C) 2002-2024, and GNU GPL'd, by Julian Seward et al.
+==44710== Using Valgrind-3.24.0 and LibVEX; rerun with -h for copyright info
+==44710== Command: Resultados/Artur/completo/prog Resultados/Artur/completo/Casos/7
+==44710== Parent PID: 44709
+==44710== 

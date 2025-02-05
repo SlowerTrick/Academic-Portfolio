@@ -1,50 +1,20 @@
-==63368== Memcheck, a memory error detector
-==63368== Copyright (C) 2002-2024, and GNU GPL'd, by Julian Seward et al.
-==63368== Using Valgrind-3.24.0 and LibVEX; rerun with -h for copyright info
-==63368== Command: Resultados/ArturVitor/completo/prog Resultados/ArturVitor/completo/Casos/12
-==63368== Parent PID: 63367
-==63368== 
-==63368== Conditional jump or move depends on uninitialised value(s)
-==63368==    at 0x40262B: consultarLucroLocadora (in /home/SlowerTrick/Desktop/gdb/TAD_03/Resultados/ArturVitor/completo/prog)
-==63368==    by 0x40285E: main (in /home/SlowerTrick/Desktop/gdb/TAD_03/Resultados/ArturVitor/completo/prog)
-==63368== 
-==63368== Use of uninitialised value of size 8
-==63368==    at 0x499171B: _itoa_word (_itoa.c:183)
-==63368==    by 0x499C641: __printf_buffer (vfprintf-process-arg.c:155)
-==63368==    by 0x499E8D2: __vfprintf_internal (vfprintf-internal.c:1544)
-==63368==    by 0x49926F2: printf (printf.c:33)
-==63368==    by 0x402643: consultarLucroLocadora (in /home/SlowerTrick/Desktop/gdb/TAD_03/Resultados/ArturVitor/completo/prog)
-==63368==    by 0x40285E: main (in /home/SlowerTrick/Desktop/gdb/TAD_03/Resultados/ArturVitor/completo/prog)
-==63368== 
-==63368== Conditional jump or move depends on uninitialised value(s)
-==63368==    at 0x499172C: _itoa_word (_itoa.c:183)
-==63368==    by 0x499C641: __printf_buffer (vfprintf-process-arg.c:155)
-==63368==    by 0x499E8D2: __vfprintf_internal (vfprintf-internal.c:1544)
-==63368==    by 0x49926F2: printf (printf.c:33)
-==63368==    by 0x402643: consultarLucroLocadora (in /home/SlowerTrick/Desktop/gdb/TAD_03/Resultados/ArturVitor/completo/prog)
-==63368==    by 0x40285E: main (in /home/SlowerTrick/Desktop/gdb/TAD_03/Resultados/ArturVitor/completo/prog)
-==63368== 
-==63368== Conditional jump or move depends on uninitialised value(s)
-==63368==    at 0x499D2ED: __printf_buffer (vfprintf-process-arg.c:186)
-==63368==    by 0x499E8D2: __vfprintf_internal (vfprintf-internal.c:1544)
-==63368==    by 0x49926F2: printf (printf.c:33)
-==63368==    by 0x402643: consultarLucroLocadora (in /home/SlowerTrick/Desktop/gdb/TAD_03/Resultados/ArturVitor/completo/prog)
-==63368==    by 0x40285E: main (in /home/SlowerTrick/Desktop/gdb/TAD_03/Resultados/ArturVitor/completo/prog)
-==63368== 
-==63368== Conditional jump or move depends on uninitialised value(s)
-==63368==    at 0x499D508: __printf_buffer (vfprintf-process-arg.c:208)
-==63368==    by 0x499E8D2: __vfprintf_internal (vfprintf-internal.c:1544)
-==63368==    by 0x49926F2: printf (printf.c:33)
-==63368==    by 0x402643: consultarLucroLocadora (in /home/SlowerTrick/Desktop/gdb/TAD_03/Resultados/ArturVitor/completo/prog)
-==63368==    by 0x40285E: main (in /home/SlowerTrick/Desktop/gdb/TAD_03/Resultados/ArturVitor/completo/prog)
-==63368== 
-==63368== 
-==63368== HEAP SUMMARY:
-==63368==     in use at exit: 0 bytes in 0 blocks
-==63368==   total heap usage: 2 allocs, 2 frees, 8,192 bytes allocated
-==63368== 
-==63368== All heap blocks were freed -- no leaks are possible
-==63368== 
-==63368== Use --track-origins=yes to see where uninitialised values come from
-==63368== For lists of detected and suppressed errors, rerun with: -s
-==63368== ERROR SUMMARY: 7 errors from 5 contexts (suppressed: 0 from 0)
+==38109== Memcheck, a memory error detector
+==38109== Copyright (C) 2002-2024, and GNU GPL'd, by Julian Seward et al.
+==38109== Using Valgrind-3.24.0 and LibVEX; rerun with -h for copyright info
+==38109== Command: Resultados/ArturVitor/completo/prog Resultados/ArturVitor/completo/Casos/12
+==38109== Parent PID: 38108
+==38109== 
+==38109== Conditional jump or move depends on uninitialised value(s)
+==38109==    at 0x40262B: consultarLucroLocadora (in /home/slower/Documents/Prog2/04_TAD_simples/TAD_03/Resultados/ArturVitor/completo/prog)
+==38109==    by 0x40285E: main (in /home/slower/Documents/Prog2/04_TAD_simples/TAD_03/Resultados/ArturVitor/completo/prog)
+==38109== 
+==38109== 
+==38109== HEAP SUMMARY:
+==38109==     in use at exit: 0 bytes in 0 blocks
+==38109==   total heap usage: 2 allocs, 2 frees, 8,192 bytes allocated
+==38109== 
+==38109== All heap blocks were freed -- no leaks are possible
+==38109== 
+==38109== Use --track-origins=yes to see where uninitialised values come from
+==38109== For lists of detected and suppressed errors, rerun with: -s
+==38109== ERROR SUMMARY: 1 errors from 1 contexts (suppressed: 0 from 0)

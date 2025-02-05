@@ -9,7 +9,8 @@
     "explorer.compactFolders": false,
     "files.associations": {
         "stdio.h": "c",
-        "stdlib.h": "c"
+        "stdlib.h": "c",
+        "jogador.h": "c"
     },
 }
 

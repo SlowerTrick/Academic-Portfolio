@@ -1,0 +1,6 @@
+==44464== Memcheck, a memory error detector
+==44464== Copyright (C) 2002-2024, and GNU GPL'd, by Julian Seward et al.
+==44464== Using Valgrind-3.24.0 and LibVEX; rerun with -h for copyright info
+==44464== Command: Resultados/Artur/completo/prog Resultados/Artur/completo/Casos/5
+==44464== Parent PID: 44463
+==44464== 

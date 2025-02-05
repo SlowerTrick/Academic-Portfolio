@@ -1,0 +1,28 @@
+==567292== Memcheck, a memory error detector
+==567292== Copyright (C) 2002-2024, and GNU GPL'd, by Julian Seward et al.
+==567292== Using Valgrind-3.24.0 and LibVEX; rerun with -h for copyright info
+==567292== Command: Resultados/Artur/completo/prog Resultados/Artur/completo/Casos/7
+==567292== Parent PID: 567291
+==567292== 
+==567292== 
+==567292== HEAP SUMMARY:
+==567292==     in use at exit: 16 bytes in 2 blocks
+==567292==   total heap usage: 14 allocs, 12 frees, 8,288 bytes allocated
+==567292== 
+==567292== 4 bytes in 1 blocks are definitely lost in loss record 1 of 2
+==567292==    at 0x4841866: malloc (vg_replace_malloc.c:446)
+==567292==    by 0x4018CE: main (in /home/slower/Desktop/novoCondominio./Resultados/Artur/completo/prog)
+==567292== 
+==567292== 12 bytes in 1 blocks are definitely lost in loss record 2 of 2
+==567292==    at 0x4841866: malloc (vg_replace_malloc.c:446)
+==567292==    by 0x4018BD: main (in /home/slower/Desktop/novoCondominio./Resultados/Artur/completo/prog)
+==567292== 
+==567292== LEAK SUMMARY:
+==567292==    definitely lost: 16 bytes in 2 blocks
+==567292==    indirectly lost: 0 bytes in 0 blocks
+==567292==      possibly lost: 0 bytes in 0 blocks
+==567292==    still reachable: 0 bytes in 0 blocks
+==567292==         suppressed: 0 bytes in 0 blocks
+==567292== 
+==567292== For lists of detected and suppressed errors, rerun with: -s
+==567292== ERROR SUMMARY: 2 errors from 2 contexts (suppressed: 0 from 0)

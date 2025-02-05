@@ -3,5 +3,3 @@ Filme ja cadastrado no estoque
 
 ~ESTOQUE~
 1 - Final Fantasy Fitas em estoque: 1
-
-Lucro total R$31

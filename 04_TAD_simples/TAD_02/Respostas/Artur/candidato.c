@@ -5,8 +5,8 @@
 tCandidato CriaCandidato(char *nome, char *partido, char cargo, int id)
 {
     tCandidato candidato;
-    strncpy(candidato.nome, nome, 50);
-    strncpy(candidato.partido, partido, 50);
+    strcpy(candidato.nome, nome);
+    strcpy(candidato.partido, partido);
     candidato.cargo = cargo;
     candidato.id = id;
     return candidato;
@@ -52,7 +52,7 @@ int ObtemVotos(tCandidato candidato)
 
 float CalculaPercentualVotos(tCandidato candidato, int totalVotos)
 {
-    return (float)candidato.votos / totalVotos * 100;;
+    return (float)candidato.votos / totalVotos * 100;
 }
 
 void ImprimeCandidato (tCandidato candidato, float percentualVotos)

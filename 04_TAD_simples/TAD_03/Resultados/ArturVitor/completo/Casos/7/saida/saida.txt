@@ -10,4 +10,4 @@ Filme 1 - A Sociedade Do Anel Devolvido!
 ~ESTOQUE~
 1 - A Sociedade Do Anel Fitas em estoque: 1
 
-Lucro total R$36
+Lucro total R$5

@@ -1,62 +1,62 @@
-==62799== Memcheck, a memory error detector
-==62799== Copyright (C) 2002-2024, and GNU GPL'd, by Julian Seward et al.
-==62799== Using Valgrind-3.24.0 and LibVEX; rerun with -h for copyright info
-==62799== Command: Resultados/ArturVitor/completo/prog Resultados/ArturVitor/completo/Casos/10
-==62799== Parent PID: 62798
-==62799== 
-==62799== Conditional jump or move depends on uninitialised value(s)
-==62799==    at 0x484B442: strncpy (vg_replace_strmem.c:610)
-==62799==    by 0x4011F2: criarFilme (in /home/SlowerTrick/Desktop/gdb/TAD_03/Resultados/ArturVitor/completo/prog)
-==62799==    by 0x40127B: leFilme (in /home/SlowerTrick/Desktop/gdb/TAD_03/Resultados/ArturVitor/completo/prog)
-==62799==    by 0x4017BC: lerCadastroLocadora (in /home/SlowerTrick/Desktop/gdb/TAD_03/Resultados/ArturVitor/completo/prog)
-==62799==    by 0x4026B8: main (in /home/SlowerTrick/Desktop/gdb/TAD_03/Resultados/ArturVitor/completo/prog)
-==62799== 
-==62799== Conditional jump or move depends on uninitialised value(s)
-==62799==    at 0x401E5E: devolverFilmesLocadora (in /home/SlowerTrick/Desktop/gdb/TAD_03/Resultados/ArturVitor/completo/prog)
-==62799==    by 0x40220D: lerDevolucaoLocadora (in /home/SlowerTrick/Desktop/gdb/TAD_03/Resultados/ArturVitor/completo/prog)
-==62799==    by 0x4027EE: main (in /home/SlowerTrick/Desktop/gdb/TAD_03/Resultados/ArturVitor/completo/prog)
-==62799== 
-==62799== Conditional jump or move depends on uninitialised value(s)
-==62799==    at 0x40262B: consultarLucroLocadora (in /home/SlowerTrick/Desktop/gdb/TAD_03/Resultados/ArturVitor/completo/prog)
-==62799==    by 0x40285E: main (in /home/SlowerTrick/Desktop/gdb/TAD_03/Resultados/ArturVitor/completo/prog)
-==62799== 
-==62799== Use of uninitialised value of size 8
-==62799==    at 0x499171B: _itoa_word (_itoa.c:183)
-==62799==    by 0x499C641: __printf_buffer (vfprintf-process-arg.c:155)
-==62799==    by 0x499E8D2: __vfprintf_internal (vfprintf-internal.c:1544)
-==62799==    by 0x49926F2: printf (printf.c:33)
-==62799==    by 0x402643: consultarLucroLocadora (in /home/SlowerTrick/Desktop/gdb/TAD_03/Resultados/ArturVitor/completo/prog)
-==62799==    by 0x40285E: main (in /home/SlowerTrick/Desktop/gdb/TAD_03/Resultados/ArturVitor/completo/prog)
-==62799== 
-==62799== Conditional jump or move depends on uninitialised value(s)
-==62799==    at 0x499172C: _itoa_word (_itoa.c:183)
-==62799==    by 0x499C641: __printf_buffer (vfprintf-process-arg.c:155)
-==62799==    by 0x499E8D2: __vfprintf_internal (vfprintf-internal.c:1544)
-==62799==    by 0x49926F2: printf (printf.c:33)
-==62799==    by 0x402643: consultarLucroLocadora (in /home/SlowerTrick/Desktop/gdb/TAD_03/Resultados/ArturVitor/completo/prog)
-==62799==    by 0x40285E: main (in /home/SlowerTrick/Desktop/gdb/TAD_03/Resultados/ArturVitor/completo/prog)
-==62799== 
-==62799== Conditional jump or move depends on uninitialised value(s)
-==62799==    at 0x499D2ED: __printf_buffer (vfprintf-process-arg.c:186)
-==62799==    by 0x499E8D2: __vfprintf_internal (vfprintf-internal.c:1544)
-==62799==    by 0x49926F2: printf (printf.c:33)
-==62799==    by 0x402643: consultarLucroLocadora (in /home/SlowerTrick/Desktop/gdb/TAD_03/Resultados/ArturVitor/completo/prog)
-==62799==    by 0x40285E: main (in /home/SlowerTrick/Desktop/gdb/TAD_03/Resultados/ArturVitor/completo/prog)
-==62799== 
-==62799== Conditional jump or move depends on uninitialised value(s)
-==62799==    at 0x499D508: __printf_buffer (vfprintf-process-arg.c:208)
-==62799==    by 0x499E8D2: __vfprintf_internal (vfprintf-internal.c:1544)
-==62799==    by 0x49926F2: printf (printf.c:33)
-==62799==    by 0x402643: consultarLucroLocadora (in /home/SlowerTrick/Desktop/gdb/TAD_03/Resultados/ArturVitor/completo/prog)
-==62799==    by 0x40285E: main (in /home/SlowerTrick/Desktop/gdb/TAD_03/Resultados/ArturVitor/completo/prog)
-==62799== 
-==62799== 
-==62799== HEAP SUMMARY:
-==62799==     in use at exit: 0 bytes in 0 blocks
-==62799==   total heap usage: 2 allocs, 2 frees, 8,192 bytes allocated
-==62799== 
-==62799== All heap blocks were freed -- no leaks are possible
-==62799== 
-==62799== Use --track-origins=yes to see where uninitialised values come from
-==62799== For lists of detected and suppressed errors, rerun with: -s
-==62799== ERROR SUMMARY: 10 errors from 7 contexts (suppressed: 0 from 0)
+==37542== Memcheck, a memory error detector
+==37542== Copyright (C) 2002-2024, and GNU GPL'd, by Julian Seward et al.
+==37542== Using Valgrind-3.24.0 and LibVEX; rerun with -h for copyright info
+==37542== Command: Resultados/ArturVitor/completo/prog Resultados/ArturVitor/completo/Casos/10
+==37542== Parent PID: 37541
+==37542== 
+==37542== Conditional jump or move depends on uninitialised value(s)
+==37542==    at 0x484B442: strncpy (vg_replace_strmem.c:610)
+==37542==    by 0x4011F2: criarFilme (in /home/slower/Documents/Prog2/04_TAD_simples/TAD_03/Resultados/ArturVitor/completo/prog)
+==37542==    by 0x40127B: leFilme (in /home/slower/Documents/Prog2/04_TAD_simples/TAD_03/Resultados/ArturVitor/completo/prog)
+==37542==    by 0x4017BC: lerCadastroLocadora (in /home/slower/Documents/Prog2/04_TAD_simples/TAD_03/Resultados/ArturVitor/completo/prog)
+==37542==    by 0x4026B8: main (in /home/slower/Documents/Prog2/04_TAD_simples/TAD_03/Resultados/ArturVitor/completo/prog)
+==37542== 
+==37542== Conditional jump or move depends on uninitialised value(s)
+==37542==    at 0x401E5E: devolverFilmesLocadora (in /home/slower/Documents/Prog2/04_TAD_simples/TAD_03/Resultados/ArturVitor/completo/prog)
+==37542==    by 0x40220D: lerDevolucaoLocadora (in /home/slower/Documents/Prog2/04_TAD_simples/TAD_03/Resultados/ArturVitor/completo/prog)
+==37542==    by 0x4027EE: main (in /home/slower/Documents/Prog2/04_TAD_simples/TAD_03/Resultados/ArturVitor/completo/prog)
+==37542== 
+==37542== Conditional jump or move depends on uninitialised value(s)
+==37542==    at 0x40262B: consultarLucroLocadora (in /home/slower/Documents/Prog2/04_TAD_simples/TAD_03/Resultados/ArturVitor/completo/prog)
+==37542==    by 0x40285E: main (in /home/slower/Documents/Prog2/04_TAD_simples/TAD_03/Resultados/ArturVitor/completo/prog)
+==37542== 
+==37542== Use of uninitialised value of size 8
+==37542==    at 0x498AB5B: _itoa_word (_itoa.c:183)
+==37542==    by 0x4995A81: __printf_buffer (vfprintf-process-arg.c:155)
+==37542==    by 0x4997D12: __vfprintf_internal (vfprintf-internal.c:1544)
+==37542==    by 0x498BB32: printf (printf.c:33)
+==37542==    by 0x402643: consultarLucroLocadora (in /home/slower/Documents/Prog2/04_TAD_simples/TAD_03/Resultados/ArturVitor/completo/prog)
+==37542==    by 0x40285E: main (in /home/slower/Documents/Prog2/04_TAD_simples/TAD_03/Resultados/ArturVitor/completo/prog)
+==37542== 
+==37542== Conditional jump or move depends on uninitialised value(s)
+==37542==    at 0x498AB6C: _itoa_word (_itoa.c:183)
+==37542==    by 0x4995A81: __printf_buffer (vfprintf-process-arg.c:155)
+==37542==    by 0x4997D12: __vfprintf_internal (vfprintf-internal.c:1544)
+==37542==    by 0x498BB32: printf (printf.c:33)
+==37542==    by 0x402643: consultarLucroLocadora (in /home/slower/Documents/Prog2/04_TAD_simples/TAD_03/Resultados/ArturVitor/completo/prog)
+==37542==    by 0x40285E: main (in /home/slower/Documents/Prog2/04_TAD_simples/TAD_03/Resultados/ArturVitor/completo/prog)
+==37542== 
+==37542== Conditional jump or move depends on uninitialised value(s)
+==37542==    at 0x499672D: __printf_buffer (vfprintf-process-arg.c:186)
+==37542==    by 0x4997D12: __vfprintf_internal (vfprintf-internal.c:1544)
+==37542==    by 0x498BB32: printf (printf.c:33)
+==37542==    by 0x402643: consultarLucroLocadora (in /home/slower/Documents/Prog2/04_TAD_simples/TAD_03/Resultados/ArturVitor/completo/prog)
+==37542==    by 0x40285E: main (in /home/slower/Documents/Prog2/04_TAD_simples/TAD_03/Resultados/ArturVitor/completo/prog)
+==37542== 
+==37542== Conditional jump or move depends on uninitialised value(s)
+==37542==    at 0x4996948: __printf_buffer (vfprintf-process-arg.c:208)
+==37542==    by 0x4997D12: __vfprintf_internal (vfprintf-internal.c:1544)
+==37542==    by 0x498BB32: printf (printf.c:33)
+==37542==    by 0x402643: consultarLucroLocadora (in /home/slower/Documents/Prog2/04_TAD_simples/TAD_03/Resultados/ArturVitor/completo/prog)
+==37542==    by 0x40285E: main (in /home/slower/Documents/Prog2/04_TAD_simples/TAD_03/Resultados/ArturVitor/completo/prog)
+==37542== 
+==37542== 
+==37542== HEAP SUMMARY:
+==37542==     in use at exit: 0 bytes in 0 blocks
+==37542==   total heap usage: 2 allocs, 2 frees, 8,192 bytes allocated
+==37542== 
+==37542== All heap blocks were freed -- no leaks are possible
+==37542== 
+==37542== Use --track-origins=yes to see where uninitialised values come from
+==37542== For lists of detected and suppressed errors, rerun with: -s
+==37542== ERROR SUMMARY: 10 errors from 7 contexts (suppressed: 0 from 0)

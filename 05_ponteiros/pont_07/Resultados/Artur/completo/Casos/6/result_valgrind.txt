@@ -1,0 +1,16 @@
+==44579== Memcheck, a memory error detector
+==44579== Copyright (C) 2002-2024, and GNU GPL'd, by Julian Seward et al.
+==44579== Using Valgrind-3.24.0 and LibVEX; rerun with -h for copyright info
+==44579== Command: Resultados/Artur/completo/prog Resultados/Artur/completo/Casos/6
+==44579== Parent PID: 44578
+==44579== 
+==44579== Conditional jump or move depends on uninitialised value(s)
+==44579==    at 0x484B23F: strcpy (vg_replace_strmem.c:564)
+==44579==    by 0x4011B2: cadastrarEvento (in /home/slower/Documents/Prog2/05_ponteiros/pont_07/Resultados/Artur/completo/prog)
+==44579==    by 0x40157A: main (in /home/slower/Documents/Prog2/05_ponteiros/pont_07/Resultados/Artur/completo/prog)
+==44579== 
+==44579== Conditional jump or move depends on uninitialised value(s)
+==44579==    at 0x484B26F: strcpy (vg_replace_strmem.c:564)
+==44579==    by 0x4011B2: cadastrarEvento (in /home/slower/Documents/Prog2/05_ponteiros/pont_07/Resultados/Artur/completo/prog)
+==44579==    by 0x40157A: main (in /home/slower/Documents/Prog2/05_ponteiros/pont_07/Resultados/Artur/completo/prog)
+==44579== 

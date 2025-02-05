@@ -1,0 +1,16 @@
+==45344== Memcheck, a memory error detector
+==45344== Copyright (C) 2002-2024, and GNU GPL'd, by Julian Seward et al.
+==45344== Using Valgrind-3.24.0 and LibVEX; rerun with -h for copyright info
+==45344== Command: Resultados/Artur/evento/prog Resultados/Artur/evento/Casos/6
+==45344== Parent PID: 45343
+==45344== 
+==45344== Conditional jump or move depends on uninitialised value(s)
+==45344==    at 0x484B23F: strcpy (vg_replace_strmem.c:564)
+==45344==    by 0x4011C2: cadastrarEvento (in /home/slower/Documents/Prog2/05_ponteiros/pont_07/Resultados/Artur/evento/prog)
+==45344==    by 0x4015DB: main (in /home/slower/Documents/Prog2/05_ponteiros/pont_07/Resultados/Artur/evento/prog)
+==45344== 
+==45344== Conditional jump or move depends on uninitialised value(s)
+==45344==    at 0x484B26F: strcpy (vg_replace_strmem.c:564)
+==45344==    by 0x4011C2: cadastrarEvento (in /home/slower/Documents/Prog2/05_ponteiros/pont_07/Resultados/Artur/evento/prog)
+==45344==    by 0x4015DB: main (in /home/slower/Documents/Prog2/05_ponteiros/pont_07/Resultados/Artur/evento/prog)
+==45344== 

@@ -19,4 +19,4 @@ Filme 2 - Shrek Devolvido!
 1 - Matrix Fitas em estoque: 3
 2 - Shrek Fitas em estoque: 1
 
-Lucro total R$37
+Lucro total R$6

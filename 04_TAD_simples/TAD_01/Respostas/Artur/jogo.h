@@ -8,6 +8,7 @@ typedef struct{
     tTabuleiro tabuleiro;
     tJogador jogador1;
     tJogador jogador2;
+    
 } tJogo;
 
 /**

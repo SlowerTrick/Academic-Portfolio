@@ -1,0 +1,382 @@
+- Arquivo de configuração encontrado!
+ - Arquivos header necessários do professor existem na pasta Includes
+ - Arquivos objetos necessários do professor existem na pasta Gabarito-obj.
+
+#######################################
+ALUNO: Artur
+#######################################
+
+CRIANDO O DIRETÓRIO DE RESULTADO PARA Artur:
+ - Diretório Resultados/Artur criado com sucesso!
+ - Diretório Resultados/Artur/main criado com sucesso!
+ - Diretório Resultados/Artur/completo criado com sucesso!
+ - Diretório Resultados/Artur/data criado com sucesso!
+ - Diretório Resultados/Artur/area criado com sucesso!
+ - Diretório Resultados/Artur/morador criado com sucesso!
+ - Diretório Resultados/Artur/reserva criado com sucesso!
+ - Arquivos criados: ok!
+
+CHECKANDO OS ARQUIVOS DO ALUNO:
+ - Arquivo esperado 'Respostas/Artur/area.c' encontrado!
+ - Arquivo esperado 'Respostas/Artur/area.h' encontrado!
+ - Arquivo esperado 'Respostas/Artur/data.c' encontrado!
+ - Arquivo esperado 'Respostas/Artur/data.h' encontrado!
+ - Arquivo esperado 'Respostas/Artur/main.c' encontrado!
+ - Arquivo esperado 'Respostas/Artur/morador.c' encontrado!
+ - Arquivo esperado 'Respostas/Artur/morador.h' encontrado!
+ - Arquivo esperado 'Respostas/Artur/reserva.c' encontrado!
+ - Arquivo esperado 'Respostas/Artur/reserva.h' encontrado!
+ - Arquivos esperados enviados: Ok!
+
+COPIANDO OS ARQUIVOS PARA A PASTA DE RESULTADO DO ALUNO:
+ - Pasta main:
+ - Copiando os Casos de teste para a pasta Resultados/Artur/main
+ - Copiando os Includes/area.h Includes/data.h Includes/morador.h Includes/reserva.h do professor para a pasta Resultados/Artur/main
+ - Copiando os Includes/*.o do professor para a pasta Resultados/Artur/main
+ - Removendo o main.o do professor da pasta Resultados/Artur/main
+ - Copiando o Respostas/Artur/main.c do aluno para a pasta Resultados/Artur/main
+ - Pasta completo:
+ - Copiando os Casos de teste para a pasta Resultados/Artur/completo
+ - Copiando os Respostas/Artur/area.c do aluno para a pasta Resultados/Artur/completo
+ - Copiando os Respostas/Artur/area.h do aluno para a pasta Resultados/Artur/completo
+ - Copiando os Respostas/Artur/data.c do aluno para a pasta Resultados/Artur/completo
+ - Copiando os Respostas/Artur/data.h do aluno para a pasta Resultados/Artur/completo
+ - Copiando os Respostas/Artur/main.c do aluno para a pasta Resultados/Artur/completo
+ - Copiando os Respostas/Artur/morador.c do aluno para a pasta Resultados/Artur/completo
+ - Copiando os Respostas/Artur/morador.h do aluno para a pasta Resultados/Artur/completo
+ - Copiando os Respostas/Artur/reserva.c do aluno para a pasta Resultados/Artur/completo
+ - Copiando os Respostas/Artur/reserva.h do aluno para a pasta Resultados/Artur/completo
+ - Pasta data:
+ - Copiando os Casos de teste para a pasta Resultados/Artur/data
+ - Copiando os Includes/area.h Includes/data.h Includes/morador.h Includes/reserva.h do professor para a pasta Resultados/Artur/data
+ - Copiando os Includes/*.o do professor para a pasta Resultados/Artur/data
+ - Removendo o data.o do professor da pasta Resultados/Artur/data
+ - Copiando o Respostas/Artur/data.c do aluno para a pasta Resultados/Artur/data
+ - Pasta area:
+ - Copiando os Casos de teste para a pasta Resultados/Artur/area
+ - Copiando os Includes/area.h Includes/data.h Includes/morador.h Includes/reserva.h do professor para a pasta Resultados/Artur/area
+ - Copiando os Includes/*.o do professor para a pasta Resultados/Artur/area
+ - Removendo o area.o do professor da pasta Resultados/Artur/area
+ - Copiando o Respostas/Artur/area.c do aluno para a pasta Resultados/Artur/area
+ - Pasta morador:
+ - Copiando os Casos de teste para a pasta Resultados/Artur/morador
+ - Copiando os Includes/area.h Includes/data.h Includes/morador.h Includes/reserva.h do professor para a pasta Resultados/Artur/morador
+ - Copiando os Includes/*.o do professor para a pasta Resultados/Artur/morador
+ - Removendo o morador.o do professor da pasta Resultados/Artur/morador
+ - Copiando o Respostas/Artur/morador.c do aluno para a pasta Resultados/Artur/morador
+ - Pasta reserva:
+ - Copiando os Casos de teste para a pasta Resultados/Artur/reserva
+ - Copiando os Includes/area.h Includes/data.h Includes/morador.h Includes/reserva.h do professor para a pasta Resultados/Artur/reserva
+ - Copiando os Includes/*.o do professor para a pasta Resultados/Artur/reserva
+ - Removendo o reserva.o do professor da pasta Resultados/Artur/reserva
+ - Copiando o Respostas/Artur/reserva.c do aluno para a pasta Resultados/Artur/reserva
+ - Copiando Arquivos Extras do Aluno:
+ - Arquivos copiados: ok!
+
+COMPILANDO OS ARQUIVOS NA PASTA DE RESULTADO DO ALUNO:
+ - Compilação dos arquivos do aluno na pasta main ok!
+ - Arquivo de output gerado: Resultados/Artur/main/result_compilation.txt
+ - Compilação dos arquivos do aluno na pasta completo ok!
+ - Arquivo de output gerado: Resultados/Artur/completo/result_compilation.txt
+ - Compilação dos arquivos do aluno na pasta data ok!
+ - Arquivo de output gerado: Resultados/Artur/data/result_compilation.txt
+ - Compilação dos arquivos do aluno na pasta area ok!
+ - Arquivo de output gerado: Resultados/Artur/area/result_compilation.txt
+ - Compilação dos arquivos do aluno na pasta morador ok!
+ - Arquivo de output gerado: Resultados/Artur/morador/result_compilation.txt
+ - Compilação dos arquivos do aluno na pasta reserva ok!
+ - Arquivo de output gerado: Resultados/Artur/reserva/result_compilation.txt
+ - Arquivos Compilados: ok!
+
+LINKANDO OS ARQUIVOS COMPILADOS:
+ - Pasta main:
+ - Gerando o binário prog linkando com o(s) arquivo(s) main/*.o
+ - Arquivos Linkados: Ok! Binário prog gerado com sucesso.
+ - Arquivo de output gerado: Resultados/Artur/main/result_linking.txt
+ - Pasta completo:
+ - Gerando o binário prog linkando com o(s) arquivo(s) completo/*.o
+ - Arquivos Linkados: Ok! Binário prog gerado com sucesso.
+ - Arquivo de output gerado: Resultados/Artur/completo/result_linking.txt
+ - Pasta data:
+ - Gerando o binário prog linkando com o(s) arquivo(s) data/*.o
+ - Arquivos Linkados: Ok! Binário prog gerado com sucesso.
+ - Arquivo de output gerado: Resultados/Artur/data/result_linking.txt
+ - Pasta area:
+ - Gerando o binário prog linkando com o(s) arquivo(s) area/*.o
+ - Arquivos Linkados: Ok! Binário prog gerado com sucesso.
+ - Arquivo de output gerado: Resultados/Artur/area/result_linking.txt
+ - Pasta morador:
+ - Gerando o binário prog linkando com o(s) arquivo(s) morador/*.o
+ - Arquivos Linkados: Ok! Binário prog gerado com sucesso.
+ - Arquivo de output gerado: Resultados/Artur/morador/result_linking.txt
+ - Pasta reserva:
+ - Gerando o binário prog linkando com o(s) arquivo(s) reserva/*.o
+ - Arquivos Linkados: Ok! Binário prog gerado com sucesso.
+ - Arquivo de output gerado: Resultados/Artur/reserva/result_linking.txt
+
+EXECUTANDO O VALGRIND EM CADA CASO:
+ - Pasta main / Caso 1:
+ - Arquivo de output gerado: Resultados/Artur/main/Casos/1/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 6, frees: 6, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
+ - Pasta main / Caso 2:
+ - Arquivo de output gerado: Resultados/Artur/main/Casos/2/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 8, frees: 8, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
+ - Pasta main / Caso 3:
+ - Arquivo de output gerado: Resultados/Artur/main/Casos/3/result_valgrind.txt.
+ - Valgrind: Incorreto! allocs: 10, frees: 4, errors: 2 | Desconto do valgrind 0%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
+ - Pasta main / Caso 4:
+ - Arquivo de output gerado: Resultados/Artur/main/Casos/4/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 10, frees: 10, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
+ - Pasta main / Caso 5:
+ - Arquivo de output gerado: Resultados/Artur/main/Casos/5/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 10, frees: 10, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
+ - Pasta main / Caso 6:
+ - Arquivo de output gerado: Resultados/Artur/main/Casos/6/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 10, frees: 10, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
+ - Pasta main / Caso 7:
+ - Arquivo de output gerado: Resultados/Artur/main/Casos/7/result_valgrind.txt.
+ - Valgrind: Incorreto! allocs: 14, frees: 12, errors: 2 | Desconto do valgrind 0%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
+ - Nota para a pasta main (máximo 3.50) - 70.00 de 70 - 100.00% de 3.50: 3.50.
+ -----
+ - Pasta completo / Caso 1:
+ - Arquivo de output gerado: Resultados/Artur/completo/Casos/1/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 6, frees: 6, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
+ - Pasta completo / Caso 2:
+ - Arquivo de output gerado: Resultados/Artur/completo/Casos/2/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 8, frees: 8, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
+ - Pasta completo / Caso 3:
+ - Arquivo de output gerado: Resultados/Artur/completo/Casos/3/result_valgrind.txt.
+ - Valgrind: Incorreto! allocs: 10, frees: 4, errors: 2 | Desconto do valgrind 0%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
+ - Pasta completo / Caso 4:
+ - Arquivo de output gerado: Resultados/Artur/completo/Casos/4/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 10, frees: 10, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
+ - Pasta completo / Caso 5:
+ - Arquivo de output gerado: Resultados/Artur/completo/Casos/5/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 10, frees: 10, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
+ - Pasta completo / Caso 6:
+ - Arquivo de output gerado: Resultados/Artur/completo/Casos/6/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 10, frees: 10, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
+ - Pasta completo / Caso 7:
+ - Arquivo de output gerado: Resultados/Artur/completo/Casos/7/result_valgrind.txt.
+ - Valgrind: Incorreto! allocs: 14, frees: 12, errors: 2 | Desconto do valgrind 0%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
+ - Nota para a pasta completo (máximo 0.0) - 70.00 de 70 - 100.00% de 0.0: 0.
+ -----
+ - Pasta data / Caso 1:
+ - Arquivo de output gerado: Resultados/Artur/data/Casos/1/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 2, frees: 2, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
+ - Pasta data / Caso 2:
+ - Arquivo de output gerado: Resultados/Artur/data/Casos/2/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 2, frees: 2, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
+ - Pasta data / Caso 3:
+ - Arquivo de output gerado: Resultados/Artur/data/Casos/3/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 2, frees: 2, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
+ - Pasta data / Caso 4:
+ - Arquivo de output gerado: Resultados/Artur/data/Casos/4/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 2, frees: 2, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
+ - Pasta data / Caso 5:
+ - Arquivo de output gerado: Resultados/Artur/data/Casos/5/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 2, frees: 2, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
+ - Pasta data / Caso 6:
+ - Arquivo de output gerado: Resultados/Artur/data/Casos/6/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 2, frees: 2, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
+ - Pasta data / Caso 7:
+ - Arquivo de output gerado: Resultados/Artur/data/Casos/7/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 2, frees: 2, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
+ - Nota para a pasta data (máximo 1.00) - 70.00 de 70 - 100.00% de 1.00: 1.00.
+ -----
+ - Pasta area / Caso 1:
+ - Arquivo de output gerado: Resultados/Artur/area/Casos/1/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 2, frees: 2, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
+ - Pasta area / Caso 2:
+ - Arquivo de output gerado: Resultados/Artur/area/Casos/2/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 2, frees: 2, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
+ - Pasta area / Caso 3:
+ - Arquivo de output gerado: Resultados/Artur/area/Casos/3/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 2, frees: 2, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
+ - Pasta area / Caso 4:
+ - Arquivo de output gerado: Resultados/Artur/area/Casos/4/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 2, frees: 2, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
+ - Pasta area / Caso 5:
+ - Arquivo de output gerado: Resultados/Artur/area/Casos/5/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 2, frees: 2, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
+ - Pasta area / Caso 6:
+ - Arquivo de output gerado: Resultados/Artur/area/Casos/6/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 2, frees: 2, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
+ - Pasta area / Caso 7:
+ - Arquivo de output gerado: Resultados/Artur/area/Casos/7/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 2, frees: 2, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
+ - Nota para a pasta area (máximo 1.00) - 70.00 de 70 - 100.00% de 1.00: 1.00.
+ -----
+ - Pasta morador / Caso 1:
+ - Arquivo de output gerado: Resultados/Artur/morador/Casos/1/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 2, frees: 2, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
+ - Pasta morador / Caso 2:
+ - Arquivo de output gerado: Resultados/Artur/morador/Casos/2/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 2, frees: 2, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
+ - Pasta morador / Caso 3:
+ - Arquivo de output gerado: Resultados/Artur/morador/Casos/3/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 2, frees: 2, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
+ - Pasta morador / Caso 4:
+ - Arquivo de output gerado: Resultados/Artur/morador/Casos/4/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 2, frees: 2, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
+ - Pasta morador / Caso 5:
+ - Arquivo de output gerado: Resultados/Artur/morador/Casos/5/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 2, frees: 2, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
+ - Pasta morador / Caso 6:
+ - Arquivo de output gerado: Resultados/Artur/morador/Casos/6/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 2, frees: 2, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
+ - Pasta morador / Caso 7:
+ - Arquivo de output gerado: Resultados/Artur/morador/Casos/7/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 2, frees: 2, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
+ - Nota para a pasta morador (máximo 1.00) - 70.00 de 70 - 100.00% de 1.00: 1.00.
+ -----
+ - Pasta reserva / Caso 1:
+ - Arquivo de output gerado: Resultados/Artur/reserva/Casos/1/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 2, frees: 2, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
+ - Pasta reserva / Caso 2:
+ - Arquivo de output gerado: Resultados/Artur/reserva/Casos/2/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 2, frees: 2, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
+ - Pasta reserva / Caso 3:
+ - Arquivo de output gerado: Resultados/Artur/reserva/Casos/3/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 2, frees: 2, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
+ - Pasta reserva / Caso 4:
+ - Arquivo de output gerado: Resultados/Artur/reserva/Casos/4/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 2, frees: 2, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
+ - Pasta reserva / Caso 5:
+ - Arquivo de output gerado: Resultados/Artur/reserva/Casos/5/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 2, frees: 2, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
+ - Pasta reserva / Caso 6:
+ - Arquivo de output gerado: Resultados/Artur/reserva/Casos/6/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 2, frees: 2, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
+ - Pasta reserva / Caso 7:
+ - Arquivo de output gerado: Resultados/Artur/reserva/Casos/7/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 2, frees: 2, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
+ - Nota para a pasta reserva (máximo 3.50) - 70.00 de 70 - 100.00% de 3.50: 3.50.
+ -----
+
+#######################################
+RESULTADOS FINAIS
+#######################################
+
+----------------------------------------------------------------------------
+Aluno: Artur
+ - Arquivos Esperados Corretos: 9 de 9
+ - Pastas Compiladas Corretamente: 6 de 6 
+ - Pastas Linkadas Corretamente: 6 de 6
+ - Teste main
+ - Resultados corretos: 7 de 7
+ - Valgrinds corretos: 5 de 7
+ - Nota de Artur para o teste main: 3.50
+ - Teste completo
+ - Resultados corretos: 7 de 7
+ - Valgrinds corretos: 5 de 7
+ - Nota de Artur para o teste completo: 0
+ - Teste data
+ - Resultados corretos: 7 de 7
+ - Valgrinds corretos: 7 de 7
+ - Nota de Artur para o teste data: 1.00
+ - Teste area
+ - Resultados corretos: 7 de 7
+ - Valgrinds corretos: 7 de 7
+ - Nota de Artur para o teste area: 1.00
+ - Teste morador
+ - Resultados corretos: 7 de 7
+ - Valgrinds corretos: 7 de 7
+ - Nota de Artur para o teste morador: 1.00
+ - Teste reserva
+ - Resultados corretos: 7 de 7
+ - Valgrinds corretos: 7 de 7
+ - Nota de Artur para o teste reserva: 3.50
+ - Nota de Artur: 0+(3.50)+(1.00)+(1.00)+(3.50)+(0)+(1.00)
+ - Nota de Artur: 10.00
+
+----------------------------------------------------------------------------
+
+Arquivo CSV Resultado.csv com os resultados finais foi gerado na pasta raíz!
+
+
+

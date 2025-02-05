@@ -1,5 +1,4 @@
 #include "jogada.h"
-#include "tabuleiro.h"
 #include <stdio.h>
 
 /**
@@ -11,7 +10,11 @@ tJogada LeJogada()
 {
     tJogada jogada;
     scanf("%d %d", &jogada.x, &jogada.y);
-    jogada.sucesso = 1;
+    jogada.sucesso = 0;
+    if (jogada.x < 0 || jogada.x > 2 || jogada.y < 0 || jogada.y > 2)
+    {
+        jogada.sucesso = 1;
+    }
     return jogada;
 }
 
@@ -51,7 +54,5 @@ int ObtemJogadaY(tJogada jogada)
  */
 int FoiJogadaBemSucedida(tJogada jogada)
 {
-    if (jogada.sucesso)
-        return 1;
-    return 0;
+    return jogada.sucesso;
 }
