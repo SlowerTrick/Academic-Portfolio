@@ -1,0 +1,15 @@
+==76905== Memcheck, a memory error detector
+==76905== Copyright (C) 2002-2024, and GNU GPL'd, by Julian Seward et al.
+==76905== Using Valgrind-3.24.0 and LibVEX; rerun with -h for copyright info
+==76905== Command: Resultados/Artur/completo/prog Resultados/Artur/completo/Casos/1
+==76905== Parent PID: 76904
+==76905== 
+==76905== 
+==76905== HEAP SUMMARY:
+==76905==     in use at exit: 0 bytes in 0 blocks
+==76905==   total heap usage: 3 allocs, 3 frees, 8,232 bytes allocated
+==76905== 
+==76905== All heap blocks were freed -- no leaks are possible
+==76905== 
+==76905== For lists of detected and suppressed errors, rerun with: -s
+==76905== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)

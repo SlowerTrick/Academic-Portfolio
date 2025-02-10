@@ -1,0 +1,40 @@
+Penitenciaria CT
+6 3
+I
+13 Joao Pedro
+I
+5 Joao Paulo
+I
+7 Matheus
+I
+9 Guilherme
+I
+5 Pedro Henrique
+I
+0 Heitor
+I
+-1 Nicolas
+I
+8 Kevin
+F
+-1
+I
+15 Luis
+P
+P
+P
+P
+P
+P
+P
+P
+P
+P
+P
+P
+P
+P
+P
+I
+2 Cassio
+E

@@ -1,0 +1,24 @@
+Penitenciaria CT
+3 2
+I
+6 Gustavo
+I
+10 Guilherme
+I
+7 Joao Pedro
+I
+2 Heitor
+P
+P
+I
+15 Andre
+I
+20 Luis
+F
+0
+I
+6 Renato
+I
+8 Vitor
+I
+11 Artur

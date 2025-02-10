@@ -10,7 +10,9 @@
  */
 tPessoa CriaPessoa()
 {
-    tPessoa p = {0};
+    tPessoa p;
+    p.mae = NULL;
+    p.pai = NULL;
     return p;
 }
 
@@ -21,7 +23,7 @@ tPessoa CriaPessoa()
  */
 void LePessoa(tPessoa *pessoa)
 {
-    fgets(pessoa->nome, 100, stdin);
+    scanf(" %100[^\n]%*c", pessoa->nome);
 }
 
 /**
@@ -50,9 +52,13 @@ void ImprimePessoa(tPessoa *pessoa)
     {
         printf("NOME COMPLETO: %s\n", pessoa->nome);
         if (pessoa->pai != NULL)
-            printf("PAI: %d\n", pessoa->pai->nome);
+            printf("PAI: %s\n", pessoa->pai->nome);
+        else
+            printf("PAI: NAO INFORMADO\n");
         if (pessoa->mae != NULL)
-            printf("MAE: %d\n", pessoa->mae->nome);
+            printf("MAE: %s\n", pessoa->mae->nome);
+        else
+            printf("MAE: NAO INFORMADO\n");
     }
 }
 
@@ -63,6 +69,18 @@ void ImprimePessoa(tPessoa *pessoa)
  */
 void AssociaFamiliasGruposPessoas(tPessoa *pessoas)
 {
-    int maeIndex, paiIndex, filhoIndex;
-    scanf(" mae: %d, pai: %d, filho: %d", &maeIndex, &paiIndex, &filhoIndex);
+    int total = 0;
+    scanf("%d", &total);
+
+    for(int i = 0; i < total; i++)
+    {
+        char linha[1000];
+        int maeIndex = -1, paiIndex = -1, filhoIndex = -1;
+        scanf(" mae: %d, pai: %d, filho: %d%*c", &maeIndex, &paiIndex, &filhoIndex);
+    
+        if (maeIndex != -1)
+            pessoas[filhoIndex].mae = &pessoas[maeIndex];
+        if (paiIndex != -1)
+            pessoas[filhoIndex].pai = &pessoas[paiIndex];
+    }
 }

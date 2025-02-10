@@ -1,0 +1,102 @@
+Dia 0 na prisao de Penitenciaria CT
+Menu:
+ I - Inserir detento
+ P - Passar o dia
+ F - Registrar fuga de cela
+ E - Encerrar programa
+Informe a pena e o nome do prisioneiro:
+Detento Gustavo foi inserido na cela 0
+Dia 0 na prisao de Penitenciaria CT
+Menu:
+ I - Inserir detento
+ P - Passar o dia
+ F - Registrar fuga de cela
+ E - Encerrar programa
+Informe a pena e o nome do prisioneiro:
+Detento Guilherme foi inserido na cela 0
+Dia 0 na prisao de Penitenciaria CT
+Menu:
+ I - Inserir detento
+ P - Passar o dia
+ F - Registrar fuga de cela
+ E - Encerrar programa
+Informe a pena e o nome do prisioneiro:
+Detento Joao Pedro foi inserido na cela 1
+Dia 0 na prisao de Penitenciaria CT
+Menu:
+ I - Inserir detento
+ P - Passar o dia
+ F - Registrar fuga de cela
+ E - Encerrar programa
+Informe a pena e o nome do prisioneiro:
+Detento Heitor foi inserido na cela 1
+Dia 0 na prisao de Penitenciaria CT
+Menu:
+ I - Inserir detento
+ P - Passar o dia
+ F - Registrar fuga de cela
+ E - Encerrar programa
+Dia 1 na prisao de Penitenciaria CT
+Menu:
+ I - Inserir detento
+ P - Passar o dia
+ F - Registrar fuga de cela
+ E - Encerrar programa
+Detento Heitor cumpriu sua pena e foi liberado
+Dia 2 na prisao de Penitenciaria CT
+Menu:
+ I - Inserir detento
+ P - Passar o dia
+ F - Registrar fuga de cela
+ E - Encerrar programa
+Informe a pena e o nome do prisioneiro:
+Detento Andre foi inserido na cela 1
+Dia 2 na prisao de Penitenciaria CT
+Menu:
+ I - Inserir detento
+ P - Passar o dia
+ F - Registrar fuga de cela
+ E - Encerrar programa
+Informe a pena e o nome do prisioneiro:
+Detento Luis foi inserido na cela 2
+Dia 2 na prisao de Penitenciaria CT
+Menu:
+ I - Inserir detento
+ P - Passar o dia
+ F - Registrar fuga de cela
+ E - Encerrar programa
+Informe a cela em qual ocorreu a fuga:
+Detento Gustavo fugiu!
+Detento Guilherme fugiu!
+Dia 2 na prisao de Penitenciaria CT
+Menu:
+ I - Inserir detento
+ P - Passar o dia
+ F - Registrar fuga de cela
+ E - Encerrar programa
+Informe a pena e o nome do prisioneiro:
+Detento Renato foi inserido na cela 0
+Dia 2 na prisao de Penitenciaria CT
+Menu:
+ I - Inserir detento
+ P - Passar o dia
+ F - Registrar fuga de cela
+ E - Encerrar programa
+Informe a pena e o nome do prisioneiro:
+Detento Vitor foi inserido na cela 0
+Dia 2 na prisao de Penitenciaria CT
+Menu:
+ I - Inserir detento
+ P - Passar o dia
+ F - Registrar fuga de cela
+ E - Encerrar programa
+Informe a pena e o nome do prisioneiro:
+Detento Artur foi inserido na cela 2
+REBELIAO GERAL
+Detento Renato fugiu!
+Detento Vitor fugiu!
+Detento Joao Pedro fugiu!
+Detento Andre fugiu!
+Detento Luis fugiu!
+Detento Artur fugiu!
+Fim do programa.

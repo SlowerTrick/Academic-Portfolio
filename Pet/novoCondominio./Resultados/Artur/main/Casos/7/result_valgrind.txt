@@ -1,28 +1,28 @@
-==566354== Memcheck, a memory error detector
-==566354== Copyright (C) 2002-2024, and GNU GPL'd, by Julian Seward et al.
-==566354== Using Valgrind-3.24.0 and LibVEX; rerun with -h for copyright info
-==566354== Command: Resultados/Artur/main/prog Resultados/Artur/main/Casos/7
-==566354== Parent PID: 566353
-==566354== 
-==566354== 
-==566354== HEAP SUMMARY:
-==566354==     in use at exit: 16 bytes in 2 blocks
-==566354==   total heap usage: 14 allocs, 12 frees, 8,288 bytes allocated
-==566354== 
-==566354== 4 bytes in 1 blocks are definitely lost in loss record 1 of 2
-==566354==    at 0x4841866: malloc (vg_replace_malloc.c:446)
-==566354==    by 0x40198B: main (in /home/slower/Desktop/novoCondominio./Resultados/Artur/main/prog)
-==566354== 
-==566354== 12 bytes in 1 blocks are definitely lost in loss record 2 of 2
-==566354==    at 0x4841866: malloc (vg_replace_malloc.c:446)
-==566354==    by 0x40197A: main (in /home/slower/Desktop/novoCondominio./Resultados/Artur/main/prog)
-==566354== 
-==566354== LEAK SUMMARY:
-==566354==    definitely lost: 16 bytes in 2 blocks
-==566354==    indirectly lost: 0 bytes in 0 blocks
-==566354==      possibly lost: 0 bytes in 0 blocks
-==566354==    still reachable: 0 bytes in 0 blocks
-==566354==         suppressed: 0 bytes in 0 blocks
-==566354== 
-==566354== For lists of detected and suppressed errors, rerun with: -s
-==566354== ERROR SUMMARY: 2 errors from 2 contexts (suppressed: 0 from 0)
+==575352== Memcheck, a memory error detector
+==575352== Copyright (C) 2002-2024, and GNU GPL'd, by Julian Seward et al.
+==575352== Using Valgrind-3.24.0 and LibVEX; rerun with -h for copyright info
+==575352== Command: Resultados/Artur/main/prog Resultados/Artur/main/Casos/7
+==575352== Parent PID: 575351
+==575352== 
+==575352== 
+==575352== HEAP SUMMARY:
+==575352==     in use at exit: 16 bytes in 2 blocks
+==575352==   total heap usage: 14 allocs, 12 frees, 8,288 bytes allocated
+==575352== 
+==575352== 4 bytes in 1 blocks are definitely lost in loss record 1 of 2
+==575352==    at 0x4841866: malloc (vg_replace_malloc.c:446)
+==575352==    by 0x40198B: main (in /home/slower/Documents/Prog2/Pet/novoCondominio./Resultados/Artur/main/prog)
+==575352== 
+==575352== 12 bytes in 1 blocks are definitely lost in loss record 2 of 2
+==575352==    at 0x4841866: malloc (vg_replace_malloc.c:446)
+==575352==    by 0x40197A: main (in /home/slower/Documents/Prog2/Pet/novoCondominio./Resultados/Artur/main/prog)
+==575352== 
+==575352== LEAK SUMMARY:
+==575352==    definitely lost: 16 bytes in 2 blocks
+==575352==    indirectly lost: 0 bytes in 0 blocks
+==575352==      possibly lost: 0 bytes in 0 blocks
+==575352==    still reachable: 0 bytes in 0 blocks
+==575352==         suppressed: 0 bytes in 0 blocks
+==575352== 
+==575352== For lists of detected and suppressed errors, rerun with: -s
+==575352== ERROR SUMMARY: 2 errors from 2 contexts (suppressed: 0 from 0)

@@ -1,0 +1,10 @@
+
+Arquivos    
+    saida.txt=10.0
+
+Validações
+    prisioneiro=1.0
+    cela=3.0
+    prisao=4.0
+    completo=1.0
+    main=1.0

@@ -1,0 +1,148 @@
+Dia 0 na prisao de Penitenciaria CT
+Menu:
+ I - Inserir detento
+ P - Passar o dia
+ F - Registrar fuga de cela
+ E - Encerrar programa
+Informe a pena e o nome do prisioneiro:
+Detento Heitor foi inserido na cela 0
+Dia 0 na prisao de Penitenciaria CT
+Menu:
+ I - Inserir detento
+ P - Passar o dia
+ F - Registrar fuga de cela
+ E - Encerrar programa
+Informe a pena e o nome do prisioneiro:
+Detento Joao Paulo foi inserido na cela 0
+Dia 0 na prisao de Penitenciaria CT
+Menu:
+ I - Inserir detento
+ P - Passar o dia
+ F - Registrar fuga de cela
+ E - Encerrar programa
+Informe a pena e o nome do prisioneiro:
+Detento Eduardo foi inserido na cela 1
+Dia 0 na prisao de Penitenciaria CT
+Menu:
+ I - Inserir detento
+ P - Passar o dia
+ F - Registrar fuga de cela
+ E - Encerrar programa
+Informe a pena e o nome do prisioneiro:
+Detento Guilherme foi inserido na cela 1
+Dia 0 na prisao de Penitenciaria CT
+Menu:
+ I - Inserir detento
+ P - Passar o dia
+ F - Registrar fuga de cela
+ E - Encerrar programa
+Informe a pena e o nome do prisioneiro:
+Detento Pedro Henrique foi inserido na cela 2
+Dia 0 na prisao de Penitenciaria CT
+Menu:
+ I - Inserir detento
+ P - Passar o dia
+ F - Registrar fuga de cela
+ E - Encerrar programa
+Dia 1 na prisao de Penitenciaria CT
+Menu:
+ I - Inserir detento
+ P - Passar o dia
+ F - Registrar fuga de cela
+ E - Encerrar programa
+Dia 2 na prisao de Penitenciaria CT
+Menu:
+ I - Inserir detento
+ P - Passar o dia
+ F - Registrar fuga de cela
+ E - Encerrar programa
+Detento Heitor cumpriu sua pena e foi liberado
+Dia 3 na prisao de Penitenciaria CT
+Menu:
+ I - Inserir detento
+ P - Passar o dia
+ F - Registrar fuga de cela
+ E - Encerrar programa
+Informe a cela em qual ocorreu a fuga:
+Detento Eduardo fugiu!
+Detento Guilherme fugiu!
+Dia 3 na prisao de Penitenciaria CT
+Menu:
+ I - Inserir detento
+ P - Passar o dia
+ F - Registrar fuga de cela
+ E - Encerrar programa
+Informe a pena e o nome do prisioneiro:
+Detento Heitor foi inserido na cela 0
+Dia 3 na prisao de Penitenciaria CT
+Menu:
+ I - Inserir detento
+ P - Passar o dia
+ F - Registrar fuga de cela
+ E - Encerrar programa
+Informe a pena e o nome do prisioneiro:
+Detento Felipe foi inserido na cela 1
+Dia 3 na prisao de Penitenciaria CT
+Menu:
+ I - Inserir detento
+ P - Passar o dia
+ F - Registrar fuga de cela
+ E - Encerrar programa
+Informe a pena e o nome do prisioneiro:
+Detento Caio foi inserido na cela 1
+Dia 3 na prisao de Penitenciaria CT
+Menu:
+ I - Inserir detento
+ P - Passar o dia
+ F - Registrar fuga de cela
+ E - Encerrar programa
+Informe a pena e o nome do prisioneiro:
+Detento Jorge foi inserido na cela 2
+Dia 3 na prisao de Penitenciaria CT
+Menu:
+ I - Inserir detento
+ P - Passar o dia
+ F - Registrar fuga de cela
+ E - Encerrar programa
+Informe a pena e o nome do prisioneiro:
+Detento Vitor foi inserido na cela 3
+Dia 3 na prisao de Penitenciaria CT
+Menu:
+ I - Inserir detento
+ P - Passar o dia
+ F - Registrar fuga de cela
+ E - Encerrar programa
+Dia 4 na prisao de Penitenciaria CT
+Menu:
+ I - Inserir detento
+ P - Passar o dia
+ F - Registrar fuga de cela
+ E - Encerrar programa
+Detento Joao Paulo cumpriu sua pena e foi liberado
+Detento Pedro Henrique cumpriu sua pena e foi liberado
+Dia 5 na prisao de Penitenciaria CT
+Menu:
+ I - Inserir detento
+ P - Passar o dia
+ F - Registrar fuga de cela
+ E - Encerrar programa
+Detento Vitor cumpriu sua pena e foi liberado
+Dia 6 na prisao de Penitenciaria CT
+Menu:
+ I - Inserir detento
+ P - Passar o dia
+ F - Registrar fuga de cela
+ E - Encerrar programa
+Dia 7 na prisao de Penitenciaria CT
+Menu:
+ I - Inserir detento
+ P - Passar o dia
+ F - Registrar fuga de cela
+ E - Encerrar programa
+Dia 8 na prisao de Penitenciaria CT
+Menu:
+ I - Inserir detento
+ P - Passar o dia
+ F - Registrar fuga de cela
+ E - Encerrar programa
+Prisioneiros liberados para a finalizacao do programa!!!

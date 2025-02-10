@@ -1,28 +1,28 @@
-==566784== Memcheck, a memory error detector
-==566784== Copyright (C) 2002-2024, and GNU GPL'd, by Julian Seward et al.
-==566784== Using Valgrind-3.24.0 and LibVEX; rerun with -h for copyright info
-==566784== Command: Resultados/Artur/completo/prog Resultados/Artur/completo/Casos/3
-==566784== Parent PID: 566783
-==566784== 
-==566784== 
-==566784== HEAP SUMMARY:
-==566784==     in use at exit: 48 bytes in 6 blocks
-==566784==   total heap usage: 10 allocs, 4 frees, 8,256 bytes allocated
-==566784== 
-==566784== 12 bytes in 3 blocks are definitely lost in loss record 1 of 2
-==566784==    at 0x4841866: malloc (vg_replace_malloc.c:446)
-==566784==    by 0x4018CE: main (in /home/slower/Desktop/novoCondominio./Resultados/Artur/completo/prog)
-==566784== 
-==566784== 36 bytes in 3 blocks are definitely lost in loss record 2 of 2
-==566784==    at 0x4841866: malloc (vg_replace_malloc.c:446)
-==566784==    by 0x4018BD: main (in /home/slower/Desktop/novoCondominio./Resultados/Artur/completo/prog)
-==566784== 
-==566784== LEAK SUMMARY:
-==566784==    definitely lost: 48 bytes in 6 blocks
-==566784==    indirectly lost: 0 bytes in 0 blocks
-==566784==      possibly lost: 0 bytes in 0 blocks
-==566784==    still reachable: 0 bytes in 0 blocks
-==566784==         suppressed: 0 bytes in 0 blocks
-==566784== 
-==566784== For lists of detected and suppressed errors, rerun with: -s
-==566784== ERROR SUMMARY: 2 errors from 2 contexts (suppressed: 0 from 0)
+==575755== Memcheck, a memory error detector
+==575755== Copyright (C) 2002-2024, and GNU GPL'd, by Julian Seward et al.
+==575755== Using Valgrind-3.24.0 and LibVEX; rerun with -h for copyright info
+==575755== Command: Resultados/Artur/completo/prog Resultados/Artur/completo/Casos/3
+==575755== Parent PID: 575754
+==575755== 
+==575755== 
+==575755== HEAP SUMMARY:
+==575755==     in use at exit: 48 bytes in 6 blocks
+==575755==   total heap usage: 10 allocs, 4 frees, 8,256 bytes allocated
+==575755== 
+==575755== 12 bytes in 3 blocks are definitely lost in loss record 1 of 2
+==575755==    at 0x4841866: malloc (vg_replace_malloc.c:446)
+==575755==    by 0x4018CE: main (in /home/slower/Documents/Prog2/Pet/novoCondominio./Resultados/Artur/completo/prog)
+==575755== 
+==575755== 36 bytes in 3 blocks are definitely lost in loss record 2 of 2
+==575755==    at 0x4841866: malloc (vg_replace_malloc.c:446)
+==575755==    by 0x4018BD: main (in /home/slower/Documents/Prog2/Pet/novoCondominio./Resultados/Artur/completo/prog)
+==575755== 
+==575755== LEAK SUMMARY:
+==575755==    definitely lost: 48 bytes in 6 blocks
+==575755==    indirectly lost: 0 bytes in 0 blocks
+==575755==      possibly lost: 0 bytes in 0 blocks
+==575755==    still reachable: 0 bytes in 0 blocks
+==575755==         suppressed: 0 bytes in 0 blocks
+==575755== 
+==575755== For lists of detected and suppressed errors, rerun with: -s
+==575755== ERROR SUMMARY: 2 errors from 2 contexts (suppressed: 0 from 0)

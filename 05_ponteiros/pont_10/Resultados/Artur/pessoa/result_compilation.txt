@@ -1,0 +1,4 @@
+pessoa.c: In function ‘AssociaFamiliasGruposPessoas’:
+pessoa.c:117:14: warning: unused variable ‘linha’ [-Wunused-variable]
+  117 |         char linha[1000];
+      |              ^~~~~

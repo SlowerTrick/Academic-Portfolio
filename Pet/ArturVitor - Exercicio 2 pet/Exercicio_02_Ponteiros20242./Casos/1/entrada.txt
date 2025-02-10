@@ -1,0 +1,33 @@
+Penitenciaria CT
+5 2
+I
+3 Heitor
+I
+5 Joao Paulo
+I
+7 Eduardo
+I
+9 Guilherme
+I
+5 Pedro Henrique
+P
+P
+P
+F
+1
+I
+10 Heitor
+I
+11 Felipe
+I
+12 Caio
+I
+20 Jorge
+I
+3 Vitor
+P
+P
+P
+P
+P
+E

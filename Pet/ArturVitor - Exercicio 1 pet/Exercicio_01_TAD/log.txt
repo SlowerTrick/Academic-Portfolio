@@ -1,0 +1,130 @@
+- Arquivo de configuração encontrado!
+ - Arquivos header necessários do professor existem na pasta Includes
+ - Arquivos objetos necessários do professor existem na pasta Gabarito-obj.
+
+#######################################
+ALUNO: Artur
+#######################################
+
+CRIANDO O DIRETÓRIO DE RESULTADO PARA Artur:
+ - Diretório Resultados/Artur criado com sucesso!
+ - Diretório Resultados/Artur/product criado com sucesso!
+ - Diretório Resultados/Artur/store criado com sucesso!
+ - Diretório Resultados/Artur/main criado com sucesso!
+ - Arquivos criados: ok!
+
+CHECKANDO OS ARQUIVOS DO ALUNO:
+ - Arquivo esperado 'Respostas/Artur/main.c' encontrado!
+ - Arquivo esperado 'Respostas/Artur/product.c' encontrado!
+ - Arquivo esperado 'Respostas/Artur/product.h' encontrado!
+ - Arquivo esperado 'Respostas/Artur/store.c' encontrado!
+ - Arquivo esperado 'Respostas/Artur/store.h' encontrado!
+ - Arquivos esperados enviados: Ok!
+
+COPIANDO OS ARQUIVOS PARA A PASTA DE RESULTADO DO ALUNO:
+ - Pasta product:
+ - Copiando os Casos de teste para a pasta Resultados/Artur/product
+ - Copiando os Includes/product.h Includes/store.h do professor para a pasta Resultados/Artur/product
+ - Copiando os Includes/*.o do professor para a pasta Resultados/Artur/product
+ - Removendo o product.o do professor da pasta Resultados/Artur/product
+ - Copiando o Respostas/Artur/product.c do aluno para a pasta Resultados/Artur/product
+ - Pasta store:
+ - Copiando os Casos de teste para a pasta Resultados/Artur/store
+ - Copiando os Includes/product.h Includes/store.h do professor para a pasta Resultados/Artur/store
+ - Copiando os Includes/*.o do professor para a pasta Resultados/Artur/store
+ - Removendo o store.o do professor da pasta Resultados/Artur/store
+ - Copiando o Respostas/Artur/store.c do aluno para a pasta Resultados/Artur/store
+ - Pasta main:
+ - Copiando os Casos de teste para a pasta Resultados/Artur/main
+ - Copiando os Includes/product.h Includes/store.h do professor para a pasta Resultados/Artur/main
+ - Copiando os Includes/*.o do professor para a pasta Resultados/Artur/main
+ - Removendo o main.o do professor da pasta Resultados/Artur/main
+ - Copiando o Respostas/Artur/main.c do aluno para a pasta Resultados/Artur/main
+ - Copiando Arquivos Extras do Aluno:
+ - Arquivos copiados: ok!
+
+COMPILANDO OS ARQUIVOS NA PASTA DE RESULTADO DO ALUNO:
+ - Compilação dos arquivos do aluno na pasta product ok!
+ - Arquivo de output gerado: Resultados/Artur/product/result_compilation.txt
+ - Compilação dos arquivos do aluno na pasta store ok!
+ - Arquivo de output gerado: Resultados/Artur/store/result_compilation.txt
+ - Compilação dos arquivos do aluno na pasta main ok!
+ - Arquivo de output gerado: Resultados/Artur/main/result_compilation.txt
+ - Arquivos Compilados: ok!
+
+LINKANDO OS ARQUIVOS COMPILADOS:
+ - Pasta product:
+ - Gerando o binário prog linkando com o(s) arquivo(s) product/*.o
+ - Arquivos Linkados: Ok! Binário prog gerado com sucesso.
+ - Arquivo de output gerado: Resultados/Artur/product/result_linking.txt
+ - Pasta store:
+ - Gerando o binário prog linkando com o(s) arquivo(s) store/*.o
+ - Arquivos Linkados: Ok! Binário prog gerado com sucesso.
+ - Arquivo de output gerado: Resultados/Artur/store/result_linking.txt
+ - Pasta main:
+ - Gerando o binário prog linkando com o(s) arquivo(s) main/*.o
+ - Arquivos Linkados: Ok! Binário prog gerado com sucesso.
+ - Arquivo de output gerado: Resultados/Artur/main/result_linking.txt
+
+EXECUTANDO O PROGRAMA EM CADA CASO:
+ - Pasta product / Caso 01:
+ - Resultado para o saida.txt: Ok! Peso: 10.0
+ - Nota para o Caso (soma dos pesos): 10.00 (soma total) - 0% (desconto do valgrind) = 10.00 de 10.0 pontos.
+ - Pasta product / Caso 02:
+ - Resultado para o saida.txt: Ok! Peso: 10.0
+ - Nota para o Caso (soma dos pesos): 10.00 (soma total) - 0% (desconto do valgrind) = 10.00 de 10.0 pontos.
+ - Pasta product / Caso 03:
+ - Resultado para o saida.txt: Ok! Peso: 10.0
+ - Nota para o Caso (soma dos pesos): 10.00 (soma total) - 0% (desconto do valgrind) = 10.00 de 10.0 pontos.
+ - Nota para a pasta product (máximo 2.0) - 30.00 de 30.0 - 100.00% de 2.0: 2.00.
+ -----
+ - Pasta store / Caso 01:
+ - Resultado para o saida.txt: Ok! Peso: 10.0
+ - Nota para o Caso (soma dos pesos): 10.00 (soma total) - 0% (desconto do valgrind) = 10.00 de 10.0 pontos.
+ - Pasta store / Caso 02:
+ - Resultado para o saida.txt: Ok! Peso: 10.0
+ - Nota para o Caso (soma dos pesos): 10.00 (soma total) - 0% (desconto do valgrind) = 10.00 de 10.0 pontos.
+ - Pasta store / Caso 03:
+ - Resultado para o saida.txt: Ok! Peso: 10.0
+ - Nota para o Caso (soma dos pesos): 10.00 (soma total) - 0% (desconto do valgrind) = 10.00 de 10.0 pontos.
+ - Nota para a pasta store (máximo 5.0) - 30.00 de 30.0 - 100.00% de 5.0: 5.00.
+ -----
+ - Pasta main / Caso 01:
+ - Resultado para o saida.txt: Ok! Peso: 10.0
+ - Nota para o Caso (soma dos pesos): 10.00 (soma total) - 0% (desconto do valgrind) = 10.00 de 10.0 pontos.
+ - Pasta main / Caso 02:
+ - Resultado para o saida.txt: Ok! Peso: 10.0
+ - Nota para o Caso (soma dos pesos): 10.00 (soma total) - 0% (desconto do valgrind) = 10.00 de 10.0 pontos.
+ - Pasta main / Caso 03:
+ - Resultado para o saida.txt: Ok! Peso: 10.0
+ - Nota para o Caso (soma dos pesos): 10.00 (soma total) - 0% (desconto do valgrind) = 10.00 de 10.0 pontos.
+ - Nota para a pasta main (máximo 3.0) - 30.00 de 30.0 - 100.00% de 3.0: 3.00.
+ -----
+
+#######################################
+RESULTADOS FINAIS
+#######################################
+
+----------------------------------------------------------------------------
+Aluno: Artur
+ - Arquivos Esperados Corretos: 5 de 5
+ - Pastas Compiladas Corretamente: 3 de 3 
+ - Pastas Linkadas Corretamente: 3 de 3
+ - Teste product
+ - Resultados corretos: 3 de 3
+ - Nota de Artur para o teste product: 2.00
+ - Teste store
+ - Resultados corretos: 3 de 3
+ - Nota de Artur para o teste store: 5.00
+ - Teste main
+ - Resultados corretos: 3 de 3
+ - Nota de Artur para o teste main: 3.00
+ - Nota de Artur: 0+(5.00)+(3.00)+(2.00)
+ - Nota de Artur: 10.00
+
+----------------------------------------------------------------------------
+
+Arquivo CSV Resultado.csv com os resultados finais foi gerado na pasta raíz!
+
+
+

@@ -10,7 +10,8 @@
     "files.associations": {
         "stdio.h": "c",
         "stdlib.h": "c",
-        "jogador.h": "c"
+        "jogador.h": "c",
+        "utils_char.h": "c"
     },
 }
 
