@@ -1,0 +1,12 @@
+jogo.c: In function ‘CriaJogo’:
+jogo.c:15:1: warning: control reaches end of non-void function [-Wreturn-type]
+   15 | }
+      | ^
+jogo.c: In function ‘AcabouJogo’:
+jogo.c:39:1: warning: control reaches end of non-void function [-Wreturn-type]
+   39 | }
+      | ^
+jogo.c: In function ‘ContinuaJogo’:
+jogo.c:50:1: warning: control reaches end of non-void function [-Wreturn-type]
+   50 | }
+      | ^

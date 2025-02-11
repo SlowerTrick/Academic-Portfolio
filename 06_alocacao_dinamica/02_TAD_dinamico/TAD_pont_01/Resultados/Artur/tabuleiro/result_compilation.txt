@@ -1,0 +1,20 @@
+tabuleiro.c: In function ‘CriaTabuleiro’:
+tabuleiro.c:15:1: warning: control reaches end of non-void function [-Wreturn-type]
+   15 | }
+      | ^
+tabuleiro.c: In function ‘TemPosicaoLivreTabuleiro’:
+tabuleiro.c:53:1: warning: control reaches end of non-void function [-Wreturn-type]
+   53 | }
+      | ^
+tabuleiro.c: In function ‘EstaMarcadaPosicaoPecaTabuleiro’:
+tabuleiro.c:69:1: warning: control reaches end of non-void function [-Wreturn-type]
+   69 | }
+      | ^
+tabuleiro.c: In function ‘EstaLivrePosicaoTabuleiro’:
+tabuleiro.c:84:1: warning: control reaches end of non-void function [-Wreturn-type]
+   84 | }
+      | ^
+tabuleiro.c: In function ‘EhPosicaoValidaTabuleiro’:
+tabuleiro.c:98:1: warning: control reaches end of non-void function [-Wreturn-type]
+   98 | }
+      | ^

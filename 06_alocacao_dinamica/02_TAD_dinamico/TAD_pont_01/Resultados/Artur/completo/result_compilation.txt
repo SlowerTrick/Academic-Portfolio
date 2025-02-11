@@ -1,0 +1,40 @@
+jogador.c: In function ‘CriaJogador’:
+jogador.c:17:1: warning: control reaches end of non-void function [-Wreturn-type]
+   17 | }
+      | ^
+jogador.c: In function ‘VenceuJogador’:
+jogador.c:54:1: warning: control reaches end of non-void function [-Wreturn-type]
+   54 | }
+      | ^
+jogo.c: In function ‘CriaJogo’:
+jogo.c:15:1: warning: control reaches end of non-void function [-Wreturn-type]
+   15 | }
+      | ^
+jogo.c: In function ‘AcabouJogo’:
+jogo.c:39:1: warning: control reaches end of non-void function [-Wreturn-type]
+   39 | }
+      | ^
+jogo.c: In function ‘ContinuaJogo’:
+jogo.c:50:1: warning: control reaches end of non-void function [-Wreturn-type]
+   50 | }
+      | ^
+tabuleiro.c: In function ‘CriaTabuleiro’:
+tabuleiro.c:15:1: warning: control reaches end of non-void function [-Wreturn-type]
+   15 | }
+      | ^
+tabuleiro.c: In function ‘TemPosicaoLivreTabuleiro’:
+tabuleiro.c:53:1: warning: control reaches end of non-void function [-Wreturn-type]
+   53 | }
+      | ^
+tabuleiro.c: In function ‘EstaMarcadaPosicaoPecaTabuleiro’:
+tabuleiro.c:69:1: warning: control reaches end of non-void function [-Wreturn-type]
+   69 | }
+      | ^
+tabuleiro.c: In function ‘EstaLivrePosicaoTabuleiro’:
+tabuleiro.c:84:1: warning: control reaches end of non-void function [-Wreturn-type]
+   84 | }
+      | ^
+tabuleiro.c: In function ‘EhPosicaoValidaTabuleiro’:
+tabuleiro.c:98:1: warning: control reaches end of non-void function [-Wreturn-type]
+   98 | }
+      | ^

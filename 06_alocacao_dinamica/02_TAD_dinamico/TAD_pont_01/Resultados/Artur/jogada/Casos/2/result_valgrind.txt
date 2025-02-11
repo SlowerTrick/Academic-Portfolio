@@ -1,0 +1,6 @@
+==7838== Memcheck, a memory error detector
+==7838== Copyright (C) 2002-2024, and GNU GPL'd, by Julian Seward et al.
+==7838== Using Valgrind-3.24.0 and LibVEX; rerun with -h for copyright info
+==7838== Command: Resultados/Artur/jogada/prog Resultados/Artur/jogada/Casos/2
+==7838== Parent PID: 7837
+==7838== 

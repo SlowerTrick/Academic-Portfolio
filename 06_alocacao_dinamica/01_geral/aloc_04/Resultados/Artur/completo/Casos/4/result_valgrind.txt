@@ -1,106 +1,15 @@
-==73674== Memcheck, a memory error detector
-==73674== Copyright (C) 2002-2024, and GNU GPL'd, by Julian Seward et al.
-==73674== Using Valgrind-3.24.0 and LibVEX; rerun with -h for copyright info
-==73674== Command: Resultados/Artur/completo/prog Resultados/Artur/completo/Casos/4
-==73674== Parent PID: 73673
-==73674== 
-==73674== Invalid read of size 1
-==73674==    at 0x484B0E6: strlen (vg_replace_strmem.c:505)
-==73674==    by 0x49B3ABC: puts (ioputs.c:35)
-==73674==    by 0x40138A: ImprimeString (in /home/slower/Documents/Prog2/06_alocacao_dinamica/01_geral/aloc_04/Resultados/Artur/completo/prog)
-==73674==    by 0x4011E9: main (in /home/slower/Documents/Prog2/06_alocacao_dinamica/01_geral/aloc_04/Resultados/Artur/completo/prog)
-==73674==  Address 0x4b4c040 is 0 bytes inside a block of size 11 free'd
-==73674==    at 0x4849347: realloc (vg_replace_malloc.c:1801)
-==73674==    by 0x401289: AumentaTamanhoVetor (in /home/slower/Documents/Prog2/06_alocacao_dinamica/01_geral/aloc_04/Resultados/Artur/completo/prog)
-==73674==    by 0x401344: LeVetor (in /home/slower/Documents/Prog2/06_alocacao_dinamica/01_geral/aloc_04/Resultados/Artur/completo/prog)
-==73674==    by 0x4011DD: main (in /home/slower/Documents/Prog2/06_alocacao_dinamica/01_geral/aloc_04/Resultados/Artur/completo/prog)
-==73674==  Block was alloc'd at
-==73674==    at 0x4841866: malloc (vg_replace_malloc.c:446)
-==73674==    by 0x40120E: CriaVetorTamPadrao (in /home/slower/Documents/Prog2/06_alocacao_dinamica/01_geral/aloc_04/Resultados/Artur/completo/prog)
-==73674==    by 0x4011B7: main (in /home/slower/Documents/Prog2/06_alocacao_dinamica/01_geral/aloc_04/Resultados/Artur/completo/prog)
-==73674== 
-==73674== Invalid read of size 1
-==73674==    at 0x484B0F4: strlen (vg_replace_strmem.c:505)
-==73674==    by 0x49B3ABC: puts (ioputs.c:35)
-==73674==    by 0x40138A: ImprimeString (in /home/slower/Documents/Prog2/06_alocacao_dinamica/01_geral/aloc_04/Resultados/Artur/completo/prog)
-==73674==    by 0x4011E9: main (in /home/slower/Documents/Prog2/06_alocacao_dinamica/01_geral/aloc_04/Resultados/Artur/completo/prog)
-==73674==  Address 0x4b4c041 is 1 bytes inside a block of size 11 free'd
-==73674==    at 0x4849347: realloc (vg_replace_malloc.c:1801)
-==73674==    by 0x401289: AumentaTamanhoVetor (in /home/slower/Documents/Prog2/06_alocacao_dinamica/01_geral/aloc_04/Resultados/Artur/completo/prog)
-==73674==    by 0x401344: LeVetor (in /home/slower/Documents/Prog2/06_alocacao_dinamica/01_geral/aloc_04/Resultados/Artur/completo/prog)
-==73674==    by 0x4011DD: main (in /home/slower/Documents/Prog2/06_alocacao_dinamica/01_geral/aloc_04/Resultados/Artur/completo/prog)
-==73674==  Block was alloc'd at
-==73674==    at 0x4841866: malloc (vg_replace_malloc.c:446)
-==73674==    by 0x40120E: CriaVetorTamPadrao (in /home/slower/Documents/Prog2/06_alocacao_dinamica/01_geral/aloc_04/Resultados/Artur/completo/prog)
-==73674==    by 0x4011B7: main (in /home/slower/Documents/Prog2/06_alocacao_dinamica/01_geral/aloc_04/Resultados/Artur/completo/prog)
-==73674== 
-==73674== Invalid read of size 1
-==73674==    at 0x49C06A0: _IO_default_xsputn (genops.c:421)
-==73674==    by 0x49C06A0: _IO_default_xsputn (genops.c:397)
-==73674==    by 0x49BF127: _IO_new_file_xsputn (fileops.c:1265)
-==73674==    by 0x49BF127: _IO_file_xsputn@@GLIBC_2.2.5 (fileops.c:1197)
-==73674==    by 0x49B3B19: puts (ioputs.c:40)
-==73674==    by 0x40138A: ImprimeString (in /home/slower/Documents/Prog2/06_alocacao_dinamica/01_geral/aloc_04/Resultados/Artur/completo/prog)
-==73674==    by 0x4011E9: main (in /home/slower/Documents/Prog2/06_alocacao_dinamica/01_geral/aloc_04/Resultados/Artur/completo/prog)
-==73674==  Address 0x4b4c040 is 0 bytes inside a block of size 11 free'd
-==73674==    at 0x4849347: realloc (vg_replace_malloc.c:1801)
-==73674==    by 0x401289: AumentaTamanhoVetor (in /home/slower/Documents/Prog2/06_alocacao_dinamica/01_geral/aloc_04/Resultados/Artur/completo/prog)
-==73674==    by 0x401344: LeVetor (in /home/slower/Documents/Prog2/06_alocacao_dinamica/01_geral/aloc_04/Resultados/Artur/completo/prog)
-==73674==    by 0x4011DD: main (in /home/slower/Documents/Prog2/06_alocacao_dinamica/01_geral/aloc_04/Resultados/Artur/completo/prog)
-==73674==  Block was alloc'd at
-==73674==    at 0x4841866: malloc (vg_replace_malloc.c:446)
-==73674==    by 0x40120E: CriaVetorTamPadrao (in /home/slower/Documents/Prog2/06_alocacao_dinamica/01_geral/aloc_04/Resultados/Artur/completo/prog)
-==73674==    by 0x4011B7: main (in /home/slower/Documents/Prog2/06_alocacao_dinamica/01_geral/aloc_04/Resultados/Artur/completo/prog)
-==73674== 
-==73674== Invalid read of size 1
-==73674==    at 0x49C06AF: _IO_default_xsputn (genops.c:420)
-==73674==    by 0x49C06AF: _IO_default_xsputn (genops.c:397)
-==73674==    by 0x49BF127: _IO_new_file_xsputn (fileops.c:1265)
-==73674==    by 0x49BF127: _IO_file_xsputn@@GLIBC_2.2.5 (fileops.c:1197)
-==73674==    by 0x49B3B19: puts (ioputs.c:40)
-==73674==    by 0x40138A: ImprimeString (in /home/slower/Documents/Prog2/06_alocacao_dinamica/01_geral/aloc_04/Resultados/Artur/completo/prog)
-==73674==    by 0x4011E9: main (in /home/slower/Documents/Prog2/06_alocacao_dinamica/01_geral/aloc_04/Resultados/Artur/completo/prog)
-==73674==  Address 0x4b4c042 is 2 bytes inside a block of size 11 free'd
-==73674==    at 0x4849347: realloc (vg_replace_malloc.c:1801)
-==73674==    by 0x401289: AumentaTamanhoVetor (in /home/slower/Documents/Prog2/06_alocacao_dinamica/01_geral/aloc_04/Resultados/Artur/completo/prog)
-==73674==    by 0x401344: LeVetor (in /home/slower/Documents/Prog2/06_alocacao_dinamica/01_geral/aloc_04/Resultados/Artur/completo/prog)
-==73674==    by 0x4011DD: main (in /home/slower/Documents/Prog2/06_alocacao_dinamica/01_geral/aloc_04/Resultados/Artur/completo/prog)
-==73674==  Block was alloc'd at
-==73674==    at 0x4841866: malloc (vg_replace_malloc.c:446)
-==73674==    by 0x40120E: CriaVetorTamPadrao (in /home/slower/Documents/Prog2/06_alocacao_dinamica/01_geral/aloc_04/Resultados/Artur/completo/prog)
-==73674==    by 0x4011B7: main (in /home/slower/Documents/Prog2/06_alocacao_dinamica/01_geral/aloc_04/Resultados/Artur/completo/prog)
-==73674== 
-==73674== Invalid free() / delete / delete[] / realloc()
-==73674==    at 0x4844B83: free (vg_replace_malloc.c:989)
-==73674==    by 0x4013A5: LiberaVetor (in /home/slower/Documents/Prog2/06_alocacao_dinamica/01_geral/aloc_04/Resultados/Artur/completo/prog)
-==73674==    by 0x4011F5: main (in /home/slower/Documents/Prog2/06_alocacao_dinamica/01_geral/aloc_04/Resultados/Artur/completo/prog)
-==73674==  Address 0x4b4c040 is 0 bytes inside a block of size 11 free'd
-==73674==    at 0x4849347: realloc (vg_replace_malloc.c:1801)
-==73674==    by 0x401289: AumentaTamanhoVetor (in /home/slower/Documents/Prog2/06_alocacao_dinamica/01_geral/aloc_04/Resultados/Artur/completo/prog)
-==73674==    by 0x401344: LeVetor (in /home/slower/Documents/Prog2/06_alocacao_dinamica/01_geral/aloc_04/Resultados/Artur/completo/prog)
-==73674==    by 0x4011DD: main (in /home/slower/Documents/Prog2/06_alocacao_dinamica/01_geral/aloc_04/Resultados/Artur/completo/prog)
-==73674==  Block was alloc'd at
-==73674==    at 0x4841866: malloc (vg_replace_malloc.c:446)
-==73674==    by 0x40120E: CriaVetorTamPadrao (in /home/slower/Documents/Prog2/06_alocacao_dinamica/01_geral/aloc_04/Resultados/Artur/completo/prog)
-==73674==    by 0x4011B7: main (in /home/slower/Documents/Prog2/06_alocacao_dinamica/01_geral/aloc_04/Resultados/Artur/completo/prog)
-==73674== 
-==73674== 
-==73674== HEAP SUMMARY:
-==73674==     in use at exit: 151 bytes in 1 blocks
-==73674==   total heap usage: 17 allocs, 17 frees, 9,407 bytes allocated
-==73674== 
-==73674== 151 bytes in 1 blocks are definitely lost in loss record 1 of 1
-==73674==    at 0x4849347: realloc (vg_replace_malloc.c:1801)
-==73674==    by 0x401289: AumentaTamanhoVetor (in /home/slower/Documents/Prog2/06_alocacao_dinamica/01_geral/aloc_04/Resultados/Artur/completo/prog)
-==73674==    by 0x401344: LeVetor (in /home/slower/Documents/Prog2/06_alocacao_dinamica/01_geral/aloc_04/Resultados/Artur/completo/prog)
-==73674==    by 0x4011DD: main (in /home/slower/Documents/Prog2/06_alocacao_dinamica/01_geral/aloc_04/Resultados/Artur/completo/prog)
-==73674== 
-==73674== LEAK SUMMARY:
-==73674==    definitely lost: 151 bytes in 1 blocks
-==73674==    indirectly lost: 0 bytes in 0 blocks
-==73674==      possibly lost: 0 bytes in 0 blocks
-==73674==    still reachable: 0 bytes in 0 blocks
-==73674==         suppressed: 0 bytes in 0 blocks
-==73674== 
-==73674== For lists of detected and suppressed errors, rerun with: -s
-==73674== ERROR SUMMARY: 23 errors from 6 contexts (suppressed: 0 from 0)
+==78278== Memcheck, a memory error detector
+==78278== Copyright (C) 2002-2024, and GNU GPL'd, by Julian Seward et al.
+==78278== Using Valgrind-3.24.0 and LibVEX; rerun with -h for copyright info
+==78278== Command: Resultados/Artur/completo/prog Resultados/Artur/completo/Casos/4
+==78278== Parent PID: 78277
+==78278== 
+==78278== 
+==78278== HEAP SUMMARY:
+==78278==     in use at exit: 0 bytes in 0 blocks
+==78278==   total heap usage: 17 allocs, 17 frees, 9,407 bytes allocated
+==78278== 
+==78278== All heap blocks were freed -- no leaks are possible
+==78278== 
+==78278== For lists of detected and suppressed errors, rerun with: -s
+==78278== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)

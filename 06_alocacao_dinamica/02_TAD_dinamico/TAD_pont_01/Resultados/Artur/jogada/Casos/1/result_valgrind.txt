@@ -1,0 +1,6 @@
+==7726== Memcheck, a memory error detector
+==7726== Copyright (C) 2002-2024, and GNU GPL'd, by Julian Seward et al.
+==7726== Using Valgrind-3.24.0 and LibVEX; rerun with -h for copyright info
+==7726== Command: Resultados/Artur/jogada/prog Resultados/Artur/jogada/Casos/1
+==7726== Parent PID: 7725
+==7726== 

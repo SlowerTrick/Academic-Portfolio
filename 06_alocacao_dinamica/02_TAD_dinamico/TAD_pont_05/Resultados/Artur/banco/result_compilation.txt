@@ -1,0 +1,16 @@
+banco.c: In function ‘SaqueContaBanco’:
+banco.c:70:36: warning: suggest parentheses around ‘&&’ within ‘||’ [-Wparentheses]
+   70 |     while ((c = getchar()) != '\n' && c == ' ' || c == '\t') {
+      |            ~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~
+banco.c: In function ‘DepositoContaBanco’:
+banco.c:98:36: warning: suggest parentheses around ‘&&’ within ‘||’ [-Wparentheses]
+   98 |     while ((c = getchar()) != '\n' && c == ' ' || c == '\t') {
+      |            ~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~
+banco.c: In function ‘TransferenciaContaBanco’:
+banco.c:126:36: warning: suggest parentheses around ‘&&’ within ‘||’ [-Wparentheses]
+  126 |     while ((c = getchar()) != '\n' && c == ' ' || c == '\t') {
+      |            ~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~
+banco.c: In function ‘CriaBanco’:
+banco.c:29:1: warning: control reaches end of non-void function [-Wreturn-type]
+   29 | }
+      | ^

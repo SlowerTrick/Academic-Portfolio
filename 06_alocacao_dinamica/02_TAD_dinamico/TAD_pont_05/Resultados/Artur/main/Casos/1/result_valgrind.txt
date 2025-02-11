@@ -1,0 +1,15 @@
+==57561== Memcheck, a memory error detector
+==57561== Copyright (C) 2002-2024, and GNU GPL'd, by Julian Seward et al.
+==57561== Using Valgrind-3.24.0 and LibVEX; rerun with -h for copyright info
+==57561== Command: Resultados/Artur/main/prog Resultados/Artur/main/Casos/1
+==57561== Parent PID: 57560
+==57561== 
+==57561== 
+==57561== HEAP SUMMARY:
+==57561==     in use at exit: 0 bytes in 0 blocks
+==57561==   total heap usage: 8 allocs, 8 frees, 8,410 bytes allocated
+==57561== 
+==57561== All heap blocks were freed -- no leaks are possible
+==57561== 
+==57561== For lists of detected and suppressed errors, rerun with: -s
+==57561== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)

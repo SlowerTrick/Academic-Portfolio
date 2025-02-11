@@ -5,8 +5,8 @@
 int main(void)
 {
     char *vetor = CriaVetorTamPadrao();
-    int tamanho = strlen(vetor);
-    LeVetor(vetor, &tamanho);
+    int tamanho = TAM_PADRAO;
+    vetor = LeVetor(vetor, &tamanho);
     ImprimeString(vetor);
     LiberaVetor(vetor);
 }

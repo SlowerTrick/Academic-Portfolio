@@ -1,0 +1,8 @@
+jogador.c: In function ‘CriaJogador’:
+jogador.c:17:1: warning: control reaches end of non-void function [-Wreturn-type]
+   17 | }
+      | ^
+jogador.c: In function ‘VenceuJogador’:
+jogador.c:54:1: warning: control reaches end of non-void function [-Wreturn-type]
+   54 | }
+      | ^

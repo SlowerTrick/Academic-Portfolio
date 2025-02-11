@@ -1,0 +1,15 @@
+==57773== Memcheck, a memory error detector
+==57773== Copyright (C) 2002-2024, and GNU GPL'd, by Julian Seward et al.
+==57773== Using Valgrind-3.24.0 and LibVEX; rerun with -h for copyright info
+==57773== Command: Resultados/Artur/main/prog Resultados/Artur/main/Casos/3
+==57773== Parent PID: 57772
+==57773== 
+==57773== 
+==57773== HEAP SUMMARY:
+==57773==     in use at exit: 0 bytes in 0 blocks
+==57773==   total heap usage: 14 allocs, 14 frees, 8,653 bytes allocated
+==57773== 
+==57773== All heap blocks were freed -- no leaks are possible
+==57773== 
+==57773== For lists of detected and suppressed errors, rerun with: -s
+==57773== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
