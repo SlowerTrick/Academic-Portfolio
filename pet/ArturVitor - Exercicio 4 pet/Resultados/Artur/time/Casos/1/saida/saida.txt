@@ -1,0 +1,82 @@
+Insira o num de times, rodadas e premio total:
+Menu:
+C - Continuar
+R - Retirar 2 times e seguir
+F - Finalizar
+
+Classificação:
+Nome | Pontos | Vitorias | Derrotas | Empates | Saldo
+Palmeiras    | 03 | 01 | 00 | 00 | +10
+Flamengo     | 03 | 01 | 00 | 00 | +01
+Corinthians  | 00 | 00 | 01 | 00 | -01
+Vasco        | 00 | 00 | 01 | 00 | -10
+
+Menu:
+C - Continuar
+R - Retirar 2 times e seguir
+F - Finalizar
+
+Classificação:
+Nome | Pontos | Vitorias | Derrotas | Empates | Saldo
+Flamengo     | 06 | 02 | 00 | 00 | +05
+Palmeiras    | 03 | 01 | 01 | 00 | +05
+Vasco        | 03 | 01 | 01 | 00 | -05
+Corinthians  | 00 | 00 | 02 | 00 | -05
+
+Menu:
+C - Continuar
+R - Retirar 2 times e seguir
+F - Finalizar
+
+Classificação:
+Nome | Pontos | Vitorias | Derrotas | Empates | Saldo
+Flamengo     | 07 | 02 | 00 | 01 | +05
+Vasco        | 04 | 01 | 01 | 01 | -05
+Palmeiras    | 03 | 01 | 02 | 00 | +04
+Corinthians  | 03 | 01 | 02 | 00 | -04
+
+Menu:
+C - Continuar
+R - Retirar 2 times e seguir
+F - Finalizar
+
+Classificação:
+Nome | Pontos | Vitorias | Derrotas | Empates | Saldo
+Flamengo     | 07 | 02 | 01 | 01 | +02
+Vasco        | 07 | 02 | 01 | 01 | -02
+Palmeiras    | 06 | 02 | 02 | 00 | +07
+Corinthians  | 03 | 01 | 03 | 00 | -07
+
+Menu:
+C - Continuar
+R - Retirar 2 times e seguir
+F - Finalizar
+
+Classificação:
+Nome | Pontos | Vitorias | Derrotas | Empates | Saldo
+Palmeiras    | 09 | 03 | 02 | 00 | +10
+Flamengo     | 07 | 02 | 02 | 01 | -01
+Vasco        | 07 | 02 | 02 | 01 | -05
+Corinthians  | 06 | 02 | 03 | 00 | -04
+
+Menu:
+C - Continuar
+R - Retirar 2 times e seguir
+F - Finalizar
+
+Times a serem retirados:
+Os times Vasco e Palmeiras se retiraram do campeonato
+Classificação:
+Nome | Pontos | Vitorias | Derrotas | Empates | Saldo
+Flamengo     | 10 | 03 | 02 | 01 | +01
+Corinthians  | 06 | 02 | 04 | 00 | -06
+
+Menu:
+C - Continuar
+R - Retirar 2 times e seguir
+F - Finalizar
+
+Times a serem retirados:
+Os times Flamengo e Corinthians se retiraram do campeonato
+Premio de R$10000.00 acumulado para a proxima edicao
+Fim do campeonato

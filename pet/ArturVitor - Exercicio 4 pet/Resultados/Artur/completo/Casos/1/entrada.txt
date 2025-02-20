@@ -1,0 +1,25 @@
+4 7 10000
+Flamengo
+Corinthians
+Palmeiras
+Vasco
+C
+Flamengo 3 x 2 Corinthians
+Palmeiras 10 x 0 Vasco
+C
+Flamengo 4 x 0 Corinthians
+Palmeiras 2 x 7 Vasco
+C
+Flamengo 3 x 3 Vasco
+Corinthians 5 x 4 Palmeiras
+C
+Flamengo 0 x 3 Vasco
+Corinthians 1 x 4 Palmeiras
+C
+Flamengo 0 x 3 Palmeiras
+Vasco 1 x 4 Corinthians
+R
+Vasco Palmeiras
+Flamengo 2 x 0 Corinthians
+R
+Flamengo Corinthians

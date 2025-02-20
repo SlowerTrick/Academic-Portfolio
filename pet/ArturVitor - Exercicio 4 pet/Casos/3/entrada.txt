@@ -1,0 +1,24 @@
+4 7 10000
+Flamengo
+Atletico-MG
+Palmeiras
+Vasco
+C
+Flamengo 4 x 0 Atletico-MG
+Palmeiras 10 x 0 Vasco
+C
+Flamengo 3 x 3 Atletico-MG
+Palmeiras 2 x 7 Vasco
+C
+Flamengo 3 x 3 Vasco
+Atletico-MG 5 x 4 Palmeiras
+C
+Flamengo 0 x 3 Vasco
+Atletico-MG 1 x 4 Palmeiras
+C
+Flamengo 0 x 3 Palmeiras
+Vasco 1 x 4 Atletico-MG
+R
+Vasco Palmeiras
+Flamengo 2 x 0 Atletico-MG
+F

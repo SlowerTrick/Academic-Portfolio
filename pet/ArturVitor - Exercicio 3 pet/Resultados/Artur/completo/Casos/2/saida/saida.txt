@@ -1,0 +1,60 @@
+===| Imprimindo Relatorio |===
+Conta: 1
+Saldo: R$ 100.00
+Nome: lara
+CPF: 222444444
+
+Conta: 2
+Saldo: R$ 280.00
+Nome: matheus
+CPF: 444555666
+
+Conta: 3
+Saldo: R$ 20.00
+Nome: jose
+CPF: 111223344
+
+Conta: 4
+Saldo: R$ 100.00
+Nome: ana
+CPF: 555666777
+
+===| Imprimindo Extrato |===
+Conta: 1
+Saldo: R$ 100.00
+Nome: lara
+CPF: 222444444
+
+Ultimas 3 transações
+-50.00
+-50.00
+200.00
+
+===| Imprimindo Extrato |===
+Conta: 2
+Saldo: R$ 280.00
+Nome: matheus
+CPF: 444555666
+
+Ultimas 2 transações
+100.00
+-20.00
+
+===| Imprimindo Extrato |===
+Conta: 3
+Saldo: R$ 20.00
+Nome: jose
+CPF: 111223344
+
+Ultimas 1 transações
+20.00
+
+===| Imprimindo Extrato |===
+Conta: 4
+Saldo: R$ 100.00
+Nome: ana
+CPF: 555666777
+
+Ultimas 1 transações
+100.00
+

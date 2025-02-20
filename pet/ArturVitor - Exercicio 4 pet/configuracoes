@@ -1,0 +1,13 @@
+
+Arquivos    
+    saida.txt=10.0
+    
+Valgrind
+    desconto=0.5
+
+Validações
+    time=1.0
+    tabela=3.0
+    brasileirao=4.0
+    completo=1.0
+    main=1.0

@@ -1,0 +1,15 @@
+==124929== Memcheck, a memory error detector
+==124929== Copyright (C) 2002-2024, and GNU GPL'd, by Julian Seward et al.
+==124929== Using Valgrind-3.24.0 and LibVEX; rerun with -h for copyright info
+==124929== Command: Resultados/Artur/completo/prog Resultados/Artur/completo/Casos/5
+==124929== Parent PID: 124928
+==124929== 
+==124929== 
+==124929== HEAP SUMMARY:
+==124929==     in use at exit: 0 bytes in 0 blocks
+==124929==   total heap usage: 0 allocs, 0 frees, 0 bytes allocated
+==124929== 
+==124929== All heap blocks were freed -- no leaks are possible
+==124929== 
+==124929== For lists of detected and suppressed errors, rerun with: -s
+==124929== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)

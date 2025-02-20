@@ -1,0 +1,6 @@
+==9735== Memcheck, a memory error detector
+==9735== Copyright (C) 2002-2024, and GNU GPL'd, by Julian Seward et al.
+==9735== Using Valgrind-3.24.0 and LibVEX; rerun with -h for copyright info
+==9735== Command: Resultados/Artur/relatorio/prog Resultados/Artur/relatorio/Casos/1
+==9735== Parent PID: 9734
+==9735== 

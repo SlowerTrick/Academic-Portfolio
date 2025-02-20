@@ -1,0 +1,6 @@
+==9831== Memcheck, a memory error detector
+==9831== Copyright (C) 2002-2024, and GNU GPL'd, by Julian Seward et al.
+==9831== Using Valgrind-3.24.0 and LibVEX; rerun with -h for copyright info
+==9831== Command: Resultados/Artur/relatorio/prog Resultados/Artur/relatorio/Casos/2
+==9831== Parent PID: 9830
+==9831== 

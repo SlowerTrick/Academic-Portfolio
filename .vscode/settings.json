@@ -12,7 +12,14 @@
         "stdlib.h": "c",
         "jogador.h": "c",
         "utils_char.h": "c",
-        "string.h": "c"
+        "string.h": "c",
+        "circulo.h": "c",
+        "data.h": "c",
+        "funcionario.h": "c",
+        "empresa.h": "c",
+        "duelo.h": "c",
+        "dracomania.h": "c",
+        "carta.h": "c"
     },
 }
 

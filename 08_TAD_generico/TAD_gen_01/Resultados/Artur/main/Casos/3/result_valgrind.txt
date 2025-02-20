@@ -1,0 +1,15 @@
+==43828== Memcheck, a memory error detector
+==43828== Copyright (C) 2002-2024, and GNU GPL'd, by Julian Seward et al.
+==43828== Using Valgrind-3.24.0 and LibVEX; rerun with -h for copyright info
+==43828== Command: Resultados/Artur/main/prog Resultados/Artur/main/Casos/3
+==43828== Parent PID: 43827
+==43828== 
+==43828== 
+==43828== HEAP SUMMARY:
+==43828==     in use at exit: 0 bytes in 0 blocks
+==43828==   total heap usage: 4 allocs, 4 frees, 8,228 bytes allocated
+==43828== 
+==43828== All heap blocks were freed -- no leaks are possible
+==43828== 
+==43828== For lists of detected and suppressed errors, rerun with: -s
+==43828== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)

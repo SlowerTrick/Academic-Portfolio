@@ -1,0 +1,25 @@
+Arquivos Esperados Corretos: 7 de 7
+Pastas Compiladas Corretamente: 5 de 5 
+Pastas Linkadas Corretamente: 5 de 5
+Teste time
+  - Resultados corretos: 4 de 4
+  - Valgrinds corretos: 4 de 4
+Nota de Artur para o teste time: 1.00
+Teste tabela
+  - Resultados corretos: 4 de 4
+  - Valgrinds corretos: 4 de 4
+Nota de Artur para o teste tabela: 3.00
+Teste brasileirao
+  - Resultados corretos: 4 de 4
+  - Valgrinds corretos: 4 de 4
+Nota de Artur para o teste brasileirao: 4.00
+Teste completo
+  - Resultados corretos: 4 de 4
+  - Valgrinds corretos: 4 de 4
+Nota de Artur para o teste completo: 1.00
+Teste main
+  - Resultados corretos: 4 de 4
+  - Valgrinds corretos: 4 de 4
+Nota de Artur para o teste main: 1.00
+Nota de Artur: 0+(4.00)+(3.00)+(1.00)+(1.00)+(1.00)
+Nota de Artur: 10.00

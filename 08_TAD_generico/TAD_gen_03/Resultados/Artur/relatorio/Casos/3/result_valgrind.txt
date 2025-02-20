@@ -1,0 +1,6 @@
+==9925== Memcheck, a memory error detector
+==9925== Copyright (C) 2002-2024, and GNU GPL'd, by Julian Seward et al.
+==9925== Using Valgrind-3.24.0 and LibVEX; rerun with -h for copyright info
+==9925== Command: Resultados/Artur/relatorio/prog Resultados/Artur/relatorio/Casos/3
+==9925== Parent PID: 9924
+==9925== 

@@ -1,0 +1,12 @@
+
+Arquivos    
+    saida.txt=10.0
+    
+Valgrind
+    desconto=0.5
+
+Validações
+    conta=4.0
+    usuario=4.0
+    completo=1.0
+    main=1.0

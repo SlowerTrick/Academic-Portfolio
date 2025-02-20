@@ -1,0 +1,1 @@
+valgrind: Resultados/Artur/vector/prog: No such file or directory

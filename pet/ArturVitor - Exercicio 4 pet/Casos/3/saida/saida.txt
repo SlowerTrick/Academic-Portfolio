@@ -1,0 +1,87 @@
+Insira o num de times, rodadas e premio total:
+Menu:
+C - Continuar
+R - Retirar 2 times e seguir
+F - Finalizar
+
+Classificação:
+Nome | Pontos | Vitorias | Derrotas | Empates | Saldo
+Palmeiras    | 03 | 01 | 00 | 00 | +10
+Flamengo     | 03 | 01 | 00 | 00 | +04
+Atletico-MG  | 00 | 00 | 01 | 00 | -04
+Vasco        | 00 | 00 | 01 | 00 | -10
+
+Menu:
+C - Continuar
+R - Retirar 2 times e seguir
+F - Finalizar
+
+Classificação:
+Nome | Pontos | Vitorias | Derrotas | Empates | Saldo
+Flamengo     | 04 | 01 | 00 | 01 | +04
+Palmeiras    | 03 | 01 | 01 | 00 | +05
+Vasco        | 03 | 01 | 01 | 00 | -05
+Atletico-MG  | 01 | 00 | 01 | 01 | -04
+
+Menu:
+C - Continuar
+R - Retirar 2 times e seguir
+F - Finalizar
+
+Classificação:
+Nome | Pontos | Vitorias | Derrotas | Empates | Saldo
+Flamengo     | 05 | 01 | 00 | 02 | +04
+Atletico-MG  | 04 | 01 | 01 | 01 | -03
+Vasco        | 04 | 01 | 01 | 01 | -05
+Palmeiras    | 03 | 01 | 02 | 00 | +04
+
+Menu:
+C - Continuar
+R - Retirar 2 times e seguir
+F - Finalizar
+
+Classificação:
+Nome | Pontos | Vitorias | Derrotas | Empates | Saldo
+Vasco        | 07 | 02 | 01 | 01 | -02
+Palmeiras    | 06 | 02 | 02 | 00 | +07
+Flamengo     | 05 | 01 | 01 | 02 | +01
+Atletico-MG  | 04 | 01 | 02 | 01 | -06
+
+Menu:
+C - Continuar
+R - Retirar 2 times e seguir
+F - Finalizar
+
+Classificação:
+Nome | Pontos | Vitorias | Derrotas | Empates | Saldo
+Palmeiras    | 09 | 03 | 02 | 00 | +10
+Atletico-MG  | 07 | 02 | 02 | 01 | -03
+Vasco        | 07 | 02 | 02 | 01 | -05
+Flamengo     | 05 | 01 | 02 | 02 | -02
+
+Menu:
+C - Continuar
+R - Retirar 2 times e seguir
+F - Finalizar
+
+Times a serem retirados:
+Os times Vasco e Palmeiras se retiraram do campeonato
+Classificação:
+Nome | Pontos | Vitorias | Derrotas | Empates | Saldo
+Flamengo     | 08 | 02 | 02 | 02 | +00
+Atletico-MG  | 07 | 02 | 03 | 01 | -05
+
+Menu:
+C - Continuar
+R - Retirar 2 times e seguir
+F - Finalizar
+
+Esta foi a tabela final:
+Classificação:
+Nome | Pontos | Vitorias | Derrotas | Empates | Saldo
+Flamengo     | 08 | 02 | 02 | 02 | +00
+Atletico-MG  | 07 | 02 | 03 | 01 | -05
+
+1º lugar - Flamengo: R$6000.00
+2º lugar - Atletico-MG: R$4000.00
+Fim do campeonato

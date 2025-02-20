@@ -1,0 +1,46 @@
+===| Imprimindo Relatorio |===
+Conta: 1
+Saldo: R$ 150.00
+Nome: paulo
+CPF: 123456789
+
+Conta: 2
+Saldo: R$ 450.00
+Nome: maria
+CPF: 987654321
+
+Conta: 3
+Saldo: R$ 100.00
+Nome: pedro
+CPF: 192837465
+
+===| Imprimindo Extrato |===
+Conta: 1
+Saldo: R$ 150.00
+Nome: paulo
+CPF: 123456789
+
+Ultimas 3 transações
+-200.00
+-150.00
+500.00
+
+===| Imprimindo Extrato |===
+Conta: 2
+Saldo: R$ 450.00
+Nome: maria
+CPF: 987654321
+
+Ultimas 2 transações
+150.00
+300.00
+
+===| Imprimindo Extrato |===
+Conta: 3
+Saldo: R$ 100.00
+Nome: pedro
+CPF: 192837465
+
+Ultimas 1 transações
+100.00
+
