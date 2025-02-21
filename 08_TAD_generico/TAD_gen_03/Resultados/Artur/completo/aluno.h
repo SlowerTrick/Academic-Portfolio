@@ -43,4 +43,6 @@ char GetGeneroAluno(tAluno *aluno);
 float GetNotaAluno(tAluno *aluno);
 
 
+void ImprimeAluno(tAluno *a);
+
 #endif // _ALUNO_H_

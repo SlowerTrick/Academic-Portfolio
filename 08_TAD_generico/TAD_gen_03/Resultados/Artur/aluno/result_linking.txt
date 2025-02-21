@@ -1,3 +1,0 @@
-/usr/bin/ld: Resultados/Artur/aluno/main.o: in function `main':
-main.c:(.text+0x53): undefined reference to `CriaAluno'
-collect2: error: ld returned 1 exit status

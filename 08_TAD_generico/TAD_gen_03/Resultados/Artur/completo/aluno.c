@@ -3,12 +3,27 @@
 #include <string.h>
 #include "aluno.h"
 
+struct Aluno
+{
+    char nome[50];
+    char genero;
+    float nota;
+};
+
+
+
 /**
  * @brief Aloca memoria para um aluno
  * 
  * @return A estrutura tAluno inicializada. Caso não seja possível alocar memória, o programa é encerrado.
 */
-tAluno *CriaAluno();
+tAluno *CriaAluno()
+{
+    tAluno *a = malloc(sizeof(*a));
+    a->genero = '0';
+    a->nota = 0;
+    return a;
+}
 
 /**
  * @brief Libera a memoria alocada para um aluno
@@ -18,7 +33,9 @@ tAluno *CriaAluno();
 */
 void DestroiAluno(data_type aluno)
 {
-
+    if(aluno)
+        free(aluno);
+    aluno = NULL;
 }
 
 /**
@@ -28,7 +45,7 @@ void DestroiAluno(data_type aluno)
 */
 void LeAluno(tAluno *aluno)
 {
-
+    scanf("%[^;];%c;%f%*c", aluno->nome, &aluno->genero, &aluno->nota);
 }
 
 /**
@@ -39,7 +56,7 @@ void LeAluno(tAluno *aluno)
 */
 char GetGeneroAluno(tAluno *aluno)
 {
-
+    return aluno->genero;
 }
 
 /**
@@ -50,6 +67,10 @@ char GetGeneroAluno(tAluno *aluno)
 */
 float GetNotaAluno(tAluno *aluno)
 {
-
+    return aluno->nota;
 }
 
+void ImprimeAluno(tAluno *a)
+{
+    printf("%s %c %f\n", a->nome, a->genero, a->nota);
+}

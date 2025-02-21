@@ -19,7 +19,8 @@
         "empresa.h": "c",
         "duelo.h": "c",
         "dracomania.h": "c",
-        "carta.h": "c"
+        "carta.h": "c",
+        "relatorio.h": "c"
     },
 }
 

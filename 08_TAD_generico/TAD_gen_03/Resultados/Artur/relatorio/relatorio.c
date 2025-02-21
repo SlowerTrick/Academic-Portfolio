@@ -12,8 +12,7 @@
 */
 void ImprimeRelatorio(Vector *alunos)
 {
-    printf("aaa");
-    /* float media = 0;
+    float media_total = 0;
     int total_alunos = 0, total_masculino = 0, total_feminino = 0, total_outros = 0; 
     int total_aprovados = 0, total_reprovados = 0;
 
@@ -22,29 +21,31 @@ void ImprimeRelatorio(Vector *alunos)
         data_type d = VectorGet(alunos, i);
 
         char genero = GetGeneroAluno(d);
-        if(d == 'M')
+        if(genero == 'M')
             total_masculino++;
-        else if(d == 'F')
+        else if(genero == 'F')
             total_feminino++;
-        else if(d == 'O')
+        else if(genero == 'O')
             total_outros++;
-
-        media += GetNotaAluno(d);
-        if(media >= 6)
+        
+        float media_atual = GetNotaAluno(d);
+        media_total += media_atual;
+        
+        if(media_atual >= 6)
             total_aprovados++;
         else
             total_reprovados++;
 
         total_alunos++;
     }
-    
-    media = media / total_alunos;
 
-    printf("Media das notas: %.2f\n", media);
-    printf("Porcentagem de alunos aprovados: %.2f%%\n", (float)total_aprovados / total_reprovados * 100);
+    media_total = media_total / total_alunos;
+
+    printf("Media das notas: %.2f\n", media_total);
+    printf("Porcentagem de alunos aprovados: %.2f%%\n",  (float)total_aprovados / total_alunos * 100);
     printf("Porcentagem de cada genero:\n");
     printf("Masculino: %.2f%%\n", (float)total_masculino / total_alunos * 100);
-    printf("Feminino: 25.00%%\n", (float)total_feminino / total_alunos * 100);
-    printf("Outro: 50.00%%\n", (float)total_outros / total_alunos * 100); */
+    printf("Feminino: %.2f%%\n", (float)total_feminino / total_alunos * 100);
+    printf("Outro: %.2f%%\n", (float)total_outros / total_alunos * 100);
 }
 
