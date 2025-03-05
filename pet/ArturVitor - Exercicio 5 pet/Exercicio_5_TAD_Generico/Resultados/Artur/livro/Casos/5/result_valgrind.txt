@@ -1,0 +1,15 @@
+==82909== Memcheck, a memory error detector
+==82909== Copyright (C) 2002-2024, and GNU GPL'd, by Julian Seward et al.
+==82909== Using Valgrind-3.24.0 and LibVEX; rerun with -h for copyright info
+==82909== Command: Resultados/Artur/livro/prog Resultados/Artur/livro/Casos/5
+==82909== Parent PID: 82908
+==82909== 
+==82909== 
+==82909== HEAP SUMMARY:
+==82909==     in use at exit: 0 bytes in 0 blocks
+==82909==   total heap usage: 33 allocs, 33 frees, 14,928 bytes allocated
+==82909== 
+==82909== All heap blocks were freed -- no leaks are possible
+==82909== 
+==82909== For lists of detected and suppressed errors, rerun with: -s
+==82909== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)

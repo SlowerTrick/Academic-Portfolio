@@ -1,0 +1,8 @@
+main.c: In function ‘main’:
+main.c:12:26: warning: unused variable ‘item_atual’ [-Wunused-variable]
+   12 |     int total_operacoes, item_atual = 0;
+      |                          ^~~~~~~~~~
+main.c: In function ‘DestroiMovelMain’:
+main.c:39:13: warning: unused variable ‘movel’ [-Wunused-variable]
+   39 |     tMovel *movel = (tMovel *) m;
+      |             ^~~~~

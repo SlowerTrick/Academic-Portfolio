@@ -1,0 +1,15 @@
+==77227== Memcheck, a memory error detector
+==77227== Copyright (C) 2002-2024, and GNU GPL'd, by Julian Seward et al.
+==77227== Using Valgrind-3.24.0 and LibVEX; rerun with -h for copyright info
+==77227== Command: Resultados/Artur/agendatarefas/prog Resultados/Artur/agendatarefas/Casos/2
+==77227== Parent PID: 77226
+==77227== 
+==77227== 
+==77227== HEAP SUMMARY:
+==77227==     in use at exit: 0 bytes in 0 blocks
+==77227==   total heap usage: 16 allocs, 16 frees, 8,473 bytes allocated
+==77227== 
+==77227== All heap blocks were freed -- no leaks are possible
+==77227== 
+==77227== For lists of detected and suppressed errors, rerun with: -s
+==77227== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)

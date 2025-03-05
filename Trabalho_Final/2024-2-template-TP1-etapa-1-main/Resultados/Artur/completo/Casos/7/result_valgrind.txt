@@ -1,0 +1,184 @@
+==73367== Memcheck, a memory error detector
+==73367== Copyright (C) 2002-2024, and GNU GPL'd, by Julian Seward et al.
+==73367== Using Valgrind-3.24.0 and LibVEX; rerun with -h for copyright info
+==73367== Command: Resultados/Artur/completo/prog Resultados/Artur/completo/Casos/7
+==73367== Parent PID: 73366
+==73367== 
+==73367== Invalid read of size 4
+==73367==    at 0x402724: getTempoEstimadoOutros (in /home/slower/Documents/Prog2/Trabalho_Final/2024-2-template-TP1-etapa-1-main/Resultados/Artur/completo/prog)
+==73367==    by 0x403039: getTempoEstimadoTicket (in /home/slower/Documents/Prog2/Trabalho_Final/2024-2-template-TP1-etapa-1-main/Resultados/Artur/completo/prog)
+==73367==    by 0x40208C: distribuiTickets (in /home/slower/Documents/Prog2/Trabalho_Final/2024-2-template-TP1-etapa-1-main/Resultados/Artur/completo/prog)
+==73367==    by 0x401E61: main (in /home/slower/Documents/Prog2/Trabalho_Final/2024-2-template-TP1-etapa-1-main/Resultados/Artur/completo/prog)
+==73367==  Address 0x4b52b6c is 28 bytes after a block of size 240 in arena "client"
+==73367== 
+==73367== Invalid read of size 4
+==73367==    at 0x40253C: getTempoEstimadoManutencao (in /home/slower/Documents/Prog2/Trabalho_Final/2024-2-template-TP1-etapa-1-main/Resultados/Artur/completo/prog)
+==73367==    by 0x403039: getTempoEstimadoTicket (in /home/slower/Documents/Prog2/Trabalho_Final/2024-2-template-TP1-etapa-1-main/Resultados/Artur/completo/prog)
+==73367==    by 0x40208C: distribuiTickets (in /home/slower/Documents/Prog2/Trabalho_Final/2024-2-template-TP1-etapa-1-main/Resultados/Artur/completo/prog)
+==73367==    by 0x401E61: main (in /home/slower/Documents/Prog2/Trabalho_Final/2024-2-template-TP1-etapa-1-main/Resultados/Artur/completo/prog)
+==73367==  Address 0x4b52c74 is 28 bytes before a block of size 16 in arena "client"
+==73367== 
+==73367== Invalid read of size 4
+==73367==    at 0x4029B3: getTempoEstimadoSoftware (in /home/slower/Documents/Prog2/Trabalho_Final/2024-2-template-TP1-etapa-1-main/Resultados/Artur/completo/prog)
+==73367==    by 0x403039: getTempoEstimadoTicket (in /home/slower/Documents/Prog2/Trabalho_Final/2024-2-template-TP1-etapa-1-main/Resultados/Artur/completo/prog)
+==73367==    by 0x40208C: distribuiTickets (in /home/slower/Documents/Prog2/Trabalho_Final/2024-2-template-TP1-etapa-1-main/Resultados/Artur/completo/prog)
+==73367==    by 0x401E61: main (in /home/slower/Documents/Prog2/Trabalho_Final/2024-2-template-TP1-etapa-1-main/Resultados/Artur/completo/prog)
+==73367==  Address 0x4b52fbc is 4 bytes before a block of size 336 alloc'd
+==73367==    at 0x4841866: malloc (vg_replace_malloc.c:446)
+==73367==    by 0x402812: criaSoftware (in /home/slower/Documents/Prog2/Trabalho_Final/2024-2-template-TP1-etapa-1-main/Resultados/Artur/completo/prog)
+==73367==    by 0x4028F1: lerSoftware (in /home/slower/Documents/Prog2/Trabalho_Final/2024-2-template-TP1-etapa-1-main/Resultados/Artur/completo/prog)
+==73367==    by 0x401C46: main (in /home/slower/Documents/Prog2/Trabalho_Final/2024-2-template-TP1-etapa-1-main/Resultados/Artur/completo/prog)
+==73367== 
+==73367== Conditional jump or move depends on uninitialised value(s)
+==73367==    at 0x484B0E9: strlen (vg_replace_strmem.c:505)
+==73367==    by 0x499A057: __printf_buffer (vfprintf-process-arg.c:435)
+==73367==    by 0x499AD92: __vfprintf_internal (vfprintf-internal.c:1544)
+==73367==    by 0x498EBF2: printf (printf.c:33)
+==73367==    by 0x4027B8: notificaOutros (in /home/slower/Documents/Prog2/Trabalho_Final/2024-2-template-TP1-etapa-1-main/Resultados/Artur/completo/prog)
+==73367==    by 0x403160: notificaTicket (in /home/slower/Documents/Prog2/Trabalho_Final/2024-2-template-TP1-etapa-1-main/Resultados/Artur/completo/prog)
+==73367==    by 0x401AE5: notificaFila (in /home/slower/Documents/Prog2/Trabalho_Final/2024-2-template-TP1-etapa-1-main/Resultados/Artur/completo/prog)
+==73367==    by 0x401F0E: main (in /home/slower/Documents/Prog2/Trabalho_Final/2024-2-template-TP1-etapa-1-main/Resultados/Artur/completo/prog)
+==73367== 
+==73367== Use of uninitialised value of size 8
+==73367==    at 0x498DC1B: _itoa_word (_itoa.c:183)
+==73367==    by 0x4998B01: __printf_buffer (vfprintf-process-arg.c:155)
+==73367==    by 0x499AD92: __vfprintf_internal (vfprintf-internal.c:1544)
+==73367==    by 0x498EBF2: printf (printf.c:33)
+==73367==    by 0x4027D3: notificaOutros (in /home/slower/Documents/Prog2/Trabalho_Final/2024-2-template-TP1-etapa-1-main/Resultados/Artur/completo/prog)
+==73367==    by 0x403160: notificaTicket (in /home/slower/Documents/Prog2/Trabalho_Final/2024-2-template-TP1-etapa-1-main/Resultados/Artur/completo/prog)
+==73367==    by 0x401AE5: notificaFila (in /home/slower/Documents/Prog2/Trabalho_Final/2024-2-template-TP1-etapa-1-main/Resultados/Artur/completo/prog)
+==73367==    by 0x401F0E: main (in /home/slower/Documents/Prog2/Trabalho_Final/2024-2-template-TP1-etapa-1-main/Resultados/Artur/completo/prog)
+==73367== 
+==73367== Conditional jump or move depends on uninitialised value(s)
+==73367==    at 0x498DC2C: _itoa_word (_itoa.c:183)
+==73367==    by 0x4998B01: __printf_buffer (vfprintf-process-arg.c:155)
+==73367==    by 0x499AD92: __vfprintf_internal (vfprintf-internal.c:1544)
+==73367==    by 0x498EBF2: printf (printf.c:33)
+==73367==    by 0x4027D3: notificaOutros (in /home/slower/Documents/Prog2/Trabalho_Final/2024-2-template-TP1-etapa-1-main/Resultados/Artur/completo/prog)
+==73367==    by 0x403160: notificaTicket (in /home/slower/Documents/Prog2/Trabalho_Final/2024-2-template-TP1-etapa-1-main/Resultados/Artur/completo/prog)
+==73367==    by 0x401AE5: notificaFila (in /home/slower/Documents/Prog2/Trabalho_Final/2024-2-template-TP1-etapa-1-main/Resultados/Artur/completo/prog)
+==73367==    by 0x401F0E: main (in /home/slower/Documents/Prog2/Trabalho_Final/2024-2-template-TP1-etapa-1-main/Resultados/Artur/completo/prog)
+==73367== 
+==73367== Conditional jump or move depends on uninitialised value(s)
+==73367==    at 0x49997AD: __printf_buffer (vfprintf-process-arg.c:186)
+==73367==    by 0x499AD92: __vfprintf_internal (vfprintf-internal.c:1544)
+==73367==    by 0x498EBF2: printf (printf.c:33)
+==73367==    by 0x4027D3: notificaOutros (in /home/slower/Documents/Prog2/Trabalho_Final/2024-2-template-TP1-etapa-1-main/Resultados/Artur/completo/prog)
+==73367==    by 0x403160: notificaTicket (in /home/slower/Documents/Prog2/Trabalho_Final/2024-2-template-TP1-etapa-1-main/Resultados/Artur/completo/prog)
+==73367==    by 0x401AE5: notificaFila (in /home/slower/Documents/Prog2/Trabalho_Final/2024-2-template-TP1-etapa-1-main/Resultados/Artur/completo/prog)
+==73367==    by 0x401F0E: main (in /home/slower/Documents/Prog2/Trabalho_Final/2024-2-template-TP1-etapa-1-main/Resultados/Artur/completo/prog)
+==73367== 
+==73367== Conditional jump or move depends on uninitialised value(s)
+==73367==    at 0x49997E4: __printf_buffer (vfprintf-process-arg.c:208)
+==73367==    by 0x499AD92: __vfprintf_internal (vfprintf-internal.c:1544)
+==73367==    by 0x498EBF2: printf (printf.c:33)
+==73367==    by 0x4027D3: notificaOutros (in /home/slower/Documents/Prog2/Trabalho_Final/2024-2-template-TP1-etapa-1-main/Resultados/Artur/completo/prog)
+==73367==    by 0x403160: notificaTicket (in /home/slower/Documents/Prog2/Trabalho_Final/2024-2-template-TP1-etapa-1-main/Resultados/Artur/completo/prog)
+==73367==    by 0x401AE5: notificaFila (in /home/slower/Documents/Prog2/Trabalho_Final/2024-2-template-TP1-etapa-1-main/Resultados/Artur/completo/prog)
+==73367==    by 0x401F0E: main (in /home/slower/Documents/Prog2/Trabalho_Final/2024-2-template-TP1-etapa-1-main/Resultados/Artur/completo/prog)
+==73367== 
+==73367== Conditional jump or move depends on uninitialised value(s)
+==73367==    at 0x49997AD: __printf_buffer (vfprintf-process-arg.c:186)
+==73367==    by 0x499AD92: __vfprintf_internal (vfprintf-internal.c:1544)
+==73367==    by 0x498EBF2: printf (printf.c:33)
+==73367==    by 0x4027EE: notificaOutros (in /home/slower/Documents/Prog2/Trabalho_Final/2024-2-template-TP1-etapa-1-main/Resultados/Artur/completo/prog)
+==73367==    by 0x403160: notificaTicket (in /home/slower/Documents/Prog2/Trabalho_Final/2024-2-template-TP1-etapa-1-main/Resultados/Artur/completo/prog)
+==73367==    by 0x401AE5: notificaFila (in /home/slower/Documents/Prog2/Trabalho_Final/2024-2-template-TP1-etapa-1-main/Resultados/Artur/completo/prog)
+==73367==    by 0x401F0E: main (in /home/slower/Documents/Prog2/Trabalho_Final/2024-2-template-TP1-etapa-1-main/Resultados/Artur/completo/prog)
+==73367== 
+==73367== Conditional jump or move depends on uninitialised value(s)
+==73367==    at 0x49997E4: __printf_buffer (vfprintf-process-arg.c:208)
+==73367==    by 0x499AD92: __vfprintf_internal (vfprintf-internal.c:1544)
+==73367==    by 0x498EBF2: printf (printf.c:33)
+==73367==    by 0x4027EE: notificaOutros (in /home/slower/Documents/Prog2/Trabalho_Final/2024-2-template-TP1-etapa-1-main/Resultados/Artur/completo/prog)
+==73367==    by 0x403160: notificaTicket (in /home/slower/Documents/Prog2/Trabalho_Final/2024-2-template-TP1-etapa-1-main/Resultados/Artur/completo/prog)
+==73367==    by 0x401AE5: notificaFila (in /home/slower/Documents/Prog2/Trabalho_Final/2024-2-template-TP1-etapa-1-main/Resultados/Artur/completo/prog)
+==73367==    by 0x401F0E: main (in /home/slower/Documents/Prog2/Trabalho_Final/2024-2-template-TP1-etapa-1-main/Resultados/Artur/completo/prog)
+==73367== 
+==73367== Invalid read of size 4
+==73367==    at 0x4027BD: notificaOutros (in /home/slower/Documents/Prog2/Trabalho_Final/2024-2-template-TP1-etapa-1-main/Resultados/Artur/completo/prog)
+==73367==    by 0x403160: notificaTicket (in /home/slower/Documents/Prog2/Trabalho_Final/2024-2-template-TP1-etapa-1-main/Resultados/Artur/completo/prog)
+==73367==    by 0x401AE5: notificaFila (in /home/slower/Documents/Prog2/Trabalho_Final/2024-2-template-TP1-etapa-1-main/Resultados/Artur/completo/prog)
+==73367==    by 0x401F0E: main (in /home/slower/Documents/Prog2/Trabalho_Final/2024-2-template-TP1-etapa-1-main/Resultados/Artur/completo/prog)
+==73367==  Address 0x4b52b68 is 24 bytes after a block of size 240 in arena "client"
+==73367== 
+==73367== Invalid read of size 4
+==73367==    at 0x4027D8: notificaOutros (in /home/slower/Documents/Prog2/Trabalho_Final/2024-2-template-TP1-etapa-1-main/Resultados/Artur/completo/prog)
+==73367==    by 0x403160: notificaTicket (in /home/slower/Documents/Prog2/Trabalho_Final/2024-2-template-TP1-etapa-1-main/Resultados/Artur/completo/prog)
+==73367==    by 0x401AE5: notificaFila (in /home/slower/Documents/Prog2/Trabalho_Final/2024-2-template-TP1-etapa-1-main/Resultados/Artur/completo/prog)
+==73367==    by 0x401F0E: main (in /home/slower/Documents/Prog2/Trabalho_Final/2024-2-template-TP1-etapa-1-main/Resultados/Artur/completo/prog)
+==73367==  Address 0x4b52b6c is 28 bytes after a block of size 240 in arena "client"
+==73367== 
+==73367== Invalid read of size 1
+==73367==    at 0x484B0E6: strlen (vg_replace_strmem.c:505)
+==73367==    by 0x499A057: __printf_buffer (vfprintf-process-arg.c:435)
+==73367==    by 0x499AD92: __vfprintf_internal (vfprintf-internal.c:1544)
+==73367==    by 0x498EBF2: printf (printf.c:33)
+==73367==    by 0x4025CE: notificaManutencao (in /home/slower/Documents/Prog2/Trabalho_Final/2024-2-template-TP1-etapa-1-main/Resultados/Artur/completo/prog)
+==73367==    by 0x403160: notificaTicket (in /home/slower/Documents/Prog2/Trabalho_Final/2024-2-template-TP1-etapa-1-main/Resultados/Artur/completo/prog)
+==73367==    by 0x401AE5: notificaFila (in /home/slower/Documents/Prog2/Trabalho_Final/2024-2-template-TP1-etapa-1-main/Resultados/Artur/completo/prog)
+==73367==    by 0x401F0E: main (in /home/slower/Documents/Prog2/Trabalho_Final/2024-2-template-TP1-etapa-1-main/Resultados/Artur/completo/prog)
+==73367==  Address 0x4b52bf4 is 28 bytes before a block of size 64 in arena "client"
+==73367== 
+==73367== Invalid read of size 4
+==73367==    at 0x4025ED: notificaManutencao (in /home/slower/Documents/Prog2/Trabalho_Final/2024-2-template-TP1-etapa-1-main/Resultados/Artur/completo/prog)
+==73367==    by 0x403160: notificaTicket (in /home/slower/Documents/Prog2/Trabalho_Final/2024-2-template-TP1-etapa-1-main/Resultados/Artur/completo/prog)
+==73367==    by 0x401AE5: notificaFila (in /home/slower/Documents/Prog2/Trabalho_Final/2024-2-template-TP1-etapa-1-main/Resultados/Artur/completo/prog)
+==73367==    by 0x401F0E: main (in /home/slower/Documents/Prog2/Trabalho_Final/2024-2-template-TP1-etapa-1-main/Resultados/Artur/completo/prog)
+==73367==  Address 0x4b52c74 is 28 bytes before a block of size 16 in arena "client"
+==73367== 
+==73367== Invalid read of size 4
+==73367==    at 0x402A4A: notificaSoftware (in /home/slower/Documents/Prog2/Trabalho_Final/2024-2-template-TP1-etapa-1-main/Resultados/Artur/completo/prog)
+==73367==    by 0x403160: notificaTicket (in /home/slower/Documents/Prog2/Trabalho_Final/2024-2-template-TP1-etapa-1-main/Resultados/Artur/completo/prog)
+==73367==    by 0x401AE5: notificaFila (in /home/slower/Documents/Prog2/Trabalho_Final/2024-2-template-TP1-etapa-1-main/Resultados/Artur/completo/prog)
+==73367==    by 0x401F0E: main (in /home/slower/Documents/Prog2/Trabalho_Final/2024-2-template-TP1-etapa-1-main/Resultados/Artur/completo/prog)
+==73367==  Address 0x4b52fb8 is 8 bytes before a block of size 336 alloc'd
+==73367==    at 0x4841866: malloc (vg_replace_malloc.c:446)
+==73367==    by 0x402812: criaSoftware (in /home/slower/Documents/Prog2/Trabalho_Final/2024-2-template-TP1-etapa-1-main/Resultados/Artur/completo/prog)
+==73367==    by 0x4028F1: lerSoftware (in /home/slower/Documents/Prog2/Trabalho_Final/2024-2-template-TP1-etapa-1-main/Resultados/Artur/completo/prog)
+==73367==    by 0x401C46: main (in /home/slower/Documents/Prog2/Trabalho_Final/2024-2-template-TP1-etapa-1-main/Resultados/Artur/completo/prog)
+==73367== 
+==73367== Invalid read of size 4
+==73367==    at 0x402A7F: notificaSoftware (in /home/slower/Documents/Prog2/Trabalho_Final/2024-2-template-TP1-etapa-1-main/Resultados/Artur/completo/prog)
+==73367==    by 0x403160: notificaTicket (in /home/slower/Documents/Prog2/Trabalho_Final/2024-2-template-TP1-etapa-1-main/Resultados/Artur/completo/prog)
+==73367==    by 0x401AE5: notificaFila (in /home/slower/Documents/Prog2/Trabalho_Final/2024-2-template-TP1-etapa-1-main/Resultados/Artur/completo/prog)
+==73367==    by 0x401F0E: main (in /home/slower/Documents/Prog2/Trabalho_Final/2024-2-template-TP1-etapa-1-main/Resultados/Artur/completo/prog)
+==73367==  Address 0x4b52fbc is 4 bytes before a block of size 336 alloc'd
+==73367==    at 0x4841866: malloc (vg_replace_malloc.c:446)
+==73367==    by 0x402812: criaSoftware (in /home/slower/Documents/Prog2/Trabalho_Final/2024-2-template-TP1-etapa-1-main/Resultados/Artur/completo/prog)
+==73367==    by 0x4028F1: lerSoftware (in /home/slower/Documents/Prog2/Trabalho_Final/2024-2-template-TP1-etapa-1-main/Resultados/Artur/completo/prog)
+==73367==    by 0x401C46: main (in /home/slower/Documents/Prog2/Trabalho_Final/2024-2-template-TP1-etapa-1-main/Resultados/Artur/completo/prog)
+==73367== 
+==73367== 
+==73367== HEAP SUMMARY:
+==73367==     in use at exit: 2,120 bytes in 5 blocks
+==73367==   total heap usage: 52 allocs, 47 frees, 13,504 bytes allocated
+==73367== 
+==73367== 232 bytes in 1 blocks are definitely lost in loss record 1 of 3
+==73367==    at 0x4841866: malloc (vg_replace_malloc.c:446)
+==73367==    by 0x4023AA: criaManutencao (in /home/slower/Documents/Prog2/Trabalho_Final/2024-2-template-TP1-etapa-1-main/Resultados/Artur/completo/prog)
+==73367==    by 0x40246F: lerManutencao (in /home/slower/Documents/Prog2/Trabalho_Final/2024-2-template-TP1-etapa-1-main/Resultados/Artur/completo/prog)
+==73367==    by 0x401CDD: main (in /home/slower/Documents/Prog2/Trabalho_Final/2024-2-template-TP1-etapa-1-main/Resultados/Artur/completo/prog)
+==73367== 
+==73367== 672 bytes in 2 blocks are definitely lost in loss record 2 of 3
+==73367==    at 0x4841866: malloc (vg_replace_malloc.c:446)
+==73367==    by 0x402812: criaSoftware (in /home/slower/Documents/Prog2/Trabalho_Final/2024-2-template-TP1-etapa-1-main/Resultados/Artur/completo/prog)
+==73367==    by 0x4028F1: lerSoftware (in /home/slower/Documents/Prog2/Trabalho_Final/2024-2-template-TP1-etapa-1-main/Resultados/Artur/completo/prog)
+==73367==    by 0x401C46: main (in /home/slower/Documents/Prog2/Trabalho_Final/2024-2-template-TP1-etapa-1-main/Resultados/Artur/completo/prog)
+==73367== 
+==73367== 1,216 bytes in 2 blocks are definitely lost in loss record 3 of 3
+==73367==    at 0x4841866: malloc (vg_replace_malloc.c:446)
+==73367==    by 0x402623: criaOutros (in /home/slower/Documents/Prog2/Trabalho_Final/2024-2-template-TP1-etapa-1-main/Resultados/Artur/completo/prog)
+==73367==    by 0x4026E6: lerOutros (in /home/slower/Documents/Prog2/Trabalho_Final/2024-2-template-TP1-etapa-1-main/Resultados/Artur/completo/prog)
+==73367==    by 0x401D86: main (in /home/slower/Documents/Prog2/Trabalho_Final/2024-2-template-TP1-etapa-1-main/Resultados/Artur/completo/prog)
+==73367== 
+==73367== LEAK SUMMARY:
+==73367==    definitely lost: 2,120 bytes in 5 blocks
+==73367==    indirectly lost: 0 bytes in 0 blocks
+==73367==      possibly lost: 0 bytes in 0 blocks
+==73367==    still reachable: 0 bytes in 0 blocks
+==73367==         suppressed: 0 bytes in 0 blocks
+==73367== 
+==73367== Use --track-origins=yes to see where uninitialised values come from
+==73367== For lists of detected and suppressed errors, rerun with: -s
+==73367== ERROR SUMMARY: 29 errors from 19 contexts (suppressed: 0 from 0)

@@ -1,0 +1,38 @@
+==70278== Memcheck, a memory error detector
+==70278== Copyright (C) 2002-2024, and GNU GPL'd, by Julian Seward et al.
+==70278== Using Valgrind-3.24.0 and LibVEX; rerun with -h for copyright info
+==70278== Command: Resultados/Artur/main/prog Resultados/Artur/main/Casos/5
+==70278== Parent PID: 70277
+==70278== 
+==70278== 
+==70278== HEAP SUMMARY:
+==70278==     in use at exit: 2,120 bytes in 5 blocks
+==70278==   total heap usage: 51 allocs, 46 frees, 13,584 bytes allocated
+==70278== 
+==70278== 232 bytes in 1 blocks are definitely lost in loss record 1 of 3
+==70278==    at 0x4841866: malloc (vg_replace_malloc.c:446)
+==70278==    by 0x402359: criaManutencao (in /home/slower/Documents/Prog2/Trabalho_Final/2024-2-template-TP1-etapa-1-main/Resultados/Artur/main/prog)
+==70278==    by 0x40241E: lerManutencao (in /home/slower/Documents/Prog2/Trabalho_Final/2024-2-template-TP1-etapa-1-main/Resultados/Artur/main/prog)
+==70278==    by 0x401C8C: main (in /home/slower/Documents/Prog2/Trabalho_Final/2024-2-template-TP1-etapa-1-main/Resultados/Artur/main/prog)
+==70278== 
+==70278== 672 bytes in 2 blocks are definitely lost in loss record 2 of 3
+==70278==    at 0x4841866: malloc (vg_replace_malloc.c:446)
+==70278==    by 0x4027C5: criaSoftware (in /home/slower/Documents/Prog2/Trabalho_Final/2024-2-template-TP1-etapa-1-main/Resultados/Artur/main/prog)
+==70278==    by 0x4028DB: lerSoftware (in /home/slower/Documents/Prog2/Trabalho_Final/2024-2-template-TP1-etapa-1-main/Resultados/Artur/main/prog)
+==70278==    by 0x401BF5: main (in /home/slower/Documents/Prog2/Trabalho_Final/2024-2-template-TP1-etapa-1-main/Resultados/Artur/main/prog)
+==70278== 
+==70278== 1,216 bytes in 2 blocks are definitely lost in loss record 3 of 3
+==70278==    at 0x4841866: malloc (vg_replace_malloc.c:446)
+==70278==    by 0x4025D2: criaOutros (in /home/slower/Documents/Prog2/Trabalho_Final/2024-2-template-TP1-etapa-1-main/Resultados/Artur/main/prog)
+==70278==    by 0x402695: lerOutros (in /home/slower/Documents/Prog2/Trabalho_Final/2024-2-template-TP1-etapa-1-main/Resultados/Artur/main/prog)
+==70278==    by 0x401D35: main (in /home/slower/Documents/Prog2/Trabalho_Final/2024-2-template-TP1-etapa-1-main/Resultados/Artur/main/prog)
+==70278== 
+==70278== LEAK SUMMARY:
+==70278==    definitely lost: 2,120 bytes in 5 blocks
+==70278==    indirectly lost: 0 bytes in 0 blocks
+==70278==      possibly lost: 0 bytes in 0 blocks
+==70278==    still reachable: 0 bytes in 0 blocks
+==70278==         suppressed: 0 bytes in 0 blocks
+==70278== 
+==70278== For lists of detected and suppressed errors, rerun with: -s
+==70278== ERROR SUMMARY: 3 errors from 3 contexts (suppressed: 0 from 0)

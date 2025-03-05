@@ -1,0 +1,15 @@
+==39886== Memcheck, a memory error detector
+==39886== Copyright (C) 2002-2024, and GNU GPL'd, by Julian Seward et al.
+==39886== Using Valgrind-3.24.0 and LibVEX; rerun with -h for copyright info
+==39886== Command: Resultados/Artur/numcomplexo/prog Resultados/Artur/numcomplexo/Casos/3
+==39886== Parent PID: 39885
+==39886== 
+==39886== 
+==39886== HEAP SUMMARY:
+==39886==     in use at exit: 0 bytes in 0 blocks
+==39886==   total heap usage: 30 allocs, 30 frees, 8,576 bytes allocated
+==39886== 
+==39886== All heap blocks were freed -- no leaks are possible
+==39886== 
+==39886== For lists of detected and suppressed errors, rerun with: -s
+==39886== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)

@@ -20,7 +20,14 @@
         "duelo.h": "c",
         "dracomania.h": "c",
         "carta.h": "c",
-        "relatorio.h": "c"
+        "relatorio.h": "c",
+        "agendatarefas.h": "c",
+        "matrizgenerica.h": "c",
+        "pintura.h": "c",
+        "histograma.h": "c",
+        "software.h": "c",
+        "usuario.h": "c",
+        "outros.h": "c"
     },
 }
 

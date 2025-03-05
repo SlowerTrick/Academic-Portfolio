@@ -1,0 +1,32 @@
+==72544== Memcheck, a memory error detector
+==72544== Copyright (C) 2002-2024, and GNU GPL'd, by Julian Seward et al.
+==72544== Using Valgrind-3.24.0 and LibVEX; rerun with -h for copyright info
+==72544== Command: Resultados/Artur/completo/prog Resultados/Artur/completo/Casos/3
+==72544== Parent PID: 72543
+==72544== 
+==72544== 
+==72544== HEAP SUMMARY:
+==72544==     in use at exit: 1,448 bytes in 3 blocks
+==72544==   total heap usage: 34 allocs, 31 frees, 11,652 bytes allocated
+==72544== 
+==72544== 232 bytes in 1 blocks are definitely lost in loss record 1 of 2
+==72544==    at 0x4841866: malloc (vg_replace_malloc.c:446)
+==72544==    by 0x4023AA: criaManutencao (in /home/slower/Documents/Prog2/Trabalho_Final/2024-2-template-TP1-etapa-1-main/Resultados/Artur/completo/prog)
+==72544==    by 0x40246F: lerManutencao (in /home/slower/Documents/Prog2/Trabalho_Final/2024-2-template-TP1-etapa-1-main/Resultados/Artur/completo/prog)
+==72544==    by 0x401CDD: main (in /home/slower/Documents/Prog2/Trabalho_Final/2024-2-template-TP1-etapa-1-main/Resultados/Artur/completo/prog)
+==72544== 
+==72544== 1,216 bytes in 2 blocks are definitely lost in loss record 2 of 2
+==72544==    at 0x4841866: malloc (vg_replace_malloc.c:446)
+==72544==    by 0x402623: criaOutros (in /home/slower/Documents/Prog2/Trabalho_Final/2024-2-template-TP1-etapa-1-main/Resultados/Artur/completo/prog)
+==72544==    by 0x4026E6: lerOutros (in /home/slower/Documents/Prog2/Trabalho_Final/2024-2-template-TP1-etapa-1-main/Resultados/Artur/completo/prog)
+==72544==    by 0x401D86: main (in /home/slower/Documents/Prog2/Trabalho_Final/2024-2-template-TP1-etapa-1-main/Resultados/Artur/completo/prog)
+==72544== 
+==72544== LEAK SUMMARY:
+==72544==    definitely lost: 1,448 bytes in 3 blocks
+==72544==    indirectly lost: 0 bytes in 0 blocks
+==72544==      possibly lost: 0 bytes in 0 blocks
+==72544==    still reachable: 0 bytes in 0 blocks
+==72544==         suppressed: 0 bytes in 0 blocks
+==72544== 
+==72544== For lists of detected and suppressed errors, rerun with: -s
+==72544== ERROR SUMMARY: 2 errors from 2 contexts (suppressed: 0 from 0)

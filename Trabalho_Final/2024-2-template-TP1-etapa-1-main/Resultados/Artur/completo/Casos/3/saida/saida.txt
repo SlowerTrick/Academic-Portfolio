@@ -1,0 +1,21 @@
+----- BANCO DE USUARIOS -----
+--------------------
+- Nome: TAHM KENCH
+- CPF: 123.932.250-46
+- Data de Nascimento: 1/9/1955
+- Telefone: (34)96373-7004
+- Genero: OUTROS
+- Setor: RH
+- Tickets solicitados: 0
+--------------------
+- Nome: JINX MOREIRA
+- CPF: 351.574.251-43
+- Data de Nascimento: 1/4/2003
+- Telefone: (12)96210-7123
+- Genero: FEMININO
+- Setor: MARKETING
+- Tickets solicitados: 0
+----------------------------
+
+ERRO! usuario nao encontrado
+ERRO! usuario nao encontrado

@@ -1,0 +1,15 @@
+==83651== Memcheck, a memory error detector
+==83651== Copyright (C) 2002-2024, and GNU GPL'd, by Julian Seward et al.
+==83651== Using Valgrind-3.24.0 and LibVEX; rerun with -h for copyright info
+==83651== Command: Resultados/Artur/musica/prog Resultados/Artur/musica/Casos/5
+==83651== Parent PID: 83650
+==83651== 
+==83651== 
+==83651== HEAP SUMMARY:
+==83651==     in use at exit: 0 bytes in 0 blocks
+==83651==   total heap usage: 45 allocs, 45 frees, 13,840 bytes allocated
+==83651== 
+==83651== All heap blocks were freed -- no leaks are possible
+==83651== 
+==83651== For lists of detected and suppressed errors, rerun with: -s
+==83651== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)

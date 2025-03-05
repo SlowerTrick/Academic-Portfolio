@@ -1,0 +1,7 @@
+fila.c: In function ‘insereTicketFila’:
+fila.c:76:32: warning: ‘sprintf’ may write a terminating nul past the end of the destination [-Wformat-overflow=]
+   76 |     sprintf(id_ticket, "Tick-%d", f->qtd_atual + 1);
+      |                                ^
+fila.c:76:5: note: ‘sprintf’ output between 7 and 17 bytes into a destination of size 16
+   76 |     sprintf(id_ticket, "Tick-%d", f->qtd_atual + 1);
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~

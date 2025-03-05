@@ -1,0 +1,10 @@
+main.c: In function ‘main’:
+main.c:9:44: warning: unused variable ‘tipo’ [-Wunused-variable]
+    9 |     int total_intervalos, altura, largura, tipo;
+      |                                            ^~~~
+main.c:9:35: warning: unused variable ‘largura’ [-Wunused-variable]
+    9 |     int total_intervalos, altura, largura, tipo;
+      |                                   ^~~~~~~
+main.c:9:27: warning: unused variable ‘altura’ [-Wunused-variable]
+    9 |     int total_intervalos, altura, largura, tipo;
+      |                           ^~~~~~

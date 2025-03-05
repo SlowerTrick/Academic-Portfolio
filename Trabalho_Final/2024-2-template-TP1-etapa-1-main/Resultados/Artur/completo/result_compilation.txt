@@ -1,0 +1,22 @@
+fila.c: In function ‘insereTicketFila’:
+fila.c:76:32: warning: ‘sprintf’ may write a terminating nul past the end of the destination [-Wformat-overflow=]
+   76 |     sprintf(id_ticket, "Tick-%d", f->qtd_atual + 1);
+      |                                ^
+fila.c:76:5: note: ‘sprintf’ output between 7 and 17 bytes into a destination of size 16
+   76 |     sprintf(id_ticket, "Tick-%d", f->qtd_atual + 1);
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+main.c: In function ‘distribuiTickets’:
+main.c:142:13: warning: unused variable ‘tempo_ticket’ [-Wunused-variable]
+  142 |         int tempo_ticket = getTempoEstimadoTicket(ticket);
+      |             ^~~~~~~~~~~~
+manutencao.c: In function ‘lerManutencao’:
+manutencao.c:32:9: warning: unused variable ‘impacto’ [-Wunused-variable]
+   32 |     int impacto;
+      |         ^~~~~~~
+manutencao.c: In function ‘notificaManutencao’:
+manutencao.c:73:23: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘char *’ [-Wformat=]
+   73 |     printf("- Local: %d\n", m->local);
+      |                      ~^     ~~~~~~~~
+      |                       |      |
+      |                       int    char *
+      |                      %s

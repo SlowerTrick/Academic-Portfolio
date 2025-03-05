@@ -1,0 +1,15 @@
+==84976== Memcheck, a memory error detector
+==84976== Copyright (C) 2002-2024, and GNU GPL'd, by Julian Seward et al.
+==84976== Using Valgrind-3.24.0 and LibVEX; rerun with -h for copyright info
+==84976== Command: Resultados/Artur/midia/prog Resultados/Artur/midia/Casos/3
+==84976== Parent PID: 84975
+==84976== 
+==84976== 
+==84976== HEAP SUMMARY:
+==84976==     in use at exit: 0 bytes in 0 blocks
+==84976==   total heap usage: 12 allocs, 12 frees, 10,040 bytes allocated
+==84976== 
+==84976== All heap blocks were freed -- no leaks are possible
+==84976== 
+==84976== For lists of detected and suppressed errors, rerun with: -s
+==84976== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
