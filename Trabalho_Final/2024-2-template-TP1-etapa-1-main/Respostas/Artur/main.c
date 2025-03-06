@@ -29,12 +29,24 @@ int main(void)
         if(toupper(opcao) == 'U')
         {
             Usuario *usuario = lerUsuario();
-            insereAtor(usuarios, usuario);
+
+            // Verificacao para o caso de usuarios com cpf igual
+            Usuario *flag_mesmo_usuario = getElementoCaracteristica(usuarios, getCpfUsuario(usuario), comparaCpfcomCpfUsuario);
+            if(flag_mesmo_usuario == NULL)
+                insereAtor(usuarios, usuario);
+            else
+                desalocaUsuario(usuario);
         }
         else if(toupper(opcao) == 'T')
         {
             Tecnico *tecnico = lerTecnico();
-            insereAtor(tecnicos, tecnico);
+
+            // Verificacao para o caso de tecnicos com cpf igual
+            Tecnico *flag_mesmo_tecnico = getElementoCaracteristica(usuarios, getCpfTecnico(tecnico), comparaCpfcomCpfUsuario);
+            if(flag_mesmo_tecnico == NULL)
+                insereAtor(tecnicos, tecnico);
+            else
+                desalocaTecnico(tecnico);
         }
         else if(toupper(opcao) == 'A')
         {
@@ -95,19 +107,19 @@ int main(void)
             {
                 printf("----- FILA DE TICKETS -----\n");
                 notificaFila(fila_tickets);
-                printf("----------------------------\n\n");
+                printf("---------------------------\n\n");
             }
             else if(strcmp(tarefa, "RANKING TECNICOS") == 0)
             {
                 printf("----- RANKING DE TECNICOS -----\n");
                 notificaRankingAtores(tecnicos, comparaQtdHorasTrabalhadas);
-                printf("-------------------------------\n");
+                printf("-------------------------------\n\n");
             }
             else if(strcmp(tarefa, "RANKING USUARIOS") == 0)
             {
                 printf("----- RANKING DE USUARIOS -----\n");
                 notificaRankingAtores(usuarios, comparaQtdTicketsSolicitados);
-                printf("-------------------------------\n");
+                printf("-------------------------------\n\n");
             }
             else if(strcmp(tarefa, "RELATORIO") == 0)
             {

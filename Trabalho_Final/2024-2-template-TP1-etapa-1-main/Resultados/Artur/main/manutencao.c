@@ -70,6 +70,6 @@ void notificaManutencao(void *dado)
     printf("- Tipo: Manutencao\n");
     printf("- Nome do item: %s\n", m->nome);
     printf("- Estado de conservacao: %s\n", m->estado);
-    printf("- Local: %d\n", m->local);
+    printf("- Local: %s\n", m->local);
     printf("- Tempo estimado: %dh\n", m->tempo);
 }

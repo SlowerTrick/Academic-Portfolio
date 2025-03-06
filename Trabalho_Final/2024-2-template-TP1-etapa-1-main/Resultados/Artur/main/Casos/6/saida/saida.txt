@@ -67,13 +67,13 @@
 
 ----- RANKING DE USUARIOS -----
 --------------------
-- Nome: FIORA GONCALVES
-- CPF: 802.791.356-79
-- Data de Nascimento: 29/3/1979
-- Telefone: (81)97485-6321
+- Nome: RIVEN SOUZA
+- CPF: 468.357.912-35
+- Data de Nascimento: 18/11/1981
+- Telefone: (41)97412-3589
 - Genero: FEMININO
 - Setor: MARKETING
-- Tickets solicitados: 0
+- Tickets solicitados: 2
 --------------------
 - Nome: LEONA PEREIRA
 - CPF: 680.579.134-57
@@ -81,6 +81,14 @@
 - Telefone: (61)95487-6321
 - Genero: OUTROS
 - Setor: RH
+- Tickets solicitados: 1
+--------------------
+- Nome: MISS FORTUNE TEIXEIRA
+- CPF: 246.135.790-13
+- Data de Nascimento: 12/2/1989
+- Telefone: (21)98741-3652
+- Genero: FEMININO
+- Setor: FINANCEIRO
 - Tickets solicitados: 1
 --------------------
 - Nome: MORDEKAISER MARTINS
@@ -99,21 +107,13 @@
 - Setor: VENDAS
 - Tickets solicitados: 0
 --------------------
-- Nome: RIVEN SOUZA
-- CPF: 468.357.912-35
-- Data de Nascimento: 18/11/1981
-- Telefone: (41)97412-3589
+- Nome: FIORA GONCALVES
+- CPF: 802.791.356-79
+- Data de Nascimento: 29/3/1979
+- Telefone: (81)97485-6321
 - Genero: FEMININO
 - Setor: MARKETING
-- Tickets solicitados: 2
---------------------
-- Nome: MISS FORTUNE TEIXEIRA
-- CPF: 246.135.790-13
-- Data de Nascimento: 12/2/1989
-- Telefone: (21)98741-3652
-- Genero: FEMININO
-- Setor: FINANCEIRO
-- Tickets solicitados: 1
+- Tickets solicitados: 0
 --------------------
 - Nome: SYLAS REIS
 - CPF: 132.465.798-02
@@ -131,3 +131,4 @@
 - Setor: P&D
 - Tickets solicitados: 0
 -------------------------------
+

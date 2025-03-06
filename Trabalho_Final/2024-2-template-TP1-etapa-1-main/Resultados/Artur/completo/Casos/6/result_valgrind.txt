@@ -1,38 +1,15 @@
-==73160== Memcheck, a memory error detector
-==73160== Copyright (C) 2002-2024, and GNU GPL'd, by Julian Seward et al.
-==73160== Using Valgrind-3.24.0 and LibVEX; rerun with -h for copyright info
-==73160== Command: Resultados/Artur/completo/prog Resultados/Artur/completo/Casos/6
-==73160== Parent PID: 73159
-==73160== 
-==73160== 
-==73160== HEAP SUMMARY:
-==73160==     in use at exit: 2,120 bytes in 5 blocks
-==73160==   total heap usage: 52 allocs, 47 frees, 13,504 bytes allocated
-==73160== 
-==73160== 232 bytes in 1 blocks are definitely lost in loss record 1 of 3
-==73160==    at 0x4841866: malloc (vg_replace_malloc.c:446)
-==73160==    by 0x4023AA: criaManutencao (in /home/slower/Documents/Prog2/Trabalho_Final/2024-2-template-TP1-etapa-1-main/Resultados/Artur/completo/prog)
-==73160==    by 0x40246F: lerManutencao (in /home/slower/Documents/Prog2/Trabalho_Final/2024-2-template-TP1-etapa-1-main/Resultados/Artur/completo/prog)
-==73160==    by 0x401CDD: main (in /home/slower/Documents/Prog2/Trabalho_Final/2024-2-template-TP1-etapa-1-main/Resultados/Artur/completo/prog)
-==73160== 
-==73160== 672 bytes in 2 blocks are definitely lost in loss record 2 of 3
-==73160==    at 0x4841866: malloc (vg_replace_malloc.c:446)
-==73160==    by 0x402812: criaSoftware (in /home/slower/Documents/Prog2/Trabalho_Final/2024-2-template-TP1-etapa-1-main/Resultados/Artur/completo/prog)
-==73160==    by 0x4028F1: lerSoftware (in /home/slower/Documents/Prog2/Trabalho_Final/2024-2-template-TP1-etapa-1-main/Resultados/Artur/completo/prog)
-==73160==    by 0x401C46: main (in /home/slower/Documents/Prog2/Trabalho_Final/2024-2-template-TP1-etapa-1-main/Resultados/Artur/completo/prog)
-==73160== 
-==73160== 1,216 bytes in 2 blocks are definitely lost in loss record 3 of 3
-==73160==    at 0x4841866: malloc (vg_replace_malloc.c:446)
-==73160==    by 0x402623: criaOutros (in /home/slower/Documents/Prog2/Trabalho_Final/2024-2-template-TP1-etapa-1-main/Resultados/Artur/completo/prog)
-==73160==    by 0x4026E6: lerOutros (in /home/slower/Documents/Prog2/Trabalho_Final/2024-2-template-TP1-etapa-1-main/Resultados/Artur/completo/prog)
-==73160==    by 0x401D86: main (in /home/slower/Documents/Prog2/Trabalho_Final/2024-2-template-TP1-etapa-1-main/Resultados/Artur/completo/prog)
-==73160== 
-==73160== LEAK SUMMARY:
-==73160==    definitely lost: 2,120 bytes in 5 blocks
-==73160==    indirectly lost: 0 bytes in 0 blocks
-==73160==      possibly lost: 0 bytes in 0 blocks
-==73160==    still reachable: 0 bytes in 0 blocks
-==73160==         suppressed: 0 bytes in 0 blocks
-==73160== 
-==73160== For lists of detected and suppressed errors, rerun with: -s
-==73160== ERROR SUMMARY: 3 errors from 3 contexts (suppressed: 0 from 0)
+==19402== Memcheck, a memory error detector
+==19402== Copyright (C) 2002-2024, and GNU GPL'd, by Julian Seward et al.
+==19402== Using Valgrind-3.24.0 and LibVEX; rerun with -h for copyright info
+==19402== Command: Resultados/Artur/completo/prog Resultados/Artur/completo/Casos/6
+==19402== Parent PID: 19401
+==19402== 
+==19402== 
+==19402== HEAP SUMMARY:
+==19402==     in use at exit: 0 bytes in 0 blocks
+==19402==   total heap usage: 47 allocs, 47 frees, 13,184 bytes allocated
+==19402== 
+==19402== All heap blocks were freed -- no leaks are possible
+==19402== 
+==19402== For lists of detected and suppressed errors, rerun with: -s
+==19402== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)

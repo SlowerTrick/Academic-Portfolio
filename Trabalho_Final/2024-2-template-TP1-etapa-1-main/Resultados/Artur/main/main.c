@@ -14,8 +14,7 @@
 void imprimeRelatorioGeral(Atores *usuarios, Atores *tecnicos, Fila *fila_tickets);
 void distribuiTickets(Atores *tecnicos, Fila *fila_tickets);
 int associaTecnicoTicket(Atores *tecnicos, Ticket *ticket, int *tecnico_inicial, int qtd_tickets, int qtd_tecnicos);
-
-
+void limparBufferUsuarioInexistente(char *tipo);
 
 int main(void)
 {
@@ -30,17 +29,29 @@ int main(void)
         if(toupper(opcao) == 'U')
         {
             Usuario *usuario = lerUsuario();
-            insereAtor(usuarios, usuario);
+
+            // Verificacao para o caso de usuarios com cpf igual
+            Usuario *flag_mesmo_usuario = getElementoCaracteristica(usuarios, getCpfUsuario(usuario), comparaCpfcomCpfUsuario);
+            if(flag_mesmo_usuario == NULL)
+                insereAtor(usuarios, usuario);
+            else
+                desalocaUsuario(usuario);
         }
         else if(toupper(opcao) == 'T')
         {
             Tecnico *tecnico = lerTecnico();
-            insereAtor(tecnicos, tecnico);
+
+            // Verificacao para o caso de tecnicos com cpf igual
+            Tecnico *flag_mesmo_tecnico = getElementoCaracteristica(usuarios, getCpfTecnico(tecnico), comparaCpfcomCpfUsuario);
+            if(flag_mesmo_tecnico == NULL)
+                insereAtor(tecnicos, tecnico);
+            else
+                desalocaTecnico(tecnico);
         }
         else if(toupper(opcao) == 'A')
         {
             char cpf[MAX_TAM_CPF], tipo[MAX_TAM_NOME];
-            scanf("%s %s%*c", cpf, tipo);
+            scanf("%[^\n] %[^\n]%*c", cpf, tipo);
             Usuario *usuario = getElementoCaracteristica(usuarios, cpf, comparaCpfcomCpfUsuario);
 
             if(usuario != NULL)
@@ -51,27 +62,24 @@ int main(void)
                 {
                     Software *ticket_software = lerSoftware();
                     setTempoEstimadoSoftware(ticket_software);
-                    Ticket *ticket = criaTicket(cpf, ticket_software, getTempoEstimadoSoftware, getTipoSoftware, notificaSoftware, desalocaSoftware);
-                    insereTicketFila(fila_tickets, cpf, ticket, getTempoEstimadoSoftware, getTipoSoftware, notificaSoftware, desalocaSoftware);
+                    insereTicketFila(fila_tickets, cpf, ticket_software, getTempoEstimadoSoftware, getTipoSoftware, notificaSoftware, desalocaSoftware);
                 }
                 else if(strcmp(tipo, "MANUTENCAO") == 0)
                 {
                     Manutencao *ticket_manutencao = lerManutencao();
                     setTempoEstimadoManutencao(ticket_manutencao, getSetorUsuario(usuario));
-                    Ticket *ticket = criaTicket(cpf, ticket_manutencao, getTempoEstimadoManutencao, getTipoManutencao, notificaManutencao, desalocaManutencao);
-                    insereTicketFila(fila_tickets, cpf, ticket, getTempoEstimadoManutencao, getTipoManutencao, notificaManutencao, desalocaManutencao);
+                    insereTicketFila(fila_tickets, cpf, ticket_manutencao, getTempoEstimadoManutencao, getTipoManutencao, notificaManutencao, desalocaManutencao);
                 }
                 else if(strcmp(tipo, "OUTROS") == 0)
                 {
                     Outros *ticket_outros = lerOutros();
                     setTempoEstimadoOutros(ticket_outros);
-                    Ticket *ticket = criaTicket(cpf, ticket_outros, getTempoEstimadoOutros, getTipoOutros, notificaOutros, desalocaOutros);
-                    insereTicketFila(fila_tickets, cpf, ticket, getTempoEstimadoOutros, getTipoOutros, notificaOutros, desalocaOutros);
+                    insereTicketFila(fila_tickets, cpf, ticket_outros, getTempoEstimadoOutros, getTipoOutros, notificaOutros, desalocaOutros);
                 }
             }
             else
             {
-                printf("ERRO! usuario nao encontrado\n");
+                limparBufferUsuarioInexistente(tipo);
             }
         }
         else if(toupper(opcao) == 'E')
@@ -99,19 +107,19 @@ int main(void)
             {
                 printf("----- FILA DE TICKETS -----\n");
                 notificaFila(fila_tickets);
-                printf("----------------------------\n\n");
+                printf("---------------------------\n\n");
             }
             else if(strcmp(tarefa, "RANKING TECNICOS") == 0)
             {
                 printf("----- RANKING DE TECNICOS -----\n");
                 notificaRankingAtores(tecnicos, comparaQtdHorasTrabalhadas);
-                printf("-------------------------------\n");
+                printf("-------------------------------\n\n");
             }
             else if(strcmp(tarefa, "RANKING USUARIOS") == 0)
             {
                 printf("----- RANKING DE USUARIOS -----\n");
                 notificaRankingAtores(usuarios, comparaQtdTicketsSolicitados);
-                printf("-------------------------------\n");
+                printf("-------------------------------\n\n");
             }
             else if(strcmp(tarefa, "RELATORIO") == 0)
             {
@@ -138,10 +146,10 @@ void distribuiTickets(Atores *tecnicos, Fila *fila_tickets)
     for(int i = 0; i < qtd_tickets; i++)
     {
         Ticket *ticket = getTicketNaFila(fila_tickets, i);
-        char tipo_ticket = getTipoTicket(ticket);
+        char status_ticket = getStatusTicket(ticket);
         int tempo_ticket = getTempoEstimadoTicket(ticket);
 
-        if(tipo_ticket == 'A')
+        if(status_ticket == 'A')
         {
             int ticket_atribuido = associaTecnicoTicket(tecnicos, ticket, &tecnico_inicial, qtd_tickets, qtd_tecnicos);
 
@@ -179,7 +187,6 @@ int associaTecnicoTicket(Atores *tecnicos, Ticket *ticket, int *tecnico_inicial,
             finalizaTicket(ticket);
             alteraTempoTrabalhoTecnico(tecnico, tempo_ticket);
             *tecnico_inicial = j + 1;
-            break;
             return 1;
         }
     }
@@ -206,5 +213,26 @@ void imprimeRelatorioGeral(Atores *usuarios, Atores *tecnicos, Fila *fila_ticket
     printf("- Qtd tecnicos: %d\n", qtd_tecnicos);
     printf("- Md idade tecnicos: %d\n", media_idade_tecnicos);
     printf("- Md trabalho tecnicos: %d\n", media_horas_trabalho_tecnicos);
-    printf("---------------------------\n");
+    printf("---------------------------\n\n");
+}
+
+void limparBufferUsuarioInexistente(char *tipo)
+{
+    if(strcmp(tipo, "SOFTWARE") == 0)
+    {
+        char nome[MAX_TAM_NOME_SOFTWARE], categoria[MAX_TAM_CAT], motivo[MAX_TAM_MOTIVO];
+        int impacto;
+        scanf("%[^\n] %[^\n] %d %[^\n]%*c", nome, categoria, &impacto, motivo);
+    }
+    else if(strcmp(tipo, "MANUTENCAO") == 0)
+    {
+        char nome[MAX_TAM_NOME_MANUTENCAO], estado[MAX_TAM_ESTADO_MANUTENCAO], local[MAX_TAM_LOCAL_MANUTENCAO];
+        scanf("%[^\n] %[^\n] %[^\n]%*c", nome, estado, local);
+    }
+    else if(strcmp(tipo, "OUTROS") == 0)
+    {
+        char descricao[MAX_TAM_DESCRICAO_OUTROS], local[MAX_TAM_LOCAL_OUTROS];
+        int dificuldade;
+        scanf("%[^\n] %[^\n] %d%*c", descricao, local, &dificuldade);
+    }
 }

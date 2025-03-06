@@ -79,7 +79,6 @@ void *getAtorNaFila(Atores *a, int i)
     return a->elementos[i];
 }
 
-
 int getMediaCaracteristicaAtores(Atores *a, func_ptr_calcula_caracteristica calcula_caracteristica)
 {
     int total = 0;

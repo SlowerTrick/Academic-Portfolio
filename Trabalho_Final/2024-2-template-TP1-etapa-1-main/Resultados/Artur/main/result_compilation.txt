@@ -1,15 +1,8 @@
 main.c: In function ‘distribuiTickets’:
-main.c:142:13: warning: unused variable ‘tempo_ticket’ [-Wunused-variable]
-  142 |         int tempo_ticket = getTempoEstimadoTicket(ticket);
+main.c:150:13: warning: unused variable ‘tempo_ticket’ [-Wunused-variable]
+  150 |         int tempo_ticket = getTempoEstimadoTicket(ticket);
       |             ^~~~~~~~~~~~
 manutencao.c: In function ‘lerManutencao’:
 manutencao.c:32:9: warning: unused variable ‘impacto’ [-Wunused-variable]
    32 |     int impacto;
       |         ^~~~~~~
-manutencao.c: In function ‘notificaManutencao’:
-manutencao.c:73:23: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘char *’ [-Wformat=]
-   73 |     printf("- Local: %d\n", m->local);
-      |                      ~^     ~~~~~~~~
-      |                       |      |
-      |                       int    char *
-      |                      %s

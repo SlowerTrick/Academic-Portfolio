@@ -118,7 +118,7 @@ int comparaQtdHorasTrabalhadas(void *dado1, void *dado2)
 
     if(t1->tempo_trabalhado < t2->tempo_trabalhado) 
         return 1;
-    if(strcmp(t1->nome, t2->nome) > 0)
+    else if(t1->tempo_trabalhado == t2->tempo_trabalhado && strcmp(t1->nome, t2->nome) > 0)
         return 1;
     return 0;
 }

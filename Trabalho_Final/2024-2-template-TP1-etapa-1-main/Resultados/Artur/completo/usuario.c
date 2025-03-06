@@ -109,7 +109,7 @@ int comparaQtdTicketsSolicitados(void *dado1, void *dado2)
 
     if(u1->tickets_solicitados < u2->tickets_solicitados) 
         return 1;
-    if(strcmp(u1->nome, u2->nome) > 0)
+    else if(u1->tickets_solicitados == u2->tickets_solicitados && strcmp(u1->nome, u2->nome) > 0)
         return 1;
     return 0;
 }
