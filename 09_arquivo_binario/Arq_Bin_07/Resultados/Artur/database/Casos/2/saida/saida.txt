@@ -1,0 +1,1 @@
+valgrind: Resultados/Artur/database/prog: No such file or directory

@@ -1,0 +1,11 @@
+In file included from database.c:1:
+database.h:36:35: error: unknown type name ‘FILE’
+   36 | int SalvarDatabase(tDatabase *db, FILE *file);
+      |                                   ^~~~
+database.h:1:1: note: ‘FILE’ is defined in header ‘<stdio.h>’; this is probably fixable by adding ‘#include <stdio.h>’
+  +++ |+#include <stdio.h>
+    1 | #if !defined(_DATABASE_H_)
+database.h:44:36: error: unknown type name ‘FILE’
+   44 | int CarregaDatabase(tDatabase *db, FILE *file);
+      |                                    ^~~~
+database.h:44:36: note: ‘FILE’ is defined in header ‘<stdio.h>’; this is probably fixable by adding ‘#include <stdio.h>’

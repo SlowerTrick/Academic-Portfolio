@@ -1,0 +1,14 @@
+Arquivos Esperados Corretos: 3 de 3
+Pastas Compiladas Corretamente: 3 de 3 
+Pastas Linkadas Corretamente: 3 de 3
+Teste produtos
+  - Resultados corretos: 5 de 5
+Nota de Artur para o teste produtos: 7.00
+Teste completo
+  - Resultados corretos: 5 de 5
+Nota de Artur para o teste completo: .50
+Teste main
+  - Resultados corretos: 5 de 5
+Nota de Artur para o teste main: 2.50
+Nota de Artur: 0+(7.00)+(2.50)+(.50)
+Nota de Artur: 10.00

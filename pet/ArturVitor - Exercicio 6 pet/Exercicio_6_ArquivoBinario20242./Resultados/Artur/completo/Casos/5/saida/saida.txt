@@ -1,0 +1,61 @@
+===== Sistema de Registro de Produtos =====
+1 - Cadastrar produto
+2 - Exibir lista de produtos cadastrados
+3 - Salvar lista de produtos em arquivo
+4 - Ler lista de produtos de arquivo
+5 - Sair do programa
+Escolha uma opcao: 
+===== Sistema de Registro de Produtos =====
+1 - Cadastrar produto
+2 - Exibir lista de produtos cadastrados
+3 - Salvar lista de produtos em arquivo
+4 - Ler lista de produtos de arquivo
+5 - Sair do programa
+Escolha uma opcao: 
+===== Sistema de Registro de Produtos =====
+1 - Cadastrar produto
+2 - Exibir lista de produtos cadastrados
+3 - Salvar lista de produtos em arquivo
+4 - Ler lista de produtos de arquivo
+5 - Sair do programa
+Escolha uma opcao: 
+===== Sistema de Registro de Produtos =====
+1 - Cadastrar produto
+2 - Exibir lista de produtos cadastrados
+3 - Salvar lista de produtos em arquivo
+4 - Ler lista de produtos de arquivo
+5 - Sair do programa
+Escolha uma opcao: Lista de produtos salva no arquivo 'produtos.bin'.
+
+===== Sistema de Registro de Produtos =====
+1 - Cadastrar produto
+2 - Exibir lista de produtos cadastrados
+3 - Salvar lista de produtos em arquivo
+4 - Ler lista de produtos de arquivo
+5 - Sair do programa
+Escolha uma opcao: 
+Lista de produtos cadastrados:
+Produto 1:
+Nome: Pera
+Preco: 7.00
+Quantidade em estoque: 13
+
+Produto 2:
+Nome: Banana
+Preco: 10.00
+Quantidade em estoque: 5
+
+Produto 3:
+Nome: Laranja
+Preco: 3.50
+Quantidade em estoque: 8
+
+
+===== Sistema de Registro de Produtos =====
+1 - Cadastrar produto
+2 - Exibir lista de produtos cadastrados
+3 - Salvar lista de produtos em arquivo
+4 - Ler lista de produtos de arquivo
+5 - Sair do programa
+Escolha uma opcao: Encerrando o programa.
+

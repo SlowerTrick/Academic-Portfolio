@@ -42,7 +42,7 @@ int main(void)
             Tecnico *tecnico = lerTecnico();
 
             // Verificacao para o caso de tecnicos com cpf igual
-            Tecnico *flag_mesmo_tecnico = getElementoCaracteristica(usuarios, getCpfTecnico(tecnico), comparaCpfcomCpfUsuario);
+            Tecnico *flag_mesmo_tecnico = getElementoCaracteristica(usuarios, getCpfTecnico(tecnico), comparaCpfcomCpfTecnico);
             if(flag_mesmo_tecnico == NULL)
                 insereAtor(tecnicos, tecnico);
             else

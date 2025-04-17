@@ -1,0 +1,17 @@
+Arquivos Esperados Corretos: 3 de 3
+Pastas Compiladas Corretamente: 3 de 3 
+Pastas Linkadas Corretamente: 1 de 3
+Teste main
+  - Resultados corretos: 0 de 5
+  - Valgrinds corretos: 0 de 5
+Nota de Artur para o teste main: 0
+Teste completo
+  - Resultados corretos: 0 de 5
+  - Valgrinds corretos: 0 de 5
+Nota de Artur para o teste completo: 0
+Teste imagem
+  - Resultados corretos: 0 de 5
+  - Valgrinds corretos: 5 de 5
+Nota de Artur para o teste imagem: 0
+Nota de Artur: 0+(0)+(0)+(0)
+Nota de Artur: 0

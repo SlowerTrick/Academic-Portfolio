@@ -27,7 +27,8 @@
         "histograma.h": "c",
         "software.h": "c",
         "usuario.h": "c",
-        "outros.h": "c"
+        "outros.h": "c",
+        "aluno.h": "c"
     },
 }
 

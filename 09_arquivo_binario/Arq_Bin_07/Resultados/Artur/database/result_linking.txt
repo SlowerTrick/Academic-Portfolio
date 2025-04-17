@@ -1,0 +1,11 @@
+/usr/bin/ld: Resultados/Artur/database/main.o: in function `main':
+main.c:(.text+0x24): undefined reference to `CriaDatabase'
+/usr/bin/ld: main.c:(.text+0x34): undefined reference to `LeDatabase'
+/usr/bin/ld: main.c:(.text+0x40): undefined reference to `OrdenaDatabase'
+/usr/bin/ld: main.c:(.text+0xaa): undefined reference to `SalvarDatabase'
+/usr/bin/ld: main.c:(.text+0xe4): undefined reference to `DestroiDatabase'
+/usr/bin/ld: main.c:(.text+0xee): undefined reference to `CriaDatabase'
+/usr/bin/ld: main.c:(.text+0x141): undefined reference to `CarregaDatabase'
+/usr/bin/ld: main.c:(.text+0x17b): undefined reference to `ImprimeDatabase'
+/usr/bin/ld: main.c:(.text+0x187): undefined reference to `DestroiDatabase'
+collect2: error: ld returned 1 exit status
