@@ -1,0 +1,34 @@
+P
+Whey, 101, 33
+P
+Whey1, 102, 34
+P
+Whey2, 103, 35
+P
+Whey3, 104, 36
+P
+Frango, 24, 12
+P
+Chocolate, 3, 4150
+I
+R
+Whey
+R
+Whey1
+R
+Whey2
+R
+Whey3
+R
+Frango
+R
+Chocolate
+I
+P
+Leite, 2, 4120
+P
+Picanha, 123, 928
+P
+Batata doce, 4, 1430
+I
+E

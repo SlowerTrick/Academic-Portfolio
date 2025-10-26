@@ -1,0 +1,23 @@
+P
+Chocolate, 101, 33
+P
+Bala de iogurte, 102, 34
+P
+Doce de banana, 103, 35
+P
+Canela, 104, 36
+P
+Bolo de morango, 24, 12
+P
+Shake proteico, 3, 4150
+I
+R
+Chocolate
+I
+R
+Canela
+I
+R
+Shake proteico
+I
+E
