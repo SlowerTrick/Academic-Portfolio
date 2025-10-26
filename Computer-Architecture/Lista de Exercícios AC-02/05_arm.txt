@@ -1,0 +1,38 @@
+.section .data
+newline: .asciz "\n"
+buffer:  .byte 0
+
+.section .text
+.global _start
+
+_start:
+    mov r4, #1          ; Contador (inicia em 1)
+loop:
+    ; Converte número para ASCII
+    add r5, r4, #'0'    ; r5 = valor ASCII do número
+    ldr r6, =buffer     ; Carrega endereço do buffer
+    strb r5, [r6]       ; Armazena caractere no buffer
+
+    @ Escreve o número
+    mov r7, #4          ; syscall write
+    mov r0, #1          ; stdout
+    ldr r1, =buffer     ; endereço do caractere
+    mov r2, #1          ; 1 byte
+    svc #0
+
+    ; Escreve newline
+    mov r7, #4
+    mov r0, #1
+    ldr r1, = newline
+    mov r2, #1
+    svc #0
+
+    ; Incrementa e verifica loop
+    add r4, r4, #1
+    cmp r4, #11
+    blt loop
+
+    ; Sai do programa
+    mov r7, #1          ; syscall exit
+    mov r0, #0          ; código 0
+    svc #0

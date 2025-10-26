@@ -1,0 +1,60 @@
+asm
+strlen:
+    mov r1, r0          ; Copia o ponteiro da string (r0) para r1
+    mov r2, #0          ; Inicializa o contador (r2) com 0
+loop:
+    ldrb r3, [r1], #1   ; Carrega um byte da memória (r1) para r3 e incrementa r1
+    cmp r3, #0          ; Compara com o caractere nulo
+    beq end             ; Se for nulo, termina
+    add r2, r2, #1      ; Incrementa o contador
+    b loop              ; Repete o loop
+end:
+    mov r0, r2          ; Move o resultado (contador) para r0
+    bx lr               ; Retorna
+
+
+strcpy:
+    mov r2, r0          ; Guarda dest (r0) em r2
+    mov r3, r1          ; Guarda src (r1) em r3
+loop:
+    ldrb r4, [r3], #1   ; Carrega byte de src, incrementa ponteiro
+    strb r4, [r2], #1   ; Armazena byte em dest, incrementa ponteiro
+    cmp r4, #0          ; Verifica se é o terminador nulo
+    bne loop            ; Se não for, continua
+    bx lr               ; Retorna
+
+
+strcmp:
+    mov r2, r0          ; Guarda str1 (r0) em r2
+    mov r3, r1          ; Guarda str2 (r1) em r3
+loop:
+    ldrb r4, [r2], #1   ; Carrega byte de str1, incrementa
+    ldrb r5, [r3], #1   ; Carrega byte de str2, incrementa
+    cmp r4, r5          ; Compara os bytes
+    bne diff            ; Se diferentes, vai para diff
+    cmp r4, #0          ; Verifica se é o terminador nulo
+    beq equal           ; Se for, strings são iguais
+    b loop              ; Continua loop
+diff:
+    sub r0, r4, r5      ; Calcula diferença entre caracteres
+    bx lr               ; Retorna
+equal:
+    mov r0, #0          ; Retorna 0 (strings iguais)
+    bx lr               ; Retorna
+
+
+strcat:
+    mov r2, r0          ; Guarda dest (r0) em r2
+    mov r3, r1          ; Guarda src (r1) em r3
+find_end:
+    ldrb r4, [r2]       ; Carrega byte de dest
+    cmp r4, #0          ; Verifica se é o terminador nulo
+    beq copy            ; Se for, começa a copiar
+    add r2, r2, #1      ; Incrementa ponteiro de dest
+    b find_end          ; Continua procurando
+copy:
+    ldrb r4, [r3], #1   ; Carrega byte de src, incrementa
+    strb r4, [r2], #1   ; Armazena byte em dest, incrementa
+    cmp r4, #0          ; Verifica se é o terminador nulo
+    bne copy            ; Se não for, continua copiando
+    bx lr               ; Retorna

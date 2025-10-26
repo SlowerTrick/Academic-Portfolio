@@ -1,0 +1,41 @@
+section .data
+    newline db 0xA
+
+section .bss
+    num resb 1
+
+section .text
+    global _start
+
+_start:
+    mov ecx, 1          ; Inicia o contador em 1
+
+loop:
+    ; Converter número para ASCII
+    mov eax, ecx
+    add eax, '0'
+    mov [num], al
+
+    ; Escrever o número
+    mov eax, 4           ; sys_write
+    mov ebx, 1           ; stdout
+    mov ecx, num         ; endereço do número
+    mov edx, 1           ; comprimento
+    int 0x80
+
+    ; Escrever newline
+    mov eax, 4           ; sys_write
+    mov ebx, 1           ; stdout
+    mov ecx, newline     ; endereço do newline
+    mov edx, 1           ; comprimento
+    int 0x80
+
+    ; Incrementar e verificar condição
+    inc dword [esp-4]    ; Incrementa o contador (ecx)
+    cmp ecx, 10
+    jle loop
+
+    ; Sair
+    mov eax, 1           ; sys_exit
+    xor ebx, ebx         ; status 0
+    int 0x80

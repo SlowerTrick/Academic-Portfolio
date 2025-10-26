@@ -1,0 +1,33 @@
+.section .data
+newline: .asciz "\n"  ; Define uma string constante com um caractere de nova linha e terminador nulo
+
+.section .text
+.globl _start
+
+_start:
+    li t0, 1          ; Inicializa o registrador t0 com 1 (contador)
+    
+loop:
+    # Primeira syscall: escrever o número
+    li a7, 1          ; Código da syscall (1 = write)
+    li a0, 1          ; File descriptor (1 = stdout)
+    mv a1, t0         ; Move o valor do contador (t0) para a1 (dado a ser escrito)
+    li a2, 1          ; Número de bytes a escrever
+    ecall             ; Executa a syscall
+
+    # Segunda syscall: escrever nova linha
+    li a7, 64         ; Código da syscall (64 = write no RISC-V Linux)
+    li a0, 1          ; File descriptor (stdout)
+    la a1, newline    ; Carrega o endereço da string newline
+    li a2, 1          ; Número de bytes a escrever
+    ecall             ; Executa a syscall
+
+    # Incrementa e verifica loop
+    addi t0, t0, 1    ; Incrementa o contador (t0)
+    li t1, 11         ; Carrega o valor limite (11)
+    blt t0, t1, loop  ; Se t0 < 11, volta para loop
+
+    # Syscall de saída
+    li a7, 93         ; Código da syscall
+    li a0, 0          ; Código de saída
+    ecall             ; Executa a syscall

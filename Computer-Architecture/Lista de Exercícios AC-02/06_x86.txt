@@ -1,0 +1,66 @@
+strlen:
+    mov ecx, 0            ; Inicializa contador com 0
+    mov edi, [esp + 4]    ; Carrega ponteiro da string (1º argumento)
+loop:
+    cmp byte [edi + ecx], 0 ; Compara byte atual com null terminator
+    je end                ; Se for null, termina
+    inc ecx               ; Incrementa contador
+    jmp loop              ; Continua loop
+end:
+    mov eax, ecx          ; Retorna o comprimento em eax
+    ret
+
+
+strcpy:
+    mov edi, [esp + 4]    ; Destino (1º arg)
+    mov esi, [esp + 8]    ; Origem (2º arg)
+loop:
+    mov al, [esi]         ; Carrega byte da origem
+    mov [edi], al         ; Armazena no destino
+    inc esi               ; Avança origem
+    inc edi               ; Avança destino
+    cmp al, 0             ; Verifica null terminator
+    jne loop              ; Continua se não for null
+    mov eax, [esp + 4]    ; Retorna ponteiro original do destino
+    ret
+
+
+strcmp:
+    mov esi, [esp + 4]    ; String 1 (1º arg)
+    mov edi, [esp + 8]    ; String 2 (2º arg)
+loop:
+    mov al, [esi]         ; Carrega byte da string 1
+    mov bl, [edi]         ; Carrega byte da string 2
+    cmp al, bl            ; Compara bytes
+    jne diff              ; Se diferentes, calcula diferença
+    cmp al, 0             ; Verifica null terminator
+    je equal              ; Se ambos null, strings iguais
+    inc esi               ; Avança string 1
+    inc edi               ; Avança string 2
+    jmp loop              ; Continua
+diff:
+    sub eax, ebx          ; Calcula diferença
+    ret
+equal:
+    xor eax, eax          ; Retorna 0 (strings iguais)
+    ret
+
+
+strcat:
+    mov edi, [esp + 4]    ; String destino (1º arg)
+    mov esi, [esp + 8]    ; String origem (2º arg)
+find_end:
+    cmp byte [edi], 0     ; Procura null terminator
+    je copy               ; Encontrou, começa copiar
+    inc edi               ; Avança na string destino
+    jmp find_end          ; Continua procurando
+copy:
+    mov al, [esi]         ; Carrega byte da origem
+    mov [edi], al         ; Armazena no destino
+    inc esi               ; Avança origem
+    inc edi               ; Avança destino
+    cmp al, 0             ; Verifica null terminator
+    jne copy              ; Continua se não for null
+    mov eax, [esp + 4]    ; Retorna ponteiro original do destino
+    ret
+

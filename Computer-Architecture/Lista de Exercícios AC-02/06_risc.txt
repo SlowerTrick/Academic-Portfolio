@@ -1,0 +1,63 @@
+strlen:
+    mv t0, a0          ; Copia o ponteiro da string (a0) para t0
+    li t1, 0           ; Inicializa o contador (t1) com 0
+loop:
+    lbu t2, 0(t0)      ; Carrega um byte sem sinal da memória (t0) para t2
+    beq t2, zero, end  ; Se for zero (null), termina
+    addi t0, t0, 1     ; Incrementa ponteiro
+    addi t1, t1, 1     ; Incrementa contador
+    j loop             ; Repete
+end:
+    mv a0, t1          ; Move resultado para a0
+    ret                ; Retorna
+
+
+strcpy:
+    mv t0, a0          ; Guarda dest (a0) em t0
+    mv t1, a1          ; Guarda src (a1) em t1
+loop:
+    lbu t2, 0(t1)      ; Carrega byte de src
+    sb t2, 0(t0)       ; Armazena byte em dest
+    beq t2, zero, end  ; Se for null, termina
+    addi t0, t0, 1     ; Incrementa ponteiro dest
+    addi t1, t1, 1     ; Incrementa ponteiro src
+    j loop             ; Continua
+end:
+    ret                ; Retorna
+
+
+strcmp:
+    mv t0, a0          ; Guarda str1 (a0) em t0
+    mv t1, a1          ; Guarda str2 (a1) em t1
+loop:
+    lbu t2, 0(t0)      ; Carrega byte de str1
+    lbu t3, 0(t1)      ; Carrega byte de str2
+    bne t2, t3, diff   ; Se diferentes, calcula diferença
+    beq t2, zero, equal ; Se ambos null, strings iguais
+    addi t0, t0, 1     ; Incrementa str1
+    addi t1, t1, 1     ; Incrementa str2
+    j loop             ; Continua
+diff:
+    sub a0, t2, t3     ; Calcula diferença ASCII
+    ret                ; Retorna
+equal:
+    li a0, 0           ; Retorna 0 (iguais)
+    ret                ; Retorna
+
+strcat:
+    mv t0, a0          ; Guarda dest (a0) em t0
+    mv t1, a1          ; Guarda src (a1) em t1
+find_end:
+    lbu t2, 0(t0)      ; Carrega byte de dest
+    beq t2, zero, copy ; Se for null, começa copiar
+    addi t0, t0, 1     ; Incrementa ponteiro
+    j find_end         ; Continua procurando
+copy:
+    lbu t2, 0(t1)      ; Carrega byte de src
+    sb t2, 0(t0)       ; Armazena byte em dest
+    beq t2, zero, end  ; Se for null, termina
+    addi t1, t1, 1     ; Incrementa src
+    addi t0, t0, 1     ; Incrementa dest
+    j copy             ; Continua copiando
+end:
+    ret                ; Retorna (a0 já contém dest)

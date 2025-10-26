@@ -1,0 +1,30 @@
+.data
+word:       .word   0x12345678           # Valor conhecido
+msg_be:     .asciiz "Big-endian\n"
+msg_le:     .asciiz "Little-endian\n"
+
+.text
+.globl main
+
+main:
+    la   $t0, word           # $t0 aponta para o endereço de 'word'
+    lb   $t1, 0($t0)         # Carrega o primeiro byte de 'word' em $t1
+
+    li   $t2, 0x12           # Carrega 0x12 (byte mais significativo de 0x12345678)
+    beq  $t1, $t2, is_big    # Se $t1 == 0x12 => big-endian
+    b    is_little           # Caso contrário, little-endian
+
+is_big:
+    li   $v0, 4              # syscall: print_string
+    la   $a0, msg_be
+    syscall
+    j    end
+
+is_little:
+    li   $v0, 4              # syscall: print_string
+    la   $a0, msg_le
+    syscall
+
+end:
+    li   $v0, 10             # syscall: exit
+    syscall
