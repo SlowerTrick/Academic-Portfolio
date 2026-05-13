@@ -36,7 +36,7 @@ chegar em outro leitor com afinidades compartilhadas;✅
 
 10. **Imprime BookED**: imprime toda a BookED, representando o estado
 atual do sistema, todas as estruturas de dados e seus valores
-correspondentes.
+correspondentes.✅
 
 ## Regras Importantes
 
